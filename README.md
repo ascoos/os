@@ -29,4 +29,3 @@ Redefining web development with a secure, modular, AI-driven framework.
 - [phpBCL](https://github.com/ascoos/phpbcl8)
 - [AWES](https://github.com/ascoos/awes)
 - [Bug Tracker](https://issues.ascoos.com)
-- [BootLib Flex](https://bootlib.ascoos.com/examples/flex/)
