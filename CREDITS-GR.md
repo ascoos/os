@@ -1,7 +1,7 @@
 # Αναγνώριση - Ascoos OS
 
 Το Ascoos OS αναπτύχθηκε από:
-- **Δρογίδης Χρήστος** - Κύριος Προγραμματιστής
+- **Δρογκίδης Χρήστος** - Κύριος Προγραμματιστής
   - Ιστοσελίδα: [https://www.ascoos.com](https://www.ascoos.com)
   - Email: [info@ascoos.com](mailto:info@ascoos.com)
 
