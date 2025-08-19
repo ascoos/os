@@ -6,11 +6,12 @@ This directory contains case studies showcasing real-world applications of **Asc
 | Category | Case Study | Description | Directory |
 |----------|------------|-------------|-----------|
 | Sports | [FC Barcelona Sentiment Analysis](./sports/sentiment_analysis/) | Analyzes tweets about FC Barcelona from the X platform, performs sentiment analysis using NLP, and generates a bar chart. | [`sports/sentiment_analysis`](./sports/sentiment_analysis/) |
+| Websites | [Website Linguistic Analysis](./websites/linguistic_analysis/) | Analyzes website content linguistically, detects language, and monitors system load using NLP and system tracking tools. | [`websites/linguistic_analysis`](./websites/linguistic_analysis/) |
 | | *(More case studies to be added)* | | |
 
 ## Getting Started
 1. Ensure Ascoos OS is installed (see the [main repository](https://github.com/ascoos/os)). If using the [`ASCOOS Web Extended Studio (AWES) 26`](https://awes.ascoos.com), Ascoos OS is preloaded.
-2. Navigate to the case study directories (e.g., `/examples/case-studies/sports/sentiment_analysis/`).
+2. Navigate to the case study directories (e.g., `/examples/case-studies/websites/linguistic_analysis/`).
 3. Follow the instructions and information in each case study's markdown files.
 
 ## Resources
