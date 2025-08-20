@@ -2,7 +2,6 @@
 
 ***The base class for all Ascoos OS classes, providing versioning and debugging utilities.***
 
-> #### Extends `stdClass`
 > #### Implements `TCoreHandler`, `Stringable`
 
 ## Usage
@@ -14,7 +13,7 @@ class TNameClass extends TObject {
 }
 ```
 
-See `/examples/kernel/core/TObject/example1.php`.
+See [Examples](https://github.com/ascoos/os/blob/main/examples/kernel/core/TObject/README.md).
 
 ## Detailed Documentation
 For full details (parameters, types, examples), visit the [Official Documentation Site](https://docs.ascoos.com) (under construction).
@@ -47,35 +46,68 @@ For full details (parameters, types, examples), visit the [Official Documentatio
 | `DEBUG_LEVEL_ERROR` | `ERROR` | Debug level for errors. |
 
 ## Methods
-```php
-void __construct(array $properties=[])                          // Initializes the class. Must be called by child classes.
-string __toString()                                             // Returns the class name as a string.
-bool Free(object $object)                                       // Frees memory of the object or its clone.
-bool FreeProperties(object $object)                             // Deletes and frees memory for all class properties.
-array getChildren(object|string|null $object_or_class = null)   // Returns child classes of the given class or object.
-bool getClassDeprecated()                                       // Returns true if class is deprecated, otherwise false.
-int getClassVersion()                                           // Returns the class version.
-mixed getDeepProperty(array $keys, ?array $array = null)        // Gets a property at any depth in the properties array.
-array getDescendantsTree(object|string|null $object_or_class = null) // Returns a tree of all descendants of the given class or object.
-array|false getParents(object|string|null $object_or_class = null, bool $autoload = true) // Returns parent classes of the given class or object.
-array getProperties()                                           // Returns the class properties array.
-mixed getProperty(string $property)                             // Returns the content of the requested property.
-?array getPublicProperties()                                    // Returns an array of public properties.
-int|false getVersion(string $property)                          // Gets the version as an integer.
-string|false getVersionStr(string $property)                    // Gets the version as a formatted string.
-bool isExecutable(int $currentVersion, int $currentPHPVersion)  // Checks if the class version is executable based on specified versions.
-void setDeepProperty(array $keys, mixed $value, ?array &$array = null) // Sets a property at any depth in the properties array.
-void setProjectVersion(int|string $version = -1)                // Sets the project version.
-bool setProperties(array $properties, string|int|null $property_key = null) // Recursively sets properties, merging sub-arrays.
-bool setProperty(string|int $property, mixed $value, string|int|null $property_key = null) // Sets a single property.
-```
+| Methods               | Returns   | Description                                                              |
+|-----------------------|-----------|--------------------------------------------------------------------------|
+| `__construct`         | `void`    | Initialize the class. It must be called by the offspring if the classes are initialized. |
+| `batchUpdateProperties` | `bool`    | Updates multiple properties in a batch, optionally validating constraints before updating. |
+| `cacheProperties`     | `bool`    | Caches the object's properties to a specified storage (file or memory) for quick retrieval. |
+| `cloneObject`         | `object`  | Creates a deep clone of the object, preserving all properties.          |
+| `cloneProperties`     | `array`   | Creates a copy of the object's properties, excluding protected metadata. |
+| `compareProperties`   | `array`   | Compares current properties with a snapshot or provided array, returning differences. |
+| `executeBatchOperations` | `bool` | Executes a batch of operations (methods or callables) with optional rollback on failure. |
+| `exportToJson`        | `string`  | Exports the object to a JSON string, including properties and optional metadata. |
+| `freezeObject`        | `bool`    | Temporarily freezes the object, preventing modifications to its properties until unfrozen. |
+| `getChildren`         | `array`   | Returns the child classes of the given class or object.                 |
+| `getClassDeprecated`  | `bool`    | Returns true if class is deprecated, otherwise false.                   |
+| `getClassMetadata`    | `array`   | Returns metadata about the object for debugging, introspection, or data processing. |
+| `getClassVersion`     | `int`     | Returns the version of the class.                                       |
+| `getDeepProperty`     | `mixed`   | Gets a property at any depth within the properties array.               |
+| `getDescendantsTree`  | `array`   | Returns a tree array of all descendants of the given class or object.   |
+| `getParents`          | `array` or `false` | Returns the parent classes of the given class or object.                |
+| `getProperties`       | `array`   | Returns the table of class properties, excluding protected metadata.    |
+| `getProperty`         | `mixed`   | Returns the content of the requested property, supporting nested properties. |
+| `getPropertyMetadata` | `?array`  | Retrieves metadata for a specific property, including type, value, and change history if tracked. |
+| `getPropertySnapshot` | `array` or `false` | Returns a snapshot of the current properties for later comparison or restoration. |
+| `getPublicProperties` | `?array`  | Returns an array of the public properties of the class.                 |
+| `getVersion`          | `int` or `false` | Gets the version as an integer.                                         |
+| `getVersionStr`       | `string` or `false` | Gets the version as a formatted string.                                 |
+| `hasMethod`           | `bool`    | Checks if a method exists in the class or its parents.                  |
+| `hasProperty`         | `bool`    | Checks if a property exists in the class or its properties array.       |
+| `hasRequiredProperties` | `bool` | Checks if all required properties exist and optionally verifies they are non-empty. |
+| `invokeMethod`        | `mixed`   | Dynamically invokes a method on the class with the given arguments.     |
+| `isCallableMethod`    | `bool`    | Checks if a method is callable on the object.                           |
+| `isExecutable`        | `bool`    | Checks whether the current version of the class is executable according to the minimum and maximum versions specified. |
+| `isFreezed`           | `bool`    | Checks if the class properties are frozen.                              |
+| `isLocked`            | `bool`    | Checks if the class properties are locked.                              |
+| `isPropertyModified`  | `bool`    | Checks if a specific property has been modified based on change history. |
+| `lockProperties`      | `bool`    | Locks the object's properties to prevent further modifications.         |
+| `mergeProperties`     | `bool`    | Merges an external properties array with the existing properties array, supporting different merge strategies. |
+| `propertyValidation`  | `bool`    | Validates if property is string or integer.                             |
+| `resetProperties`     | `bool`    | Resets the object's properties to their initial state or a provided array. |
+| `restoreFromCache`    | `bool`    | Restores the object's properties from a cache (file or memory).         |
+| `serializeToArray`    | `array`   | Serializes the object into an array, including properties and metadata. |
+| `setDeepProperty`     | `void`    | Sets a property at any depth within the properties array.               |
+| `setProjectVersion`   | `void`    | Sets the project version.                                               |
+| `setProperties`       | `bool`    | Recursively sets properties of the class, merging sub-arrays without overwriting other data. |
+| `setProperty`         | `bool`    | Sets a single property of the class, respecting locked and frozen states. |
+| `setPropertySnapshot` | `bool`    | Creates a snapshot of the current properties for later comparison or restoration. |
+| `trackPropertyChanges` | `bool` | Tracks changes to the object's properties, storing a history of modifications. |
+| `unfreezeObject`      | `bool`    | Unfreezes the object, allowing modifications to its properties.         |
+| `unlockProperties`    | `bool`    | Unlocks the object's properties to allow further modifications.         |
+| `validatePropertyConstraints` | `bool` | Validates object properties against specified constraints (e.g., type, range). |
+| `__toString`          | `string`  | Returns a string containing the name of this class.                     |
+| `Free`                | `bool`    | Frees the memory of the Object or its clone.                            |
+| `FreeProperties`      | `bool`    | Deletes and frees up memory for all class properties.                   |
+
 
 ---
 
 <details>
 <summary>🟠 INHERITANCES</summary>
 
-Inherits `__toString` from `stdClass`, overridden to return the class name. Implements `TCoreHandler` for core functionality and `Stringable` for string conversion.
+Inherits `__toString` from `TCoreHandler`, overridden to return the class name. 
+
+Implements `TCoreHandler` for core functionality and `Stringable` for string conversion.
 
 </details>
 
@@ -84,3 +116,4 @@ Inherits `__toString` from `stdClass`, overridden to return the class name. Impl
 ## Links
 - [Kernel Classes](/docs/kernel/CLASS.md)
 - [Report Issues](https://issues.ascoos.com)
+
