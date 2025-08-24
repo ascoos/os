@@ -2,6 +2,21 @@
 
 Ascoos OS is a Web 5.0 Kernel for decentralized web and IoT applications, with ~4500 encrypted classes.
 
+---
+
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.ascoos.com)](https://www.ascoos.com)
+[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
+
+---
+
+**`Hosted on`**: 
+
+[![SourceForge Downloads](https://img.shields.io/sourceforge/dt/awserver?label=Ascoos%20Web%20Server)](https://sourceforge.net/projects/awserver/)
+[![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
+
+---
+
 ## Vision
 Redefining web development with a secure, modular, AI-driven framework.
 
@@ -29,3 +44,4 @@ Redefining web development with a secure, modular, AI-driven framework.
 - [phpBCL](https://github.com/ascoos/phpbcl8)
 - [AWES](https://github.com/ascoos/awes)
 - [Bug Tracker](https://issues.ascoos.com)
+
