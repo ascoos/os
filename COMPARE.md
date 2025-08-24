@@ -28,7 +28,8 @@ The following table compares **Ascoos OS** with popular PHP frameworks **Laravel
 | **Size/Performance**       | Optimized (only core classes loaded automatically, extra classes optional)    | Moderate, optimized for web                              | Moderate, optimized for web                              | Lightweight, fast                                        |
 
 ## Notes
-- **Ascoos OS**: A highly versatile framework with extensive support for Web, IoT, AI, and more. Its modular design and optional class loading make it efficient for various use cases.
+- **Ascoos OS**: A highly versatile PHP Web 5.0 Kernel with extensive support for Web, IoT, AI, and more. Its modular design and optional class loading make it efficient for various use cases.
 - **Laravel**: Ideal for rapid web application development with a robust ORM and friendly API.
 - **Symfony**: Suited for complex, scalable web applications with modular components.
+
 - **CodeIgniter**: Lightweight and fast, but limited in advanced features compared to others.
