@@ -1,6 +1,7 @@
-# Ascoos OS Comparison with Laravel, Symfony, and CodeIgniter
 
-The following table compares **Ascoos OS** with popular PHP frameworks **Laravel**, **Symfony**, and **CodeIgniter** across various features and capabilities.
+# [**`Ascoos OS`**](https://github.com/ascoos/os) Comparison with Laravel, Symfony, and CodeIgniter
+
+The following table compares [**Ascoos OS**](https://github.com/ascoos/os) with popular PHP frameworks **Laravel**, **Symfony**, and **CodeIgniter** across various features and capabilities.
 
 | **Feature**                | **Ascoos OS**                                                                | **Laravel**                                              | **Symfony**                                              | **CodeIgniter**                                          |
 |----------------------------|------------------------------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
@@ -10,7 +11,7 @@ The following table compares **Ascoos OS** with popular PHP frameworks **Laravel
 | **IoT Support**            | Yes (`TIoTDeviceHandler`)                                                    | No (requires custom implementation)                      | No (requires custom implementation)                      | No (requires custom implementation)                     |
 | **AI/NLP Support**         | Yes (`TLanguageProcessingAIHandler`, `TNeuralNetworkHandler`)                 | No (requires external libraries)                         | No (requires external libraries)                         | No (requires external libraries)                        |
 | **Security**               | ASS (XSS, SQL Injection, DDoS, overflows, VPN/Proxy/IP/Mac/Email filters, AI request validation, counterattacks, phishing, CSP, CORS, OAuth2, TLS 1.3, CSRF, `TOpenSSLHandler`) | CSRF, XSS, SQL Injection Protection, Laravel Security    | Security Component, CSRF, OAuth, Firewall                | CSRF, XSS, Input Filtering                              |
-| **Visualization**          | Yes (`TArrayGraphHandler`, JAscoos, BootLib)                                 | No (requires packages like Charts)                      | No (requires bundles)                                    | No (requires custom implementation)                     |
+| **Visualization**          | Yes (`TArrayGraphHandler`, JAscoos, [BootLib](https://github.com/ascoos/bootlib))                                 | No (requires packages like Charts)                      | No (requires bundles)                                    | No (requires custom implementation)                     |
 | **API Support**            | Yes (`TGitHubAPIHandler`, `TTwitterAPIHandler`, `TXAPIHandler`, and more...)  | Yes (Laravel API Resource, Passport)                     | Yes (API Platform)                                       | Yes (RESTful Controller)                                |
 | **CDN Support**            | Yes (`TCDNHandler`, AI-driven load balancing)                                 | No (requires custom or external services)                | No (requires custom or external services)                | No (requires custom implementation)                     |
 | **Torrent Support**        | Yes (`TTorrentFileHandler`)                                                  | No                                                      | No                                                      | No                                                      |
@@ -23,13 +24,12 @@ The following table compares **Ascoos OS** with popular PHP frameworks **Laravel
 | **UTF-8 Handling**         | Yes (`TUTF8`, `Str`)                                                         | Yes (mbstring, Illuminate\Support\Str)                   | Yes (mbstring, String Component)                         | Partial (mbstring)                                      |
 | **Debugging**              | Yes (`TDebugHandler`, `TTestHandler`)                                        | Yes (Debugbar, Telescope)                               | Yes (Debug Component, Profiler)                          | Basic (Log Viewer)                                      |
 | **Event Handling**         | Yes (`TEventHandler`, `TObserverHandler`, `TMacroHandler`)                   | Yes (Event/Listener System)                             | Yes (Event Dispatcher)                                   | No (requires custom implementation)                     |
-| **Database**               | JSQLDB, MySQL, PostgreSQL, MongoDB                                           | Eloquent ORM, MySQL, PostgreSQL, SQLite, etc.            | Doctrine ORM, MySQL, PostgreSQL, SQLite, etc.            | Query Builder, MySQL, PostgreSQL, SQLite                |
-| **Community/Support**      | Unclear (likely limited, proprietary)                                        | Very large, open-source                                 | Large, open-source                                       | Smaller, open-source                                    |
+| **Database**               | [JSQLDB](https://github.com/ascoos/jsql), MySQL, PostgreSQL, MongoDB                                           | Eloquent ORM, MySQL, PostgreSQL, SQLite, etc.            | Doctrine ORM, MySQL, PostgreSQL, SQLite, etc.            | Query Builder, MySQL, PostgreSQL, SQLite                |
+| **Community/Support**      | Unclear (likely limited, proprietary), [Issues](https://issues.ascoos.com)                                        | Very large, open-source                                 | Large, open-source                                       | Smaller, open-source                                    |
 | **Size/Performance**       | Optimized (only core classes loaded automatically, extra classes optional)    | Moderate, optimized for web                              | Moderate, optimized for web                              | Lightweight, fast                                        |
 
 ## Notes
 - **Ascoos OS**: A highly versatile PHP Web 5.0 Kernel with extensive support for Web, IoT, AI, and more. Its modular design and optional class loading make it efficient for various use cases.
 - **Laravel**: Ideal for rapid web application development with a robust ORM and friendly API.
 - **Symfony**: Suited for complex, scalable web applications with modular components.
-
 - **CodeIgniter**: Lightweight and fast, but limited in advanced features compared to others.
