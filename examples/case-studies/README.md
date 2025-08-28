@@ -10,6 +10,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 | System | [System Monitoring and Backup](./system/monitoring/) | Monitors system resources, creates encrypted snapshots, and sends real-time alerts via Telegram. | [`system/monitoring`](./system/monitoring/) |
 | Barcodes | [Barcode Creation and Monitoring](./barcodes/creation/) | Generates EAN-13 barcodes for product codes, saves them as PNG files, and monitors CPU usage during the process. | [`barcodes/creation`](./barcodes/creation/) |
 | Health | [Medical Data Management and Notifications](./health/medical/) | Validates patient data, processes medical images with watermarking, and stores encrypted records with event tracking. | [`health/medical`](./health/medical/) |
+| Location & Weather | [Geolocation and Weather Data Microapplication](./location/weather/) | Retrieves location data via Google Maps and weather forecasts via OpenWeatherMap, validates and encrypts the combined output. | [`location/weather`](./location/weather/) |
 | | *(More case studies to be added)* | | |
 
 ## Getting Started
