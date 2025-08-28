@@ -16,6 +16,16 @@
 
 ---
 
+## 📊 Τεχνολογίες
+
+![PHP](https://img.shields.io/badge/PHP-8.2-blue)
+![IoT](https://img.shields.io/badge/IoT-ready-green)
+![AI](https://img.shields.io/badge/AI-enabled-purple)
+![WebSocket](https://img.shields.io/badge/WebSocket-supported-orange)
+![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-red)
+
+---
+
 ## Όραμα
 Επαναπροσδιορισμός της ανάπτυξης web με ένα ασφαλές, αρθρωτό, AI-οδηγούμενο πλαίσιο.
 
@@ -44,3 +54,4 @@
 - [AWES](https://github.com/ascoos/awes)
 
 - [Bug Tracker](https://issues.ascoos.com)
+
