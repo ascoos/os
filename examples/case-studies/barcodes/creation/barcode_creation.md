@@ -17,7 +17,7 @@ The case study is implemented in a single PHP file:
 2. Write permissions for the directory defined in `$AOS_LOGS_PATH` (logs) and `$AOS_TMP_DATA_PATH/barcodes/` (output files). These paths are automatically configured by Ascoos OS.
 3. The font file `Murecho-Regular.ttf` is preinstalled with Ascoos OS at `$AOS_FONTS_PATH/Murecho/Murecho-Regular.ttf`. Additional fonts can be added dynamically via the `LibIn` program using an Ajax form.
 4. The global variables (`$conf`, `$AOS_LOGS_PATH`, `$AOS_TMP_DATA_PATH`) are automatically set by Ascoos OS during initialization.
-5. The `phpBCL8` library ([https://github.com/ascoos/phpbcl8](https://github.com/ascoos/phpbcl8)) is preinstalled and loaded automatically by Ascoos OS without requiring Composer.
+5. The [**phpbcl8**](https://github.com/ascoos/phpbcl8) library is preinstalled and loaded automatically by Ascoos OS without requiring Composer.
 
 ## Getting Started
 1. Ensure the global variables (`$conf`, `$AOS_LOGS_PATH`, `$AOS_TMP_DATA_PATH`) are available, as they are set by Ascoos OS during initialization.

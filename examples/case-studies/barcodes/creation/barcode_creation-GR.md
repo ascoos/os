@@ -17,7 +17,7 @@
 2. Δικαιώματα εγγραφής στον φάκελο που ορίζεται από το `$AOS_LOGS_PATH` (logs) και `$AOS_TMP_DATA_PATH/barcodes/` (αρχεία εξόδου). Αυτές οι διαδρομές διαμορφώνονται αυτόματα από το Ascoos OS.
 3. Το αρχείο γραμματοσειράς `Murecho-Regular.ttf` είναι προεγκατεστημένο με το Ascoos OS στο `$AOS_FONTS_PATH/Murecho/Murecho-Regular.ttf`. Πρόσθετες γραμματοσειρές μπορούν να προστεθούν δυναμικά μέσω του προγράμματος `LibIn` με χρήση φόρμας Ajax.
 4. Οι global μεταβλητές (`$conf`, `$AOS_LOGS_PATH`, `$AOS_TMP_DATA_PATH`) ορίζονται αυτόματα από το Ascoos OS κατά την εκκίνηση.
-5. Η βιβλιοθήκη `phpBCL8` ([https://github.com/ascoos/phpbcl8](https://github.com/ascoos/phpbcl8)) είναι προεγκατεστημένη και φορτώνεται αυτόματα από το Ascoos OS χωρίς τη χρήση Composer.
+5. Η βιβλιοθήκη [**phpBCL8**](https://github.com/ascoos/phpbcl8) είναι προεγκατεστημένη και φορτώνεται αυτόματα από το Ascoos OS χωρίς τη χρήση Composer.
 
 ## Ξεκινώντας
 1. Βεβαιωθείτε ότι οι global μεταβλητές (`$conf`, `$AOS_LOGS_PATH`, `$AOS_TMP_DATA_PATH`) είναι διαθέσιμες, όπως ορίζονται από το Ascoos OS κατά την εκκίνηση.
