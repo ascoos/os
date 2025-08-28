@@ -7,6 +7,8 @@
 |-----------|-------------------|-----------|---------|
 | Αθλητισμός | [Ανάλυση Συναισθήματος FC Barcelona](./sports/sentiment_analysis/) | Αναλύει tweets σχετικά με την FC Barcelona από την πλατφόρμα X, εκτελεί ανάλυση συναισθήματος μέσω NLP και δημιουργεί ένα γράφημα ράβδων. | [`sports/sentiment_analysis`](./sports/sentiment_analysis/) |
 | Ιστοσελίδες | [Ανάλυση Περιεχομένου Ιστοσελίδας](./websites/linguistic_analysis/) | Αναλύει το περιεχόμενο ιστοσελίδας με γλωσσική επεξεργασία, εντοπίζει τη γλώσσα, και παρακολουθεί τον φόρτο του συστήματος χρησιμοποιώντας εργαλεία NLP και παρακολούθησης. | [`websites/linguistic_analysis`](./websites/linguistic_analysis/) |
+| Σύστημα | [Παρακολούθηση Συστήματος και Backup](./system/monitoring/) | Παρακολουθεί πόρους συστήματος, δημιουργεί κρυπτογραφημένα snapshots και στέλνει ειδοποιήσεις μέσω Telegram. | [`system/monitoring`](./system/monitoring/) |
+| Barcodes | [Δημιουργία και Παρακολούθηση Barcode](./barcodes/creation/) | Δημιουργεί barcode τύπου EAN-13 για προϊόντα, το αποθηκεύει ως PNG και παρακολουθεί τη χρήση CPU κατά τη διαδικασία. | [`barcodes/creation`](./barcodes/creation/) |
 | | *(Περισσότερες μελέτες περίπτωσης θα προστεθούν)* | | |
 
 ## Ξεκινώντας

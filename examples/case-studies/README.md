@@ -7,6 +7,8 @@ This directory contains case studies showcasing real-world applications of **Asc
 |----------|------------|-------------|-----------|
 | Sports | [FC Barcelona Sentiment Analysis](./sports/sentiment_analysis/) | Analyzes tweets about FC Barcelona from the X platform, performs sentiment analysis using NLP, and generates a bar chart. | [`sports/sentiment_analysis`](./sports/sentiment_analysis/) |
 | Websites | [Website Linguistic Analysis](./websites/linguistic_analysis/) | Analyzes website content linguistically, detects language, and monitors system load using NLP and system tracking tools. | [`websites/linguistic_analysis`](./websites/linguistic_analysis/) |
+| System | [System Monitoring and Backup](./system/monitoring/) | Monitors system resources, creates encrypted snapshots, and sends real-time alerts via Telegram. | [`system/monitoring`](./system/monitoring/) |
+| Barcodes | [Barcode Creation and Monitoring](./barcodes/creation/) | Generates EAN-13 barcodes for product codes, saves them as PNG files, and monitors CPU usage during the process. | [`barcodes/creation`](./barcodes/creation/) |
 | | *(More case studies to be added)* | | |
 
 ## Getting Started
