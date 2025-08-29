@@ -17,6 +17,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 | Files/Images | [Encrypted Image Archiver](./files/images/) | Processes images (resize, watermark), encrypts them, analyzes file sizes, and generates a visual report. | [`files/images`](./files/images/) |
 | System | [Real-Time System Alert Dashboard](./system/dashboard/) | Monitors CPU, RAM, and Apache in real time, triggers alerts, logs events, and generates PNG charts. | [`system/dashboard`](./system/dashboard/) |
 | System / Communication | [Threaded Notification Dispatcher](./system/communication/) | Sends Telegram notifications to multiple recipients concurrently using threads and observers. | [`system/communication`](./system/communication/) |
+| System / Performance | [Thread Load Balancer](./system/performance/) | Dynamically distributes tasks across threads based on current CPU and memory load. | [`system/performance`](./system/performance/) |
 | | *(More case studies to be added)* | | |
 
 ## Getting Started
