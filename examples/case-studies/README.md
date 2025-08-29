@@ -13,6 +13,10 @@ This directory contains case studies showcasing real-world applications of **Asc
 | Health | [Smart Appointment Scheduler](./health/appointments/) | Validates appointment requests, checks availability, and logs scheduling or conflict events. | [`health/appointments`](./health/appointments/) |
 | Location & Weather | [Geolocation and Weather Data Microapplication](./location/weather/) | Retrieves location data via Google Maps and weather forecasts via OpenWeatherMap, validates and encrypts the combined output. | [`location/weather`](./location/weather/) |
 | Engineering | [Force Calculation in Structures](./engineering/forces/) | Calculates force using Newton’s Second Law, stores results, and logs events. | [`engineering/forces`](./engineering/forces/) |
+| IoT | [Arduino Environmental Monitoring](./iot/arduino/) | Reads temperature and humidity via Arduino, validates data, logs events, and generates visual reports. | [`iot/arduino`](./iot/arduino/) |
+| Files/Images | [Encrypted Image Archiver](./files/images/) | Processes images (resize, watermark), encrypts them, analyzes file sizes, and generates a visual report. | [`files/images`](./files/images/) |
+| System | [Real-Time System Alert Dashboard](./system/dashboard/) | Monitors CPU, RAM, and Apache in real time, triggers alerts, logs events, and generates PNG charts. | [`system/dashboard`](./system/dashboard/) |
+| System / Communication | [Threaded Notification Dispatcher](./system/communication/) | Sends Telegram notifications to multiple recipients concurrently using threads and observers. | [`system/communication`](./system/communication/) |
 | | *(More case studies to be added)* | | |
 
 ## Getting Started
