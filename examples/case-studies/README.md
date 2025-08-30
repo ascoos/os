@@ -5,6 +5,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 ## Available Case Studies
 | Category | Case Study | Description | Directory |
 |----------|------------|-------------|-----------|
+| AI / Macros | [Macro Engine with AI Predictions](./ai/macro_decision_engine/macro_decision_engine.md) | Execute macros based on AI predictions, combining logistic regression with a DSL (Domain-Specific Language). | [`ai/macro_decision_engine`](./ai/macro_decision_engine/) |
 | Automation / DevOps | [Macro-Based Workflow Engine](./automation/macros/macro_workflow_engine.md) | Executes macro chains using FIFO logic with delay, priority, and logging. | [`automation/macros`](./automation/macros/) |
 | Barcodes | [Barcode Creation and Monitoring](./barcodes/creation/barcode_creation.md) | Generates EAN-13 barcodes for product codes, saves them as PNG files, and monitors CPU usage during the process. | [`barcodes/creation`](./barcodes/creation/) |
 | Engineering | [Force Calculation in Structures](./engineering/forces/engineering_forces.md) | Calculates force using Newton’s Second Law, stores results, and logs events. | [`engineering/forces`](./engineering/forces/) |
