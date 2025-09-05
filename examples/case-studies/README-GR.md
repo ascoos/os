@@ -6,6 +6,7 @@
 | Κατηγορία | Μελέτη Περίπτωσης | Περιγραφή | Φάκελος |
 |-----------|-------------------|-----------|---------|
 | AI / Macros | [Μηχανή Μακροεντολών με Προβλέψεις AI](./ai/macro_decision_engine/macro_decision_engine-GR.md) | Εκτελεί macros βάσει προβλέψεων AI, συνδυάζοντας λογιστική παλινδρόμηση με DSL (Domain-Specific Language). | [`ai/macro_decision_engine`](./ai/macro_decision_engine/) |
+| API | [Μαζικά API GET αιτήματα](./api/api_batch_orchestrator/api_batch_orchestrator-GR.md) | Εκτελεί μαζικά GET αιτήματα, αποθηκεύει αποκρίσεις στην cache, εκπέμπει γεγονότα επιτυχίας/αποτυχίας και καταγράφει δραστηριότητα. | [`api/api_batch_orchestrator`](./api/api_batch_orchestrator/) |
 | IoT | [Παρακολούθηση Περιβαλλοντικών Αισθητήρων με Arduino](./iot/arduino/arduino_monitoring-GR.md) | Αναλύει δεδομένα θερμοκρασίας και υγρασίας μέσω Arduino, επικυρώνει τιμές, καταγράφει γεγονότα και δημιουργεί αναφορές. | [`iot/arduino`](./iot/arduino/) |
 | Αθλητισμός | [Ανάλυση Συναισθήματος FC Barcelona](./sports/sentiment_analysis/fcbarcelona_sentiment_analysis-GR.md) | Αναλύει tweets σχετικά με την FC Barcelona από την πλατφόρμα X, εκτελεί ανάλυση συναισθήματος μέσω NLP και δημιουργεί ένα γράφημα ράβδων. | [`sports/sentiment_analysis`](./sports/sentiment_analysis/) |
 | Αρχεία/Εικόνες | [Αρχειοθέτηση Εικόνων με Κρυπτογράφηση](./files/images/encrypted_image_archiver-GR.md) | Επεξεργάζεται εικόνες με αλλαγή μεγέθους και υδατογράφημα, τις κρυπτογραφεί, αναλύει τα μεγέθη και δημιουργεί οπτική αναφορά. | [`files/images`](./files/images/) |
