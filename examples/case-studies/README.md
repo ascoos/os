@@ -20,6 +20,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 | System | [Real-Time System Alert Dashboard](./system/dashboard/system_alert_dashboard.md) | Monitors CPU, RAM, and Apache in real time, triggers alerts, logs events, and generates PNG charts. | [`system/dashboard`](./system/dashboard/) |
 | System | [System Monitoring and Backup](./system/monitoring/system_monitoring_backup.md) | Monitors system resources, creates encrypted snapshots, and sends real-time alerts via Telegram. | [`system/monitoring`](./system/monitoring/) |
 | System / Performance | [Thread Load Balancer](./system/performance/thread_load_balancer.md) | Dynamically distributes tasks across threads based on current CPU and memory load. | [`system/performance`](./system/performance/) |
+| UI | [UI Event Binding](./ui/ui_event_binding/ui_event_binding.md) | Bind client-side UI events to server-side logic. | [`ui/ui_event_binding`](./ui/ui_event_binding/) |
 | Websites | [Website Linguistic Analysis](./websites/linguistic_analysis/website_linguistic_analysis.md) | Analyzes website content linguistically, detects language, and monitors system load using NLP and system tracking tools. | [`websites/linguistic_analysis`](./websites/linguistic_analysis/) |
 | | *(More case studies to be added)* | | |
 
