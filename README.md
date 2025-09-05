@@ -19,10 +19,13 @@ Ascoos OS is a Web 5.0 Kernel for decentralized web and IoT applications, with ~
 ## 📊 Technologies
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-blue)
-![IoT](https://img.shields.io/badge/IoT-ready-green)
+![Web 5.0](https://img.shields.io/badge/Web5-ready-darkgreen)
+![IoT](https://img.shields.io/badge/IoT-ready-darkgreen)
+![Macro Engine](https://img.shields.io/badge/Macro%20Engine-enabled-purple)
 ![AI](https://img.shields.io/badge/AI-enabled-purple)
-![WebSocket](https://img.shields.io/badge/WebSocket-supported-orange)
-![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-red)
+![CiC](https://img.shields.io/badge/CMS%20in%20CMS-enabled-purple)
+![WebSocket](https://img.shields.io/badge/WebSocket-supported-blue)
+![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-blue)
 
 ---
 
@@ -53,6 +56,5 @@ Redefining web development with a secure, modular, AI-driven framework.
 - [phpBCL](https://github.com/ascoos/phpbcl8)
 - [AWES](https://github.com/ascoos/awes)
 - [Bug Tracker](https://issues.ascoos.com)
-
 
 

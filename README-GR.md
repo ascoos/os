@@ -19,11 +19,13 @@
 ## 📊 Τεχνολογίες
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-blue)
-![IoT](https://img.shields.io/badge/IoT-ready-green)
+![Web 5.0](https://img.shields.io/badge/Web5-ready-darkgreen)
+![IoT](https://img.shields.io/badge/IoT-ready-darkgreen)
+![Macro Engine](https://img.shields.io/badge/Macro%20Engine-enabled-purple)
 ![AI](https://img.shields.io/badge/AI-enabled-purple)
-![WebSocket](https://img.shields.io/badge/WebSocket-supported-orange)
-![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-red)
-
+![CiC](https://img.shields.io/badge/CMS%20in%20CMS-enabled-purple)
+![WebSocket](https://img.shields.io/badge/WebSocket-supported-blue)
+![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-blue)
 ---
 
 ## Όραμα
@@ -54,4 +56,3 @@
 - [AWES](https://github.com/ascoos/awes)
 
 - [Bug Tracker](https://issues.ascoos.com)
-
