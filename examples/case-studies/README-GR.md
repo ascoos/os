@@ -6,6 +6,7 @@
 | Κατηγορία | Μελέτη Περίπτωσης | Περιγραφή | Φάκελος |
 |-----------|-------------------|-----------|---------|
 | AI / Macros | [Μηχανή Μακροεντολών με Προβλέψεις AI](./ai/macro_decision_engine/macro_decision_engine-GR.md) | Εκτελεί macros βάσει προβλέψεων AI, συνδυάζοντας λογιστική παλινδρόμηση με DSL (Domain-Specific Language). | [`ai/macro_decision_engine`](./ai/macro_decision_engine/) |
+| AI / Neural | [Συνθέτης Ροής Μακροεντολών με Νευρωνικά Δίκτυα](./ai/neural/neural_workflow_composer/neural_workflow_composer-GR.md) | Εκτελεί μακροεντολές με βάση το ιστορικό του συστήματος, χρησιμοποιώντας νευρωνικά δίκτυα. | [`ai/neural/neural_workflow_composer`](./ai/neural/neural_workflow_composer/) |
 | API | [Μαζικά API GET αιτήματα](./api/api_batch_orchestrator/api_batch_orchestrator-GR.md) | Εκτελεί μαζικά GET αιτήματα, αποθηκεύει αποκρίσεις στην cache, εκπέμπει γεγονότα επιτυχίας/αποτυχίας και καταγράφει δραστηριότητα. | [`api/api_batch_orchestrator`](./api/api_batch_orchestrator/) |
 | IoT | [Παρακολούθηση Περιβαλλοντικών Αισθητήρων με Arduino](./iot/arduino/arduino_monitoring-GR.md) | Αναλύει δεδομένα θερμοκρασίας και υγρασίας μέσω Arduino, επικυρώνει τιμές, καταγράφει γεγονότα και δημιουργεί αναφορές. | [`iot/arduino`](./iot/arduino/) |
 | UI | [Δέσμευση UI Συμβάντων](./ui/ui_event_binding/ui_event_binding-GR.md) | Δεσμεύει συμβάντα από το UI (π.χ. `onClick`), με λογική στον server. | [`ui/ui_event_binding`](./ui/ui_event_binding/) |

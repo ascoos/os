@@ -6,6 +6,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 | Category | Case Study | Description | Directory |
 |----------|------------|-------------|-----------|
 | AI / Macros | [Macro Engine with AI Predictions](./ai/macro_decision_engine/macro_decision_engine.md) | Execute macros based on AI predictions, combining logistic regression with a DSL (Domain-Specific Language). | [`ai/macro_decision_engine`](./ai/macro_decision_engine/) |
+| AI / Neural | [Neural Workflow Composer](./ai/neural/neural_workflow_composer/neural_workflow_composer.md) | Execute macros based on system history using neural networks. | [`ai/neural/neural_workflow_composer`](./ai/neural/neural_workflow_composer/) |
 | API | [Executes batch GET requests](./api/api_batch_orchestrator/api_batch_orchestrator.md) | Execute batch GET requests, caches responses, emits success/failure events, and logs activity. | [`api/api_batch_orchestrator`](./api/api_batch_orchestrator/) |
 | Automation / DevOps | [Macro-Based Workflow Engine](./automation/macros/macro_workflow_engine.md) | Executes macro chains using FIFO logic with delay, priority, and logging. | [`automation/macros`](./automation/macros/) |
 | Barcodes | [Barcode Creation and Monitoring](./barcodes/creation/barcode_creation.md) | Generates EAN-13 barcodes for product codes, saves them as PNG files, and monitors CPU usage during the process. | [`barcodes/creation`](./barcodes/creation/) |
