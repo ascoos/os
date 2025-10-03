@@ -29,6 +29,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 | System / Performance | [Thread Load Balancer](./system/performance/thread_load_balancer.md) | Dynamically distributes tasks across threads based on current CPU and memory load. | [`system/performance`](./system/performance/) |
 | UI | [UI Event Binding](./ui/ui_event_binding/ui_event_binding.md) | Bind client-side UI events to server-side logic. | [`ui/ui_event_binding`](./ui/ui_event_binding/) |
 | Websites | [Website Linguistic Analysis](./websites/linguistic_analysis/website_linguistic_analysis.md) | Analyzes website content linguistically, detects language, and monitors system load using NLP and system tracking tools. | [`websites/linguistic_analysis`](./websites/linguistic_analysis/) |
+| Websites / Apache | [Website Monitoring with Linguistic Analysis and Apache Optimization](./websites/apache_optimization/website_monitoring_with_apache_optimization.md) | It monitors websites and optimizes the Apache configuration based on the analysis results. | [`apache/apache_optimization`](./websites/apache_optimization/) |
 | | *(More case studies to be added)* | | |
 
 ## Getting Started
