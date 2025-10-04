@@ -23,7 +23,7 @@ use Exception;
 
 // <English> Loading via Ascoos OS autoloader
 // <Greek> Φόρτωση μέσω Ascoos OS autoloader
-global $conf, $AOS_LIBS_PATH;
+global $conf, $AOS_LOGS_PATH, $AOS_LIBS_PATH;
 
 // <English> Settings for logging, and events to manage logs, reports, and event triggers
 // <Greek> Ρυθμίσεις για logging και γεγονότα για τη διαχείριση logs, αναφορών και εκπομπής γεγονότων
