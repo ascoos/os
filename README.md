@@ -1,31 +1,32 @@
-# Ascoos OS - Web 5.0 Kernel
-
-Ascoos OS is a Web 5.0 Kernel for decentralized web and IoT applications, with ~4500 encrypted classes.
+<p align="center">
+  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
+</p>
 
 ---
 
+# Ascoos OS - Web 5.0 Core
+
+Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life! With ~4,500 encrypted classes, Ascoos OS integrates Frameworks, CMS, IoT, and decentralized applications, delivering security, interoperability, and result synthesis. Explore how we redefine the future of the internet!
+
+---
+
+[![Version](https://img.shields.io/badge/Version-26.0.0-blue)](https://github.com/ascoos/os)
+[![License](https://img.shields.io/badge/License-AGL-green)](https://github.com/ascoos/os/blob/main/LICENSE)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.ascoos.com)](https://www.ascoos.com)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
+[![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
 
----
-
-**`Hosted in version 26 of:`**: 
+**`Hosted in version 26 of`**: 
 
 [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
 ---
 
-## 📊 Technologies
+## What is Web 5.0?
+Web 5.0 combines the convenience of Web 2.0 with the decentralization of Web 3.0, without blockchain complexity. Using Decentralized Identifiers (DIDs) and Decentralized Web Nodes (DWNs), Ascoos OS implements this vision through **CiC (Cms-in-Cms)** technology. Learn more at [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html).
 
-![PHP](https://img.shields.io/badge/PHP-8.2-blue)
-![Web 5.0](https://img.shields.io/badge/Web5-ready-darkgreen)
-![IoT](https://img.shields.io/badge/IoT-ready-darkgreen)
-![Macro Engine](https://img.shields.io/badge/Macro%20Engine-enabled-purple)
-![AI](https://img.shields.io/badge/AI-enabled-purple)
-![CiC](https://img.shields.io/badge/CMS%20in%20CMS-enabled-purple)
-![WebSocket](https://img.shields.io/badge/WebSocket-supported-blue)
-![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-blue)
+## Case Studies
+See how Ascoos OS implements Web 5.0 through practical examples, such as integrating Joomla with torrents, monitoring IoT sensors, and audio processing. Explore them in [Case Studies](examples/case-studies/README.md).
 
 ---
 
@@ -44,17 +45,40 @@ Redefining web development with a secure, modular, AI-driven framework.
 - **ASS**: Multi-layered security.
 
 ## Getting Started
-- Obtain the package: [info@ascoos.com](mailto:info@ascoos.com).
-- Explore `/docs/` and `/examples/`.
-- Report issues: [Bug Tracker](https://issues.ascoos.com).
+- **Obtain Ascoos OS**: Contact [info@ascoos.com](mailto:info@ascoos.com) to access the package.
+- **Explore the documentation**: Check out the [Glossary](./GLOSSARY.md), [Roadmap](./ROADMAP.md), and [Case Studies](examples/case-studies/README.md).
+- **Try examples**: Find code and case studies in the `/examples/` folder.
+- **Report issues**: Use the [Bug Tracker](https://issues.ascoos.com).
+
+## Project Progress
+Ascoos OS is evolving rapidly! Check out the [Roadmap](./ROADMAP.md) to learn about our next milestones and journey toward Web 5.0.
+
+## Join the Ascoos OS Journey
+Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mailto:support@ascoos.com) or contribute via [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Links
+### Documentation
+- [Web 5.0 and Ascoos OS](./WEB5.md)
+- [Glossary](./GLOSSARY.md)
+- [Roadmap](./ROADMAP.md)
+- [Case Studies](examples/case-studies/README.md)
+- [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html)
+
+### Tools & Libraries
 - [JSQL](https://github.com/ascoos/jsql)
 - [WIC](https://github.com/ascoos/wic)
 - [BootLib](https://github.com/ascoos/bootlib)
 - [BootLib Flex](https://bootlib.ascoos.com/examples/flex/)
 - [phpBCL](https://github.com/ascoos/phpbcl8)
 - [AWES](https://github.com/ascoos/awes)
+
+### Community
 - [Bug Tracker](https://issues.ascoos.com)
+- [YouTube](https://www.youtube.com/@Ascoos)
+- [X](https://x.com/ascoos)
 
-
+### Official Websites
+- [Ascoos Projects Family](https://www.ascoos.com)
+- [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
+- [Ascoos OS (Under construction)](https://os.ascoos.com)
+- [BootLib UI Framework (Under construction)](https://bootlib.ascoos.com)

@@ -1,31 +1,33 @@
+<p align="center">
+  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
+</p>
+
+---
+
 # Ascoos OS - Πυρήνας Web 5.0
 
-Το Ascoos OS είναι ένας πυρήνας Web 5.0 για αποκεντρωμένες εφαρμογές web και IoT, με ~4500 κρυπτογραφημένες κλάσεις.
+Καλωσήρθατε στο **Ascoos OS**, έναν πρωτοποριακό PHP πυρήνα που φέρνει το **Web 5.0** στην πραγματικότητα! Με ~4500 κρυπτογραφημένες κλάσεις, το Ascoos OS ενώνει Frameworks, CMS, IoT, και αποκεντρωμένες εφαρμογές, προσφέροντας ασφάλεια, διαλειτουργικότητα, και συγκερασμό αποτελεσμάτων. Εξερευνήστε πώς επαναπροσδιορίζουμε το μέλλον του διαδικτύου!
 
 ---
 
+[![Version](https://img.shields.io/badge/Version-26.0.0-blue)](https://github.com/ascoos/os)
+[![License](https://img.shields.io/badge/License-AGL-green)](https://github.com/ascoos/os/blob/main/LICENSE)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.ascoos.com)](https://www.ascoos.com)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
+[![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
 
----
-
-**`Φιλοξενείται στην έκδοση 26 του`**: 
+**`Φιλοξενείται στην έκδοση 26 του`**:
 
 [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
 ---
 
-## 📊 Τεχνολογίες
+## Τι είναι το Web 5.0;
+Το Web 5.0 συνδυάζει την ευκολία του Web 2.0 με την αποκέντρωση του Web 3.0, χωρίς την πολυπλοκότητα blockchain. Με Αποκεντρωμένες Ταυτότητες (DIDs) και Κόμβους Ιστοσελίδων (DWNs), το Ascoos OS υλοποιεί αυτό το όραμα μέσω της τεχνολογίας **CiC (Cms-in-Cms)**. Μάθετε περισσότερα στο [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html).
 
-![PHP](https://img.shields.io/badge/PHP-8.2-blue)
-![Web 5.0](https://img.shields.io/badge/Web5-ready-darkgreen)
-![IoT](https://img.shields.io/badge/IoT-ready-darkgreen)
-![Macro Engine](https://img.shields.io/badge/Macro%20Engine-enabled-purple)
-![AI](https://img.shields.io/badge/AI-enabled-purple)
-![CiC](https://img.shields.io/badge/CMS%20in%20CMS-enabled-purple)
-![WebSocket](https://img.shields.io/badge/WebSocket-supported-blue)
-![HTTP/3](https://img.shields.io/badge/HTTP/3-supported-blue)
+## Case Studies
+Δείτε πώς το Ascoos OS υλοποιεί το Web 5.0 μέσα από πρακτικά παραδείγματα, όπως η ενοποίηση Joomla με torrents, η παρακολούθηση IoT αισθητήρων, και η επεξεργασία ήχου. Εξερευνήστε τα στο [Case Studies](examples/case-studies/README-GR.md).
+
 ---
 
 ## Όραμα
@@ -43,11 +45,26 @@
 - **ASS**: Πολυεπίπεδη ασφάλεια.
 
 ## Ξεκινώντας
-- Αποκτήστε το πακέτο: [info@ascoos.com](mailto:info@ascoos.com).
-- Εξερευνήστε `/docs/` και `/examples/`.
-- Αναφέρετε προβλήματα: [Bug Tracker](https://issues.ascoos.com).
+- **Αποκτήστε το Ascoos OS**: Επικοινωνήστε στο [info@ascoos.com](mailto:info@ascoos.com) για πρόσβαση στο πακέτο.
+- **Εξερευνήστε την τεκμηρίωση**: Δείτε το [Γλωσσάρι](./GLOSSARY-GR.md), τον [Χάρτη Πορείας](./ROADMAP-GR.md), και τα [Case Studies](examples/case-studies/README-GR.md).
+- **Δοκιμάστε παραδείγματα**: Βρείτε κώδικα και case studies στο φάκελο `/examples/`.
+- **Αναφέρετε προβλήματα**: Χρησιμοποιήστε τον [Bug Tracker](https://issues.ascoos.com).
+
+## Πρόοδος του Έργου
+Το Ascoos OS εξελίσσεται γρήγορα! Δείτε τον [Χάρτη Πορείας](./ROADMAP-GR.md) για να μάθετε τα επόμενα ορόσημα και την πορεία μας προς το Web 5.0.
+
+## Γίνετε Μέρος του Ascoos OS
+Ελάτε να διαμορφώσουμε το μέλλον του Web 5.0 μαζί! Επικοινωνήστε στο [support@ascoos.com](mailto:support@ascoos.com) ή συνεισφέρετε στο [CONTRIBUTING-GR.md](./CONTRIBUTING-GR.md).
 
 ## Σύνδεσμοι
+### Τεκμηρίωση
+- [Web 5.0 και Ascoos OS](./WEB5-GR.md)
+- [Γλωσσάρι](./GLOSSARY-GR.md)
+- [Χάρτης Πορείας](./ROADMAP-GR.md)
+- [Case Studies](examples/case-studies/README-GR.md)
+- [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)
+
+### Εργαλεία & Βιβλιοθήκες
 - [JSQL](https://github.com/ascoos/jsql)
 - [WIC](https://github.com/ascoos/wic)
 - [BootLib](https://github.com/ascoos/bootlib)
@@ -55,4 +72,13 @@
 - [phpBCL](https://github.com/ascoos/phpbcl8)
 - [AWES](https://github.com/ascoos/awes)
 
+### Κοινότητα
 - [Bug Tracker](https://issues.ascoos.com)
+- [YouTube](https://www.youtube.com/@Ascoos)
+- [X](https://x.com/ascoos)
+
+### Επίσημες Ιστοσελίδες
+- [Ascoos Projects Family](https://www.ascoos.com)
+- [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
+- [Ascoos OS](https://os.ascoos.com)
+- [BootLib UI Framework](https://bootlib.ascoos.com)

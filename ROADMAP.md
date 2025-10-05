@@ -1,26 +1,40 @@
 # Roadmap - Ascoos OS
 
-Ascoos OS is a Web 5.0 Kernel under active development.
+Ascoos OS is a PHP-based Web 5.0 core under development.
+
+Learn how Ascoos OS implements Web 5.0 in Wollstonecraft in [Web 5.0 and Ascoos OS](./WEB5.md).
+
+---
 
 ## 2025
-- Develop/upgrade ~500 classes (AI, networking, IoT).
-- Enhance `/docs/` and `/examples/`.
+- Creation/upgrade of ~500 classes (AI, NLP, networking, Macro Engine, IoT).
+- Development and enhancement of documentation, examples, and case studies.
 - Internal releases for debugging.
 
 ## 2026
-- Complete ~4500 classes.
-- Advanced AI features (neural networks, NLP).
-- Expand IoT support.
-- Beta release under AGL.
-- Launch Ascoos Cms Snippets for developers.
+- Completion of ~2,500 classes in total.
+- Expansion of advanced AI functionalities (neural networks, NLP).
+- Expansion of IoT support.
+- Expansion of the Ascoos Macro Engine.
+- Completion of the `CiC` technology. [See Glossary](GLOSSARY.md#cms--ui-technologies)
+- Creation of an official documentation website.
+- Release of Ascoos CMS Snippets for developers.
+- Public Commercial Beta release under AGL.
 
 ## 2027
-- Finalize companion applications.
+- Completion of ~4,500 classes in total.
+- Completion of companion applications.
+- Completion of the `Ascoos Framework` and `Ascoos CMS Oxyzen`.
+- Completion and launch of official websites and the `Comfor` forum.
 - Commercial release under AGL.
-- Launch website and Comfor forum.
 
-## Long-Term
-- Establish Ascoos OS as a leading Web 5.0 platform.
-- Build a developer ecosystem.
+## 2028
+- Completion of the `LiL` (Language in Language) technology. [See Glossary](GLOSSARY.md#cms--ui-technologies)
+
+## Long-term Goals
+- Leading Web 5.0 platform.
+- Developer ecosystem.
+
+For details about our technologies and the Web 5.0 philosophy, see the [Glossary](./GLOSSARY.md) and [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html).
 
 Feedback: [CONTRIBUTING.md](CONTRIBUTING.md) | [support@ascoos.com](mailto:support@ascoos.com).
