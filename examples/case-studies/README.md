@@ -6,6 +6,7 @@ This directory contains case studies showcasing real-world applications of **Asc
 | Category | Case Study | Description | Directory |
 |----------|------------|-------------|-----------|
 | AI / Macros | [Macro Engine with AI Predictions](./ai/macro_decision_engine/macro_decision_engine.md) | Execute macros based on AI predictions, combining logistic regression with a DSL (Domain-Specific Language). | [`ai/macro_decision_engine`](./ai/macro_decision_engine/) |
+| AI / Macros | [Semantic Macro Profiler](./ai/semantic_macro_profiler/semantic_macro_profiler.md) | Analyzes editorial content using NLP, predicts macro execution with AI, and activates them via DSL scripting. | [`ai/semantic_macro_profiler`](./ai/semantic_macro_profiler/) |
 | AI / Neural | [Neural Workflow Composer](./ai/neural/neural_workflow_composer/neural_workflow_composer.md) | Execute macros based on system history using neural networks. | [`ai/neural/neural_workflow_composer`](./ai/neural/neural_workflow_composer/) |
 | API | [Executes batch GET requests](./api/api_batch_orchestrator/api_batch_orchestrator.md) | Execute batch GET requests, caches responses, emits success/failure events, and logs activity. | [`api/api_batch_orchestrator`](./api/api_batch_orchestrator/) |
 | Auth | [User Credential Validation and Authentication with Event Logging](./auth/validated_login_flow/validated_login_flow.md) | Validate user credentials before authentication and log corresponding events. | [`auth/validated_login_flow`](./auth/validated_login_flow/) |
