@@ -12,7 +12,7 @@ Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life!
 
 ## Technologies
 
-![PHP](https://img.shields.io/badge/5.6--8.5-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
+![PHP](https://img.shields.io/badge/8.2+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
 ![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
 ![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
 ![Static Badge](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=Macro%20Engine%20with%20DSL%2FAST&labelColor=%234e555b&color=3e8548)
@@ -94,5 +94,6 @@ Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mai
 - [Ascoos OS (Under construction)](https://os.ascoos.com)
 
 - [BootLib UI Framework (Under construction)](https://bootlib.ascoos.com)
+
 
 
