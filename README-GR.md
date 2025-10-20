@@ -48,7 +48,7 @@
 - Αποκεντρωμένο web και διαχείριση torrent.
 - Υποστήριξη IoT (Arduino, Raspberry Pi, GNSS).
 - AI και NLP δυνατότητες.
-- **JSQL**: Βάση δεδομένων JSON.
+- **JSQLDB**: Βάση δεδομένων JSON.
 - **WIC**: Ασφαλές φορμά μεταφοράς εικόνας.
 - **jAscoos & BootLib**: Πλαίσια JavaScript και UI.
 - **LibIn**: Διαχείριση βιβλιοθηκών.
@@ -76,7 +76,7 @@
 - [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)
 
 ### Εργαλεία & Βιβλιοθήκες
-- [JSQL](https://github.com/ascoos/jsql)
+- [JSQLDB](https://github.com/ascoos/jsqldb)
 - [WIC](https://github.com/ascoos/wic)
 - [BootLib](https://github.com/ascoos/bootlib)
 - [BootLib Flex](https://bootlib.ascoos.com/examples/flex/)
@@ -94,4 +94,5 @@
 - [Ascoos OS](https://os.ascoos.com)
 
 - [BootLib UI Framework](https://bootlib.ascoos.com)
+
 
