@@ -48,7 +48,7 @@ Redefining web development with a secure, modular, AI-driven framework.
 - Decentralized web and torrent management.
 - IoT support (Arduino, Raspberry Pi, GNSS).
 - AI and NLP capabilities.
-- **JSQL**: JSON-based database.
+- **JSQLDB**: JSON-based database.
 - **WIC**: Secure image transfer format.
 - **jAscoos & BootLib**: JavaScript and UI frameworks.
 - **LibIn**: Library management.
@@ -76,7 +76,7 @@ Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mai
 - [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html)
 
 ### Tools & Libraries
-- [JSQL](https://github.com/ascoos/jsql)
+- [JSQLDB](https://github.com/ascoos/jsqldb)
 - [WIC](https://github.com/ascoos/wic)
 - [BootLib](https://github.com/ascoos/bootlib)
 - [BootLib Flex](https://bootlib.ascoos.com/examples/flex/)
@@ -94,6 +94,7 @@ Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mai
 - [Ascoos OS (Under construction)](https://os.ascoos.com)
 
 - [BootLib UI Framework (Under construction)](https://bootlib.ascoos.com)
+
 
 
 
