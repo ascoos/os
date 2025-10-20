@@ -10,6 +10,17 @@ Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life!
 
 ---
 
+## 📊 Τεχνολογίες
+
+![PHP](https://img.shields.io/badge/5.6--8.5-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
+![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
+![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
+![Static Badge](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=Macro%20Engine%20with%20DSL%2FAST&labelColor=%234e555b&color=3e8548)
+![WebSocket](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=Web%20Socket&labelColor=%234e555b&color=873260)
+![HTTP/3](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=HTTP%2F2%20%7C%20HTTP%2F3&labelColor=%234e555b&color=873260)
+
+---
+
 [![Version](https://img.shields.io/badge/Version-26.0.0-blue)](https://github.com/ascoos/os)
 [![License](https://img.shields.io/badge/License-AGL-green)](https://github.com/ascoos/os/blob/main/LICENSE)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.ascoos.com)](https://www.ascoos.com)
@@ -81,4 +92,5 @@ Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mai
 - [Ascoos Projects Family](https://www.ascoos.com)
 - [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
 - [Ascoos OS (Under construction)](https://os.ascoos.com)
+
 - [BootLib UI Framework (Under construction)](https://bootlib.ascoos.com)
