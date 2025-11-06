@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
-</p>
+![Ascoos](https://dl.ascoos.com/images/ascoos.png)
 
 ---
 
@@ -34,45 +32,58 @@
 ---
 
 ## Τι είναι το Web 5.0;
-Το Web 5.0 συνδυάζει την ευκολία του Web 2.0 με την αποκέντρωση του Web 3.0, χωρίς την πολυπλοκότητα blockchain. Με Αποκεντρωμένες Ταυτότητες (DIDs) και Κόμβους Ιστοσελίδων (DWNs), το Ascoos OS υλοποιεί αυτό το όραμα μέσω της τεχνολογίας **CiC (Cms-in-Cms)**. Μάθετε περισσότερα στο [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html).
+Το Web 5.0 συνδυάζει την ευκολία του Web 2.0 με την αποκέντρωση του Web 3.0, χωρίς την πολυπλοκότητα blockchain. Με Αποκεντρωμένες Ταυτότητες (DIDs) και Κόμβους Ιστοσελίδων (DWNs), το Ascoos OS υλοποιεί αυτό το όραμα μέσω της τεχνολογίας **CiC (Cms-in-Cms)**. Μάθετε περισσότερα στο "[**Η Τεχνολογία CiC: Cross-Interpreter Communication – Η Φιλοσοφία Ενοποίησης του Web 5.0**](https://os.ascoos.com/docs/articles/cic-technology-el.html)".
 
 ## Case Studies
-Δείτε πώς το Ascoos OS υλοποιεί το Web 5.0 μέσα από πρακτικά παραδείγματα, όπως η ενοποίηση Joomla με torrents, η παρακολούθηση IoT αισθητήρων, και η επεξεργασία ήχου. Εξερευνήστε τα στο [Case Studies](examples/case-studies/README-GR.md).
+Δείτε πώς το Ascoos OS υλοποιεί το Web 5.0 μέσα από πρακτικά παραδείγματα, όπως η ενοποίηση Joomla με torrents, η παρακολούθηση IoT αισθητήρων, και η επεξεργασία ήχου. Εξερευνήστε τα στο [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README-GR.md).
 
 ---
 
 ## Όραμα
-Επαναπροσδιορισμός της ανάπτυξης web με ένα ασφαλές, αρθρωτό, AI-οδηγούμενο πλαίσιο.
+Επαναπροσδιορισμός της ανάπτυξης web με ένα ασφαλές, αρθρωτό, AI-οδηγούμενο πυρήνα PHP.
 
 ## Βασικά Χαρακτηριστικά
+- Δυναμική φόρτωση προαιρετικών κλάσεων πυρήνα
+
+  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-extras-manager-0005.png)
+
 - Αποκεντρωμένο web και διαχείριση torrent.
+- Εκτεταμένη διαχείριση **Δικτύου** και **Συστήματος**.
 - Υποστήριξη IoT (Arduino, Raspberry Pi, GNSS).
-- AI και NLP δυνατότητες.
-- **JSQLDB**: Βάση δεδομένων JSON.
-- **WIC**: Ασφαλές φορμά μεταφοράς εικόνας.
-- **jAscoos & BootLib**: Πλαίσια JavaScript και UI.
-- **LibIn**: Διαχείριση βιβλιοθηκών.
+- Εγγενείς δυνατότητες Τεχνητής Νοημοσύνης (**AI**), Επεξεργασίας Φυσικής Γλώσσας (**NLP**) και Νευρωνικών Δικτύων (**NeuralNet**).
+- **[JSQLDB](https://github.com/ascoos/jsqldb)**: Βάση δεδομένων JSON. Μια υβριδική βάση δεδομένων JSON SQL επικεντρωμένη στην ταχύτητα και τα εγγενή PHP SQL ερωτήματα.
+- **[JML](https://github.com/ascoos/jml)**: JSON-style Markup Language. Ένα ελαφρύ, αναγνώσιμο format markup εμπνευσμένο από JSON και DSLs.
+- **[WIC](https://github.com/ascoos/wic)**: Ασφαλές φορμά μεταφοράς εικόνας.
+- **jAscoos & [BootLib](https://github.com/ascoos/bootlib)**: Πλαίσια JavaScript και UI.
+
+  ![Animation Playground](https://s.ascoos.com/images/bootlib/pub/scr-000002-1024.png)
+
+- **LibIn**: Διαχείριση βιβλιοθηκών. Δυναμική φόρτωση προαιρετικών βιβλιοθηκών τρίτων
+
+  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-library-management.png)
+
 - **Macro Engine**: Προγραμματισμός φυσικής γλώσσας.
-- **ASS**: Πολυεπίπεδη ασφάλεια.
+
+- **ASS** (Ascoos Security System): Πολυεπίπεδη ασφάλεια.
 
 ## Ξεκινώντας
 - **Αποκτήστε το Ascoos OS**: Επικοινωνήστε στο [info@ascoos.com](mailto:info@ascoos.com) για πρόσβαση στο πακέτο.
-- **Εξερευνήστε την τεκμηρίωση**: Δείτε το [Γλωσσάρι](./GLOSSARY-GR.md), τον [Χάρτη Πορείας](./ROADMAP-GR.md), και τα [Case Studies](examples/case-studies/README-GR.md).
+- **Εξερευνήστε την τεκμηρίωση**: Δείτε το [Γλωσσάρι](https://os.ascoos.com/docs/api/el/glossary.html), τον [Χάρτη Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html), και τα [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README-GR.md).
 - **Δοκιμάστε παραδείγματα**: Βρείτε κώδικα και case studies στο φάκελο `/examples/`.
 - **Αναφέρετε προβλήματα**: Χρησιμοποιήστε τον [Bug Tracker](https://issues.ascoos.com).
 
 ## Πρόοδος του Έργου
-Το Ascoos OS εξελίσσεται γρήγορα! Δείτε τον [Χάρτη Πορείας](./ROADMAP-GR.md) για να μάθετε τα επόμενα ορόσημα και την πορεία μας προς το Web 5.0.
+Το Ascoos OS εξελίσσεται γρήγορα! Δείτε τον [Χάρτη Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html) για να μάθετε τα επόμενα ορόσημα και την πορεία μας προς το Web 5.0.
 
 ## Γίνετε Μέρος του Ascoos OS
-Ελάτε να διαμορφώσουμε το μέλλον του Web 5.0 μαζί! Επικοινωνήστε στο [support@ascoos.com](mailto:support@ascoos.com) ή συνεισφέρετε στο [CONTRIBUTING-GR.md](./CONTRIBUTING-GR.md).
+Ελάτε να διαμορφώσουμε το μέλλον του Web 5.0 μαζί! Επικοινωνήστε στο [support@ascoos.com](mailto:support@ascoos.com) ή συνεισφέρετε στο [CONTRIBUTING-GR.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING-GR.md).
 
 ## Σύνδεσμοι
 ### Τεκμηρίωση
-- [Web 5.0 και Ascoos OS](./WEB5-GR.md)
-- [Γλωσσάρι](./GLOSSARY-GR.md)
-- [Χάρτης Πορείας](./ROADMAP-GR.md)
-- [Case Studies](examples/case-studies/README-GR.md)
+- [Web 5.0 και Ascoos OS](https://github.com/ascoos/os/blob/main/WEB5-GR.md)
+- [Γλωσσάρι](https://os.ascoos.com/docs/api/el/glossary.html)
+- [Χάρτης Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html)
+- [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README-GR.md)
 - [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)
 
 ### Εργαλεία & Βιβλιοθήκες

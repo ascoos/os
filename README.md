@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
-</p>
+![Ascoos](https://dl.ascoos.com/images/ascoos.png)
 
 ---
 
@@ -34,45 +32,57 @@ Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life!
 ---
 
 ## What is Web 5.0?
-Web 5.0 combines the convenience of Web 2.0 with the decentralization of Web 3.0, without blockchain complexity. Using Decentralized Identifiers (DIDs) and Decentralized Web Nodes (DWNs), Ascoos OS implements this vision through **CiC (Cms-in-Cms)** technology. Learn more at [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html).
+Web 5.0 combines the convenience of Web 2.0 with the decentralization of Web 3.0, without blockchain complexity. Using Decentralized Identifiers (DIDs) and Decentralized Web Nodes (DWNs), Ascoos OS implements this vision through **CiC (Cms-in-Cms)** technology. Learn more at "[**The CiC Technology: Cross-Interpreter Communication – The Philosophy of Integration for Web 5.0**](https://os.ascoos.com/docs/articles/cic-technology.html)".
 
 ## Case Studies
-See how Ascoos OS implements Web 5.0 through practical examples, such as integrating Joomla with torrents, monitoring IoT sensors, and audio processing. Explore them in [Case Studies](examples/case-studies/README.md).
+See how Ascoos OS implements Web 5.0 through practical examples, such as integrating Joomla with torrents, monitoring IoT sensors, and audio processing. Explore them in [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
 
 ---
 
 ## Vision
-Redefining web development with a secure, modular, AI-driven framework.
+Redefining web development with a secure, modular, AI-driven PHP kernel.
 
 ## Key Features
+- Dynamic loading of optional kernel classes
+
+  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-extras-manager-0005.png)
+
 - Decentralized web and torrent management.
-- IoT support (Arduino, Raspberry Pi, GNSS).
-- AI and NLP capabilities.
-- **JSQLDB**: JSON-based database.
-- **WIC**: Secure image transfer format.
-- **jAscoos & BootLib**: JavaScript and UI frameworks.
-- **LibIn**: Library management.
+- Extensive **network** and **system** management.
+- Native IoT support (Arduino, Raspberry Pi, GNSS).
+- Native capabilities of Artificial Intelligence (**AI**), Natural Language Processing (**NLP**), and Neural Networks (**NeuralNet**).
+- **[JSQLDB](https://github.com/ascoos/jsqldb)**: JSON-based database. A hybrid JSON SQL database engine focused on speed, and PHP-native SQL queries.
+- **[JML](https://github.com/ascoos/jml)**: JSON-style Markup Language. A lightweight, readable markup format inspired by JSON and DSLs.
+- **[WIC](https://github.com/ascoos/wic)**: Secure image transfer format.
+- **jAscoos & [BootLib](https://github.com/ascoos/bootlib)**: JavaScript and UI frameworks.
+
+  ![Animation Playground](https://s.ascoos.com/images/bootlib/pub/scr-000002-1024.png)
+
+- **LibIn**: Library management. Dynamic loading of optional third-party libraries
+
+  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-library-management.png)
+
 - **Macro Engine**: Natural language programming.
-- **ASS**: Multi-layered security.
+- **ASS** (Ascoos Security System): Multi-layered security.
 
 ## Getting Started
 - **Obtain Ascoos OS**: Contact [info@ascoos.com](mailto:info@ascoos.com) to access the package.
-- **Explore the documentation**: Check out the [Glossary](./GLOSSARY.md), [Roadmap](./ROADMAP.md), and [Case Studies](examples/case-studies/README.md).
+- **Explore the documentation**: Check out the [Glossary](https://os.ascoos.com/docs/api/en/glossary.html), [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html), and [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
 - **Try examples**: Find code and case studies in the `/examples/` folder.
 - **Report issues**: Use the [Bug Tracker](https://issues.ascoos.com).
 
 ## Project Progress
-Ascoos OS is evolving rapidly! Check out the [Roadmap](./ROADMAP.md) to learn about our next milestones and journey toward Web 5.0.
+Ascoos OS is evolving rapidly! Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn about our next milestones and journey toward Web 5.0.
 
 ## Join the Ascoos OS Journey
-Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mailto:support@ascoos.com) or contribute via [CONTRIBUTING.md](./CONTRIBUTING.md).
+Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mailto:support@ascoos.com) or contribute via [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md).
 
 ## Links
 ### Documentation
-- [Web 5.0 and Ascoos OS](./WEB5.md)
-- [Glossary](./GLOSSARY.md)
-- [Roadmap](./ROADMAP.md)
-- [Case Studies](examples/case-studies/README.md)
+- [Web 5.0 and Ascoos OS](https://github.com/ascoos/os/blob/main/WEB5.md)
+- [Glossary](https://os.ascoos.com/docs/api/en/glossary.html)
+- [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html)
+- [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md)
 - [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html)
 
 ### Tools & Libraries
