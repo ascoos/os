@@ -18,7 +18,7 @@
 
 ## Δομή Αρχείων
 Η μελέτη υλοποιείται σε ένα αρχείο PHP:
-- [`macro_decision_engine.php`](macro_decision_engine.php)
+- [`macro_decision_engine.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/ai/macro_decision_engine/macro_decision_engine.php)
 Περιέχει ολόκληρο τον κώδικα: φόρτωση δεδομένων, εκπαίδευση, DSL parsing, μετάφραση και εκτέλεση macros.
 
 ## Προαπαιτούμενα
@@ -87,7 +87,7 @@ Module enabled: AdvancedAnalytics
 - [phpBCL8](https://github.com/ascoos/phpbcl8)  
 
 ## Συνεισφορά
-Θέλετε να συνεισφέρετε σε αυτή τη μελέτη περίπτωσης; Κάντε fork το αποθετήριο, προσθέστε νέα macros ή βελτιώσεις DSL στο `macro_decision_engine.php` και υποβάλετε pull request. Δείτε το [CONTRIBUTING.md](/CONTRIBUTING.md) για οδηγίες.
+Θέλετε να συνεισφέρετε σε αυτή τη μελέτη περίπτωσης; Κάντε fork το αποθετήριο, προσθέστε νέα macros ή βελτιώσεις DSL στο `macro_decision_engine.php` και υποβάλετε pull request. Δείτε το [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) για οδηγίες.
 
 ## Άδεια Χρήσης
-Αυτή η μελέτη περίπτωσης καλύπτεται από την Ascoos General License (AGL). Δείτε το [LICENSE](/LICENSE.md).
+Αυτή η μελέτη περίπτωσης καλύπτεται από την Ascoos General License (AGL). Δείτε το [LICENSE](https://github.com/ascoos/os/blob/main/LICENSE.md).

@@ -23,7 +23,7 @@ This case study shows how **Ascoos OS** can execute macros based on AI predictio
 ## File Structure
 
 This case study is implemented in a single PHP script:  
-- [`macro_decision_engine.php`](macro_decision_engine.php)  
+- [`macro_decision_engine.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/ai/macro_decision_engine/macro_decision_engine.php)  
   Contains data loading, model training, DSL parsing, translation and macro execution.
 
 ## Prerequisites
@@ -101,8 +101,8 @@ Module enabled: AdvancedAnalytics
 
 ## Contribution
 
-Want to contribute to this case study? Fork the repo, add new macros or DSL enhancements in `macro_decision_engine.php` and submit a pull request. See [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
+Want to contribute to this case study? Fork the repo, add new macros or DSL enhancements in `macro_decision_engine.php` and submit a pull request. See [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## License
 
-This case study is covered by the Ascoos General License (AGL). See [LICENSE](/LICENSE.md).
+This case study is covered by the Ascoos General License (AGL). See [LICENSE](https://github.com/ascoos/os/blob/main/LICENSE.md).
