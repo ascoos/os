@@ -5,7 +5,7 @@
  * @ASCOOS-SUPPORT     : support@ascoos.com
  * @ASCOOS-BUGS        : https://issues.ascoos.com
  * 
- * @CASE-STUDY          : parallel_sentiment_analysis.php
+ * @CASE-STUDY          : macro_decision_engine.php
  * @fileNo              : ASCOOS-OS-CASESTUDY-SEC00011
  * 
  * @desc <English> Executes macros based on AI predictions using logistic regression and DSL translation.
