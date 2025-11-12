@@ -15,7 +15,7 @@ This case study demonstrates how **Ascoos OS** can intelligently execute macros 
 
 ## File Structure
 The implementation resides in a single PHP file:
-- [`neural_workflow_composer.php`](neural_workflow_composer.php)
+- [`neural_workflow_composer.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/ai/neural/neural_workflow_composer/neural_workflow_composer.php)
 
 It contains all logic: data preparation, model training, prediction, and macro execution.
 
@@ -64,7 +64,7 @@ Macro skipped based on neural prediction
 ```
 
 ## Resources
-- [Ascoos OS Documentation](/docs/)  
+- [Ascoos OS Documentation](https://docs.ascoos.com/os)  
 - [ASCOOS](https://www.ascoos.com)
 - [AWES](https://awes.ascoos.com)  
 - [GitHub Repository](https://github.com/ascoos/os)

@@ -64,7 +64,7 @@ if ($score > 0.5) {
 ```
 
 ## Πόροι
-- [Τεκμηρίωση Ascoos OS](/docs/)  
+- [Τεκμηρίωση Ascoos OS](https://docs.ascoos.com/os)  
 - [ASCOOS](https://www.ascoos.com)
 - [AWES](https://awes.ascoos.com)  
 - [GitHub Repository](https://github.com/ascoos/os)
