@@ -5,6 +5,9 @@
  * @ASCOOS-SUPPORT     : support@ascoos.com
  * @ASCOOS-BUGS        : https://issues.ascoos.com
  * 
+ * @CASE-STUDY          : parallel_sentiment_analysis.php
+ * @fileNo              : ASCOOS-OS-CASESTUDY-SEC00011
+ * 
  * @desc <English> Executes macros based on AI predictions using logistic regression and DSL translation.
  * @desc <Greek> Εκτελεί macros βάσει προβλέψεων AI χρησιμοποιώντας λογιστική παλινδρόμηση και μετάφραση DSL.
  * 
@@ -57,11 +60,11 @@ $ast        = $astBuilder->buildAst($dsl);
 $translator = new class([
     // <English> Macro: log a message
     // <Greek>   Macro: καταγραφή μηνύματος
-    'LOG' => fn(string $msg) => print("📣 $msg\n"),
+    'LOG' => fn(string $msg) => print("$msg\n"),
 
     // <English> Macro: enable a module
     // <Greek>   Macro: ενεργοποίηση module
-    'ENABLE MODULE' => fn(string $module) => print("✅ Module enabled: $module\n"),
+    'ENABLE MODULE' => fn(string $module) => print("Module enabled: $module\n"),
 
     // <English> Function to perform prediction
     // <Greek>   Συνάρτηση για πρόβλεψη μοντέλου
@@ -73,5 +76,9 @@ $macroContainer = $translator->translateAst($ast);
 // <English> Execute the macros if the AI prediction condition is met.
 // <Greek>   Εκτέλεση των macros εάν πληρούται η συνθήκη πρόβλεψης AI.
 $macroContainer->executeIfTrue($user);
+
+// <English> Free resources
+// <Greek> Απελευθέρωση πόρων και χειριστών
+$ai->Free();
 
 ?>

@@ -87,8 +87,8 @@ $macroContainer->executeIfTrue($user);
 If the prediction `predict([1,1,0])` > 0.5:
 
 ```
-📣 User is eligible
-✅ Module enabled: AdvancedAnalytics
+User is eligible
+Module enabled: AdvancedAnalytics
 ```
 
 ## Resources
