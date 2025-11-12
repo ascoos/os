@@ -46,21 +46,21 @@ $score = $composer->predictNetwork([$currentState])[0];
 
 if ($score > 0.5) {
     $macroHandler = new TMacroHandler();
-    $macroHandler->addMacro(fn() => print("🚀 Executing optimized macro"), [], delay: 0, priority: 1);
+    $macroHandler->addMacro(fn() => print("Executing optimized macro"), [], delay: 0, priority: 1);
     $macroHandler->runNext();
 } else {
-    print("⏸️ Macro skipped based on neural prediction\n");
+    print("Macro skipped based on neural prediction\n");
 }
 ```
 
 ## Expected Output
 If the prediction score is high:
 ```
-🚀 Executing optimized macro
+Executing optimized macro
 ```
 Otherwise:
 ```
-⏸️ Macro skipped based on neural prediction
+Macro skipped based on neural prediction
 ```
 
 ## Resources
@@ -70,7 +70,7 @@ Otherwise:
 - [GitHub Repository](https://github.com/ascoos/os)
 
 ## Contribution
-You can enhance the neural model, integrate additional system metrics, or extend macro logic. See [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
+You can enhance the neural model, integrate additional system metrics, or extend macro logic. See [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## License
-This case study is covered under the Ascoos General License (AGL). See [LICENSE.md](/LICENSE.md).
+This case study is covered under the Ascoos General License (AGL). See [LICENSE.md](https://github.com/ascoos/os/blob/main/LICENSE.md).

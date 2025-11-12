@@ -15,7 +15,7 @@
 
 ## Δομή Αρχείων
 Η υλοποίηση βρίσκεται σε ένα αρχείο PHP:
-- [`neural_workflow_composer.php`](neural_workflow_composer.php)
+- [`neural_workflow_composer.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/ai/neural/neural_workflow_composer/neural_workflow_composer.php)
 
 Περιλαμβάνει όλη τη λογική: προετοιμασία δεδομένων, εκπαίδευση μοντέλου, πρόβλεψη και εκτέλεση μακροεντολών.
 
@@ -46,21 +46,21 @@ $score = $composer->predictNetwork([$currentState])[0];
 
 if ($score > 0.5) {
     $macroHandler = new TMacroHandler();
-    $macroHandler->addMacro(fn() => print("🚀 Εκτέλεση βελτιστοποιημένης μακροεντολής"), [], delay: 0, priority: 1);
+    $macroHandler->addMacro(fn() => print("Εκτέλεση βελτιστοποιημένης μακροεντολής"), [], delay: 0, priority: 1);
     $macroHandler->runNext();
 } else {
-    print("⏸️ Η μακροεντολή παραλείφθηκε βάσει πρόβλεψης\n");
+    print("Η μακροεντολή παραλείφθηκε βάσει πρόβλεψης\n");
 }
 ```
 
 ## Αναμενόμενο Αποτέλεσμα
 Αν η πρόβλεψη είναι υψηλή:
 ```
-🚀 Εκτέλεση βελτιστοποιημένης μακροεντολής
+Εκτέλεση βελτιστοποιημένης μακροεντολής
 ```
 Αλλιώς:
 ```
-⏸️ Η μακροεντολή παραλείφθηκε βάσει πρόβλεψης
+Η μακροεντολή παραλείφθηκε βάσει πρόβλεψης
 ```
 
 ## Πόροι
@@ -70,7 +70,7 @@ if ($score > 0.5) {
 - [GitHub Repository](https://github.com/ascoos/os)
 
 ## Συνεισφορά
-Μπορείτε να βελτιώσετε το μοντέλο, να ενσωματώσετε επιπλέον μετρικές συστήματος ή να επεκτείνετε τη λογική των μακροεντολών. Δείτε το [CONTRIBUTING.md](/CONTRIBUTING.md) για οδηγίες.
+Μπορείτε να βελτιώσετε το μοντέλο, να ενσωματώσετε επιπλέον μετρικές συστήματος ή να επεκτείνετε τη λογική των μακροεντολών. Δείτε το [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) για οδηγίες.
 
 ## Άδεια Χρήσης
-Αυτή η μελέτη καλύπτεται από την Ascoos General License (AGL). Δείτε το [LICENSE.md](/LICENSE.md).
+Αυτή η μελέτη καλύπτεται από την Ascoos General License (AGL). Δείτε το [LICENSE.md](https://github.com/ascoos/os/blob/main/LICENSE.md).
