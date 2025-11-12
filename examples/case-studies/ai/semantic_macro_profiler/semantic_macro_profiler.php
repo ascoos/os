@@ -15,7 +15,7 @@
  *               Αναλύει συντακτικό περιεχόμενο, προβλέπει εκτέλεση macro, 
  *               οπτικοποιεί semantic scores και αποθηκεύει αποτελέσματα.
  * 
- * @since PHP 8.2.0
+ * @since PHP 8.2.0+
  */
 declare(strict_types=1);
 
@@ -34,7 +34,7 @@ use ASCOOS\OS\Kernel\{
     Files\TFilesHandler
 };
 
-global $AOS_TMP_DATA_PATH, $AOS_FONTS_PATH, $utf8;
+global $AOS_TMP_DATA_PATH, $AOS_FONTS_PATH, $AOS_LOGS_PATH;
 
 // -----------------------------------------------------------------------------
 // <English> Define configuration properties
@@ -43,7 +43,7 @@ global $AOS_TMP_DATA_PATH, $AOS_FONTS_PATH, $utf8;
 $properties = [
     'file' => [
         'baseDir' => $AOS_TMP_DATA_PATH . '/semantic_macro_profiler',
-        'quotaSize' => 1000000000 // 1GB quota
+        'quotaSize' => 1000000000 // ~1GB quota
     ],
     'LineChart' => [
         'width' => 900,
@@ -52,6 +52,11 @@ $properties = [
         'backgroundColorIndex' => 1,
         'lineColorIndex' => 4,
         'axisColorIndex' => 0
+    ],
+    'logs' => [
+        'useLogger' => true,
+        'dir' => $AOS_LOGS_PATH .'/',
+        'file' => 'semantic_macro_profiler.log'
     ]
 ];
 
@@ -104,9 +109,9 @@ $astBuilder = new class extends AbstractDslAstBuilder {};
 $ast        = $astBuilder->buildAst($dsl);
 
 $translator = new class([
-    'TAG'      => fn(string $tag) => print("🏷️ Tagged: $tag\n"),
-    'NOTIFY'   => fn(string $who) => print("📬 Notification sent to: $who\n"),
-    'EXECUTE'  => fn(string $macro) => print("🚀 Executing macro: $macro\n"),
+    'TAG'      => fn(string $tag) => print("Tagged: $tag\n"),
+    'NOTIFY'   => fn(string $who) => print("Notification sent to: $who\n"),
+    'EXECUTE'  => fn(string $macro) => print("Executing macro: $macro\n"),
     'sentiment'=> fn() => $sentiment,
     'topic'    => fn() => in_array('security', $concepts) ? 'security' : 'other'
 ]) extends AstMacroTranslator {};
@@ -149,20 +154,21 @@ $chart->LineChart($folder . '/semantic_profile.png');
 if ($score > 0.5) {
     $macroContainer->executeIfTrue();
     $event->register('macro_triggered', 'semantic_profiler', fn() =>
-        $event->logger->log('Macro triggered based on semantic profile', $event::DEBUG_LEVEL_INFO)
+        $event->logger?->log('Macro triggered based on semantic profile', $event::DEBUG_LEVEL_INFO)
     );
     $event->trigger('macro_triggered', 'semantic_profiler');
 } else {
-    print("⏸️ Macro skipped due to low AI score\n");
+    print("Macro skipped due to low AI score\n");
 }
+
 
 // -----------------------------------------------------------------------------
 // <English> Free resources
 // <Greek> Απελευθέρωση πόρων και χειριστών
 // -----------------------------------------------------------------------------
-$error->Free($error);
-$chart->Free($chart);
-$event->Free($event);
-$ai->Free($ai);
-$nlp->Free($nlp);
+$error->Free();
+$chart->Free();
+$event->Free();
+$ai->Free();
+$nlp->Free();
 ?>

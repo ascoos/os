@@ -34,7 +34,7 @@ This case study demonstrates how **Ascoos OS** can orchestrate macro execution u
 
 ## File Structure
 The implementation resides in a single PHP file:
-- [`semantic_macro_profiler.php`](semantic_macro_profiler.php)
+- [`semantic_macro_profiler.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/ai/semantic_macro_profiler/semantic_macro_profiler.php)
 
 It includes all logic: NLP analysis, AI prediction, DSL parsing, macro execution, and reporting.
 
@@ -79,17 +79,17 @@ if ($score > 0.5) {
 ## Expected Output
 If prediction is high:
 ```
-🚀 Executing macro: audit_macro
+Executing macro: audit_macro
 ```
 Otherwise:
 ```
-⏸️ Macro skipped due to low AI score
+Macro skipped due to low AI score
 ```
 
 ---
 
 ## Resources
-- [Ascoos OS Documentation](/docs/)  
+- [Ascoos OS Documentation](https://docs.ascoos.com/os)  
 - [Official Ascoos OS Website](https://os.ascoos.com)  
 - [AWES Studio](https://awes.ascoos.com)  
 - [GitHub Repository](https://github.com/ascoos/os)
@@ -97,9 +97,9 @@ Otherwise:
 ---
 
 ## Contribution
-You may extend the macro logic, integrate additional semantic triggers, or improve the AI model. See [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
+You may extend the macro logic, integrate additional semantic triggers, or improve the AI model. See [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) for guidelines.
 
 ---
 
 ## License
-This case study is covered under the Ascoos General License (AGL). See [LICENSE.md](/LICENSE.md).
+This case study is covered under the Ascoos General License (AGL). See [LICENSE.md](https://github.com/ascoos/os/blob/main/LICENSE.md).

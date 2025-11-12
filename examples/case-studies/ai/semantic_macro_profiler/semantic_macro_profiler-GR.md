@@ -34,7 +34,7 @@
 
 ## Δομή Αρχείων
 Η υλοποίηση βρίσκεται σε ένα αρχείο PHP:
-- [`semantic_macro_profiler.php`](semantic_macro_profiler.php)
+- [`semantic_macro_profiler.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/ai/semantic_macro_profiler/semantic_macro_profiler.php)
 
 Περιλαμβάνει όλη τη λογική: NLP ανάλυση, πρόβλεψη AI, ανάλυση DSL, εκτέλεση μακροεντολών και αναφορά.
 
@@ -79,17 +79,17 @@ if ($score > 0.5) {
 ## Αναμενόμενο Αποτέλεσμα
 Αν η πρόβλεψη είναι υψηλή:
 ```
-🚀 Εκτέλεση μακροεντολής: audit_macro
+Εκτέλεση μακροεντολής: audit_macro
 ```
 Αλλιώς:
 ```
-⏸️ Η μακροεντολή παραλείφθηκε λόγω χαμηλής πρόβλεψης AI
+Η μακροεντολή παραλείφθηκε λόγω χαμηλής πρόβλεψης AI
 ```
 
 ---
 
 ## Πόροι
-- [Τεκμηρίωση Ascoos OS](/docs/)  
+- [Τεκμηρίωση Ascoos OS](https://docs.ascoos.com/os)  
 - [Επίσημη ιστοσελίδα Ascoos OS](https://os.ascoos.com)  
 - [AWES Studio](https://awes.ascoos.com)  
 - [GitHub Repository](https://github.com/ascoos/os)
@@ -97,9 +97,9 @@ if ($score > 0.5) {
 ---
 
 ## Συνεισφορά
-Μπορείτε να επεκτείνετε τη λογική των μακροεντολών, να ενσωματώσετε επιπλέον semantic triggers ή να βελτιώσετε το AI μοντέλο. Δείτε το [CONTRIBUTING.md](/CONTRIBUTING.md) για οδηγίες.
+Μπορείτε να επεκτείνετε τη λογική των μακροεντολών, να ενσωματώσετε επιπλέον semantic triggers ή να βελτιώσετε το AI μοντέλο. Δείτε το [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) για οδηγίες.
 
 ---
 
 ## Άδεια Χρήσης
-Αυτή η μελέτη καλύπτεται από την Ascoos General License (AGL). Δείτε το [LICENSE.md](/LICENSE.md).
+Αυτή η μελέτη καλύπτεται από την Ascoos General License (AGL). Δείτε το [LICENSE.md](https://github.com/ascoos/os/blob/main/LICENSE.md).
