@@ -80,10 +80,10 @@ Module enabled: AdvancedAnalytics
 ```
 
 ## Πόροι
-- [Τεκμηρίωση Ascoos OS](/docs/)  
+- [Τεκμηρίωση Ascoos OS](https://docs.ascoos.com/os)  
 - [GitHub Repository](https://github.com/ascoos/os)  
 - [AWES](https://awes.ascoos.com)
-- [BootLib](https://github.com/ascoos/bootlib)  
+- [BootLib](https://bootlib.ascoos.com)  
 - [phpBCL8](https://github.com/ascoos/phpbcl8)  
 
 ## Συνεισφορά

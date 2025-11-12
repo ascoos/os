@@ -93,10 +93,10 @@ Module enabled: AdvancedAnalytics
 
 ## Resources
 
-- [Ascoos OS Documentation](/docs/)  
+- [Ascoos OS Documentation](https://docs.ascoos.com/os)  
 - [GitHub Repository](https://github.com/ascoos/os)  
 - [AWES](https://awes.ascoos.com)  
-- [BootLib](https://github.com/ascoos/bootlib)  
+- [BootLib](https://bootlib.ascoos.com)  
 - [phpBCL8](https://github.com/ascoos/phpbcl8)  
 
 ## Contribution
