@@ -133,10 +133,9 @@ The official Ascoos OS community forum.
 
 ## References
 
-- For usage examples: [examples/](./examples/)
-- For contribution: [CONTRIBUTING.md](./CONTRIBUTING.md)
-- Contact: [support@ascoos.com](mailto:support@ascoos.com)
+- For usage examples: [examples](https://github.com/ascoos/os/blob/main/examples/)
+- For contribution: [See here](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md)
 
 ---
 
-> For the timeline of technology evolution, see [ROADMAP.md](./ROADMAP.md)
+> For the timeline of technology evolution, see [roadmap](https://github.com/ascoos/os/blob/main/ROADMAP.md)

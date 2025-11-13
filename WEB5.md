@@ -7,10 +7,10 @@
 - **Verifiable Credentials**: Cryptographically secure credentials for selective data sharing.
 - **Decentralized Web Applications (DWAs)**: Applications that collaborate via DIDs and DWNs for unified experiences.
 
-**Ascoos OS** implements the Web 5.0 philosophy through **CiC (Cms-in-Cms)** technology, which integrates systems like CMS (Joomla, WordPress), IoT, and torrents without APIs, delivering decentralization, interoperability, and result synthesis. See details in the [Glossary](./GLOSSARY.md#interpretation--integration).
+**Ascoos OS** implements the Web 5.0 philosophy through **CiC (Cms-in-Cms)** technology, which integrates systems like CMS (Joomla, WordPress), IoT, and torrents without APIs, delivering decentralization, interoperability, and result synthesis. See details in the [Glossary](https://github.com/ascoos/os/blob/main/GLOSSARY.md#interpretation--integration).
 
 ## How Ascoos OS Embodies Web 5.0
-Ascoos OS, with ~4,500 encrypted classes, embraces Web 5.0’s decentralization and interoperability through:
+Ascoos OS, with hundreds of encrypted classes, embraces Web 5.0’s decentralization and interoperability through:
 
 - **CiC (Cms-in-Cms)**: Enables integration of different systems without APIs, e.g., combining Joomla profiles with torrent data.
 - **JSQL**: JSON-based database for decentralized storage.
@@ -19,7 +19,7 @@ Ascoos OS, with ~4,500 encrypted classes, embraces Web 5.0’s decentralization 
 - **AI & NLP**: Advanced language processing for dynamic applications.
 
 ### Example: Integrating Joomla and Torrent via CiC
-Ascoos OS dynamically manages the loading of classes and third-party libraries via the **Extras Classes Manager**. For instance, the Joomla library is automatically loaded from `/libs/joomla/autoload.php`, where its loading behavior is defined. See an example with Laravel in [laravel_autoload.php](examples/case-studies/integration/laravel/autoload/laravel_autoload.php).
+Ascoos OS dynamically manages the loading of classes and third-party libraries via the **Extras Classes Manager**. For instance, the Joomla library is automatically loaded from `/libs/joomla/autoload.php`, where its loading behavior is defined. See an example with Laravel in [laravel_autoload.php](https://github.com/ascoos/os/blob/main/examples/case-studies/integration/laravel/autoload/laravel_autoload.php).
 
 The following example shows how Ascoos OS integrates a Joomla user profile with torrent data, reflecting Web 5.0 principles:
 
@@ -76,10 +76,10 @@ Ascoos OS applies Web 5.0 to various scenarios:
 - **Geographic Data**: Combining data from Google Maps and OpenWeatherMap.
 - **Electronics**: Designing RLC and FIR filters for audio processing.
 
-Explore more in [Case Studies](examples/case-studies/README.md).
+Explore more in [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
 
 ## Vision and Invitation
-Web 5.0 is a mindset that frees data and applications from closed ecosystems. Ascoos OS invites you to co-shape this future! See our [Roadmap](./ROADMAP.md) for our progress and [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html) for more details.
+Web 5.0 is a mindset that frees data and applications from closed ecosystems. Ascoos OS invites you to co-shape this future! See our [Roadmap](https://github.com/ascoos/os/blob/main/ROADMAP.md) for our progress and [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html) for more details.
 
 ## Contribute
-Join the Web 5.0 journey! Explore [CONTRIBUTING.md](./CONTRIBUTING.md) or contact us at [support@ascoos.com](mailto:support@ascoos.com).
+Join the Web 5.0 journey! Explore [CONTRIBUTING](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md).

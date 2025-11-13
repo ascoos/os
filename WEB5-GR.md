@@ -7,10 +7,10 @@
 - **Επαληθεύσιμα Διαπιστευτήρια**: Κρυπτογραφικά ασφαλή διαπιστευτήρια για επιλεκτική κοινή χρήση δεδομένων.
 - **Αποκεντρωμένες Εφαρμογές Ιστοσελίδων (DWAs)**: Εφαρμογές που συνεργάζονται μέσω DIDs και DWNs για ενοποιημένες εμπειρίες.
 
-Το **Ascoos OS** υλοποιεί τη φιλοσοφία του Web 5.0 μέσω της τεχνολογίας **CiC (Cms-in-Cms)**, η οποία ενώνει συστήματα όπως CMS (Joomla, WordPress), IoT, και torrents χωρίς APIs, προσφέροντας αποκέντρωση, διαλειτουργικότητα, και συγκερασμό αποτελεσμάτων. Δείτε λεπτομέρειες στο [Γλωσσάρι](./GLOSSARY-GR.md#διερμηνεία--ενοποίηση).
+Το **Ascoos OS** υλοποιεί τη φιλοσοφία του Web 5.0 μέσω της τεχνολογίας **CiC (Cms-in-Cms)**, η οποία ενώνει συστήματα όπως CMS (Joomla, WordPress), IoT, και torrents χωρίς APIs, προσφέροντας αποκέντρωση, διαλειτουργικότητα, και συγκερασμό αποτελεσμάτων. Δείτε λεπτομέρειες στο [Γλωσσάρι](https://github.com/ascoos/os/blob/main/GLOSSARY-GR.md#διερμηνεία--ενοποίηση).
 
 ## Πώς το Ascoos OS Ενσαρκώνει το Web 5.0
-Το Ascoos OS, με ~4500 κρυπτογραφημένες κλάσεις, ενσωματώνει την αποκέντρωση και τη διαλειτουργικότητα του Web 5.0 μέσω:
+Το Ascoos OS, με εκατοντάδες κρυπτογραφημένες κλάσεις, ενσωματώνει την αποκέντρωση και τη διαλειτουργικότητα του Web 5.0 μέσω:
 
 - **CiC (Cms-in-Cms)**: Επιτρέπει την ενοποίηση διαφορετικών συστημάτων χωρίς APIs, π.χ. συνδυασμός Joomla προφίλ με torrent δεδομένα.
 - **JSQL**: JSON-based βάση δεδομένων για αποκεντρωμένη αποθήκευση.
@@ -19,7 +19,7 @@
 - **AI & NLP**: Προηγμένη επεξεργασία γλώσσας για δυναμικές εφαρμογές.
 
 ### Παράδειγμα: Ενοποίηση Joomla και Torrent μέσω CiC
-Το Ascoos OS διαχειρίζεται δυναμικά τη φόρτωση κλάσεων και βιβλιοθηκών τρίτων μέσω του **Extras Classes Manager**. Για παράδειγμα, η βιβλιοθήκη Joomla φορτώνεται αυτόματα από το `/libs/joomla/autoload.php`, όπου ορίζεται η συμπεριφορά φόρτωσής της. Δείτε ένα παράδειγμα με το Laravel στο [laravel_autoload.php](examples/case-studies/integration/laravel/autoload/laravel_autoload.php).
+Το Ascoos OS διαχειρίζεται δυναμικά τη φόρτωση κλάσεων και βιβλιοθηκών τρίτων μέσω του **Extras Classes Manager**. Για παράδειγμα, η βιβλιοθήκη Joomla φορτώνεται αυτόματα από το `/libs/joomla/autoload.php`, όπου ορίζεται η συμπεριφορά φόρτωσής της. Δείτε ένα παράδειγμα με το Laravel στο [laravel_autoload.php](https://github.com/ascoos/os/blob/main/examples/case-studies/integration/laravel/autoload/laravel_autoload.php).
 
 Το παρακάτω παράδειγμα δείχνει πώς το Ascoos OS ενοποιεί ένα Joomla user profile με δεδομένα torrent, αντικατοπτρίζοντας τη φιλοσοφία του Web 5.0:
 
@@ -76,10 +76,10 @@ try {
 - **Γεωγραφικά Δεδομένα**: Συνδυασμός δεδομένων από Google Maps και OpenWeatherMap.
 - **Ηλεκτρονικά**: Σχεδιασμός RLC και FIR φίλτρων για ήχο.
 
-Εξερευνήστε περισσότερα στο [Case Studies](examples/case-studies/README-GR.md).
+Εξερευνήστε περισσότερα στο [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README-GR.md).
 
 ## Όραμα και Πρόσκληση
-Το Web 5.0 είναι μια νοοτροπία που απελευθερώνει δεδομένα και εφαρμογές από κλειστά οικοσυστήματα. Το Ascoos OS σας προσκαλεί να συνδιαμορφώσετε αυτό το μέλλον! Δείτε τον [Χάρτη Πορείας](./ROADMAP-GR.md) για την εξέλιξή μας και το [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html) για περισσότερες λεπτομέρειες.
+Το Web 5.0 είναι μια νοοτροπία που απελευθερώνει δεδομένα και εφαρμογές από κλειστά οικοσυστήματα. Το Ascoos OS σας προσκαλεί να συνδιαμορφώσετε αυτό το μέλλον! Δείτε τον [Χάρτη Πορείας](https://github.com/ascoos/os/blob/main/ROADMAP-GR.md) για την εξέλιξή μας και το [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html) για περισσότερες λεπτομέρειες.
 
 ## Συνεισφέρετε
-Γίνετε μέρος του Web 5.0! Εξερευνήστε το [CONTRIBUTING-GR.md](./CONTRIBUTING-GR.md) ή επικοινωνήστε στο [support@ascoos.com](mailto:support@ascoos.com).
+Γίνετε [μέρος](https://github.com/ascoos/os/blob/main/CONTRIBUTING-GR.md) του Web 5.0!.

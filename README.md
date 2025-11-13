@@ -44,9 +44,6 @@ Redefining web development with a secure, modular, AI-driven PHP kernel.
 
 ## Key Features
 - Dynamic loading of optional kernel classes
-
-  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-extras-manager-0005.png)
-
 - Decentralized web and torrent management.
 - Extensive **network** and **system** management.
 - Native IoT support (Arduino, Raspberry Pi, GNSS).
@@ -55,13 +52,7 @@ Redefining web development with a secure, modular, AI-driven PHP kernel.
 - **[JML](https://github.com/ascoos/jml)**: JSON-style Markup Language. A lightweight, readable markup format inspired by JSON and DSLs.
 - **[WIC](https://github.com/ascoos/wic)**: Secure image transfer format.
 - **jAscoos & [BootLib](https://github.com/ascoos/bootlib)**: JavaScript and UI frameworks.
-
-  ![Animation Playground](https://s.ascoos.com/images/bootlib/pub/scr-000002-1024.png)
-
 - **LibIn**: Library management. Dynamic loading of optional third-party libraries
-
-  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-library-management.png)
-
 - **Macro Engine**: Natural language programming.
 - **ASS** (Ascoos Security System): Multi-layered security.
 
@@ -102,7 +93,6 @@ Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mai
 - [Ascoos Projects Family](https://www.ascoos.com)
 - [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
 - [Ascoos OS (Under construction)](https://os.ascoos.com)
-
 - [BootLib UI Framework (Under construction)](https://bootlib.ascoos.com)
 
 

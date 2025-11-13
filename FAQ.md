@@ -1,18 +1,16 @@
 # Frequently Asked Questions - Ascoos OS
 
 ## What is Ascoos OS?
-A Web 5.0 Kernel for decentralized web and IoT applications, with ~4500 encrypted classes.
+A PHP Web 5.0 kernel for decentralized web and IoT applications, with hundreds of encrypted classes.
 
 ## Why is the code encrypted?
-IonCube protects intellectual property. See `/docs/` and `/examples/`.
+IonCube protects intellectual property.
 
 ## How do I get Ascoos OS?
-Contact [info@ascoos.com](mailto:info@ascoos.com).
+It is currently under development. See the [roadmap](https://github.com/ascoos/os/blob/main/ROADMAP.md).
 
 ## What is the AGL?
-A commercial license ([LICENSE.md](LICENSE.md)).
+The **Ascoos General License (AGL)** is a [commercial license](https://github.com/ascoos/os/blob/main/LICENSE.md) of **Alexsoft Software** for all products in the **`Ascoos`** series.
 
 ## How can I contribute?
-Enhance documentation or examples ([CONTRIBUTING.md](CONTRIBUTING.md)).
-
-Questions? Email: [support@ascoos.com](mailto:support@ascoos.com) | [Bug Tracker](https://issues.ascoos.com).
+Improve the documentation, create examples, translate the documentation. [See how to contribute](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md).

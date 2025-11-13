@@ -1,19 +1,19 @@
 # Architecture - Ascoos OS
 
-Ascoos OS is a Web 5.0 Kernel for decentralized web and IoT applications, featuring ~4500 encrypted classes.
+Ascoos OS is a PHP Web 5.0 kernel for decentralized web and IoT applications, with hundreds of encrypted classes.
 
 ## Core Components
-- **Kernel**: Core classes (e.g., `TObject`, `TArrayHandler`) for foundational functionality.
-- **Extras**: Optional classes (e.g., `TArrayAnalysisHandler`) for specialized tasks.
-- **JSQL**: JSON-based database system.
+- **Kernel**: Base classes (e.g., `TObject`, `TArrayHandler`) for fundamental operations.
+- **Extras**: Optional classes (e.g., `TChartHandler`) for specialized tasks.
+- **JSQLDB**: JSON-based database with SQL queries.
 - **WIC**: Secure image transfer format.
 - **AI & NLP**: Advanced language processing and neural networks.
-- **jAscoos**: JavaScript frameworks.
+- **jAscoos**: JavaScript framework.
 - **LibIn**: Third-party library management.
-- **BootLib**: Modular UI framework with Flex support for responsive designs.
+- **BootLib**: Modular UI framework.
 
 ## Design Principles
-- **Modularity**: Classes organized in `/kernel/` and `/extras/`.
+- **Modularity**: Core and optional (chosen by the user) classes.
 - **Scalability**: Supports web, IoT, and decentralized applications.
 - **Security**: IonCube encryption, Ascoos Security System (ASS), and unique license keys (AGL).
 
@@ -21,5 +21,3 @@ Ascoos OS is a Web 5.0 Kernel for decentralized web and IoT applications, featur
 - **Ascoos Security System (ASS)**: Multi-layered protection framework.
 - **IonCube**: Core encryption.
 - **Unique License Keys**: Licensed under AGL.
-
-See [README.md](README.md) | [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -7,7 +7,6 @@
 Ascoos OS is distributed under the Ascoos General License (AGL), a commercial license. All rights reserved by AlexSoft Software.
 
 **Details**:
-- Email: [info@ascoos.com](mailto:info@ascoos.com)
-- Website: [http://docs.ascoos.com/lics/ascoos/AGL.html](http://docs.ascoos.com/lics/ascoos/AGL.html)
+- Website: [Ascoos General License](http://docs.ascoos.com/lics/ascoos/AGL.html)
 
 Unauthorized use, copying, or distribution is prohibited.

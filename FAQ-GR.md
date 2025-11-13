@@ -1,18 +1,16 @@
 # Συχνές Ερωτήσεις - Ascoos OS
 
 ## Τι είναι το Ascoos OS;
-Ένας πυρήνας Web 5.0 για αποκεντρωμένες εφαρμογές web και IoT, με ~4500 κρυπτογραφημένες κλάσεις.
+Ένας πυρήνας PHP Web 5.0 για αποκεντρωμένες εφαρμογές web και IoT, με εκατοντάδες κρυπτογραφημένες κλάσεις.
 
 ## Γιατί ο κώδικας είναι κρυπτογραφημένος;
-Για προστασία πνευματικής ιδιοκτησίας μέσω IonCube. Δείτε `/docs/` και `/examples/`.
+Για προστασία πνευματικής ιδιοκτησίας μέσω IonCube.
 
 ## Πώς αποκτώ το Ascoos OS;
-Επικοινωνήστε στο [info@ascoos.com](mailto:info@ascoos.com).
+Προς το παρόν είναι σε διαδικασία ανάπτυξης. Δείτε τον [χάρτη πορείας](https://github.com/ascoos/os/blob/main/ROADMAP-GR.md).
 
 ## Τι είναι η AGL;
-Εμπορική άδεια ([LICENSE-GR.md](LICENSE-GR.md)).
+Η άδεια **Ascoos General License (AGL)** είναι μια [εμπορική άδεια](https://github.com/ascoos/os/blob/main/LICENSE-GR.md) της **Alexsoft Software** για όλα τα προϊόντα της σειράς **`Ascoos`**.
 
 ## Πώς συνεισφέρω;
-Βελτιώστε τεκμηρίωση ή παραδείγματα ([CONTRIBUTING-GR.md](CONTRIBUTING-GR.md)).
-
-Ερωτήσεις; Email: [support@ascoos.com](mailto:support@ascoos.com) | [Bug Tracker](https://issues.ascoos.com).
+Βελτιώστε την τεκμηρίωση, δημιουργήστε παραδείγματα, μετάφραστε την τεκμηρίωση. [Δείτε πως θα συνεισφέρετε](https://github.com/ascoos/os/blob/main/CONTRIBUTING-GR.md).

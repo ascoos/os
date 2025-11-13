@@ -7,7 +7,6 @@
 Το Ascoos OS διανέμεται υπό την Ascoos General License (AGL), μια εμπορική άδεια. Όλα τα δικαιώματα διατηρούνται από την AlexSoft Software.
 
 **Λεπτομέρειες**:
-- Email: [info@ascoos.com](mailto:info@ascoos.com)
-- Ιστοσελίδα: [http://docs.ascoos.com/lics/ascoos/AGL.html](http://docs.ascoos.com/lics/ascoos/AGL.html)
+- Ιστοσελίδα: [Γενική Άδεια Χρήσης του Ascoos](http://docs.ascoos.com/lics/ascoos/AGL.html)
 
 Η μη εξουσιοδοτημένη χρήση, αντιγραφή, ή διανομή απαγορεύεται.

@@ -133,10 +133,9 @@ CMS νέας γενιάς (απόγονος του `Ascoos CMS 10`) με εμφ�
 
 ## Παραπομπές
 
-- Για παραδείγματα χρήσης: [examples/](./examples/)
-- Για συνεισφορά: [CONTRIBUTING-GR.md](./CONTRIBUTING-GR.md)
-- Επικοινωνία: [support@ascoos.com](mailto:support@ascoos.com)
+- Για παραδείγματα χρήσης: [examples](https://github.com/ascoos/os/blob/main/examples/)
+- Για συνεισφορά: [Δείτε εδώ](https://github.com/ascoos/os/blob/main/CONTRIBUTING-GR.md)
 
 ---
 
-> Για χρονολογική εξέλιξη των τεχνολογιών, δείτε το [ROADMAP-GR.md](./ROADMAP-GR.md)
+> Για χρονολογική εξέλιξη των τεχνολογιών, δείτε τον [χάρτη πορείας](https://github.com/ascoos/os/blob/main/ROADMAP-GR.md)

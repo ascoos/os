@@ -1,7 +1,7 @@
 # Πολιτική Ασφάλειας - Ascoos OS
 
 ## Αναφορά Ευπάθειας
-- **Υποβολή**: [Bug Tracker](https://issues.ascoos.com) ή [support@ascoos.com](mailto:support@ascoos.com) για ιδιωτικά ζητήματα.
+- **Υποβολή**: [Bug Tracker](https://issues.ascoos.com).
 - **Λεπτομέρειες**: Βήματα αναπαραγωγής, πιθανές επιπτώσεις.
 - **Απόκριση**: Επιβεβαίωση εντός 48 ωρών.
 
@@ -10,5 +10,6 @@
 - WIC: Ασφαλές φορμά μεταφοράς εικόνας.
 - AI και δικτύωση.
 - Ascoos Security System (ASS): Πολυεπίπεδη προστασία.
+- AiFirewall
 
 Ευχαριστούμε που βοηθάτε το Ascoos OS να παραμένει ασφαλές!

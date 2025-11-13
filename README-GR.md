@@ -44,9 +44,6 @@
 
 ## Βασικά Χαρακτηριστικά
 - Δυναμική φόρτωση προαιρετικών κλάσεων πυρήνα
-
-  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-extras-manager-0005.png)
-
 - Αποκεντρωμένο web και διαχείριση torrent.
 - Εκτεταμένη διαχείριση **Δικτύου** και **Συστήματος**.
 - Υποστήριξη IoT (Arduino, Raspberry Pi, GNSS).
@@ -55,15 +52,8 @@
 - **[JML](https://github.com/ascoos/jml)**: JSON-style Markup Language. Ένα ελαφρύ, αναγνώσιμο format markup εμπνευσμένο από JSON και DSLs.
 - **[WIC](https://github.com/ascoos/wic)**: Ασφαλές φορμά μεταφοράς εικόνας.
 - **jAscoos & [BootLib](https://github.com/ascoos/bootlib)**: Πλαίσια JavaScript και UI.
-
-  ![Animation Playground](https://s.ascoos.com/images/bootlib/pub/scr-000002-1024.png)
-
 - **LibIn**: Διαχείριση βιβλιοθηκών. Δυναμική φόρτωση προαιρετικών βιβλιοθηκών τρίτων
-
-  ![Ascoos OS Library Management](https://raw.githubusercontent.com/ascoos/os/refs/heads/main/screenshots/ascoos-os-library-management.png)
-
 - **Macro Engine**: Προγραμματισμός φυσικής γλώσσας.
-
 - **ASS** (Ascoos Security System): Πολυεπίπεδη ασφάλεια.
 
 ## Ξεκινώντας
@@ -103,7 +93,6 @@
 - [Ascoos Projects Family](https://www.ascoos.com)
 - [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
 - [Ascoos OS](https://os.ascoos.com)
-
 - [BootLib UI Framework](https://bootlib.ascoos.com)
 
 

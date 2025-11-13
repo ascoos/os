@@ -2,16 +2,19 @@
 
 ## Getting Help
 - **Email**: [support@ascoos.com](mailto:support@ascoos.com)
-- **Website**: [https://www.ascoos.com](https://www.ascoos.com)
+- **Official Ascoos OS Website**: [https://os.ascoos.com](https://os.ascoos.com)
+- **Official Ascoos Website**: [https://www.ascoos.com](https://www.ascoos.com)
 
 ## Community
-- [FAQ.md](FAQ.md) for common questions.
+- [See](https://github.com/ascoos/os/blob/main/FAQ.md) for common questions.
 - Upcoming forum: **Comfor**.
 
 ## Bug Reports
-[Bug Tracker](https://issues.ascoos.com) or [support@ascoos.com](mailto:support@ascoos.com).
+[Bug Tracker](https://issues.ascoos.com).
 
 ## Developer Tools
+
+### Visual Studio Code Extensions
 - [Ascoos Build Number Display](https://github.com/ascoos/vsc-ascoos-build-number-display)
 - [Ascoos Update Build](https://github.com/ascoos/vsc-ascoos-update-build)
 - Ascoos Cms Snippets (coming soon)
