@@ -11,19 +11,17 @@ This example uses the following Ascoos OS classes:
 
 ## Structure
 The case study is implemented in a single PHP file:
-- [`api_batch_orchestrator.php`](./api_batch_orchestrator.php): Includes batch execution, caching, event handling, and logging.
+- [`api_batch_orchestrator.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/api/api_batch_orchestrator/api_batch_orchestrator.php): Includes batch execution, caching, event handling, and logging.
 
 ## Prerequisites
-1. Install Ascoos OS ([main repository](https://github.com/ascoos/os)).
-2. Ensure write permissions for `/tmp/ascoos_cache/` and `$AOS_LOGS_PATH/`.
+1. Install Ascoos OS. If you’re using [**ASCOOS Web Extended Studio (AWES) 26**](https://awes.ascoos.com), it’s pre-installed. .
+2. Ensure write permissions for `$AOS_CACHE_PATH` and `$AOS_LOGS_PATH`.
 3. Internet access is required to reach the JSONPlaceholder API.
-4. The [phpBCL8](https://github.com/ascoos/phpbcl8) library is preinstalled and auto-loaded.
 
 ## Getting Started
-1. Verify that `/tmp/ascoos_cache/` exists and is writable.
-2. Run the script via web server:
+1. Run the script via web server:
    ```
-   https://localhost/aos/examples/case-studies/api/api_batch_orchestrator.php
+   https://localhost/aos/examples/case-studies/api/api_batch_orchestrator/api_batch_orchestrator.php
    ```
 
 ## Example Usage
@@ -44,14 +42,13 @@ The script returns a structured array of API responses, logs success or failure 
 ```
 
 ## Resources
-- [Ascoos OS Documentation](/docs/)
+- [Ascoos OS Documentation](https://docs.ascoos.com/os)
 - [GitHub Repository](https://github.com/ascoos/os)
 - [AWES](https://awes.ascoos.com)
-- [BootLib](https://github.com/ascoos/bootlib)
-- [phpBCL8](https://github.com/ascoos/phpbcl8)
+- [BootLib](https://bootlib.ascoos.com)
 
 ## Contributing
-Want to contribute to this case study? Fork the repository, modify or extend `api_batch_orchestrator.php`, and submit a pull request. See [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
+Want to contribute to this case study? Fork the repository, modify or extend `api_batch_orchestrator.php`, and submit a pull request. See [here](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## License
-This case study is licensed under the Ascoos General License (AGL). See [LICENSE](/LICENSE.md).
+This case study is licensed under the Ascoos General License (AGL). See [license](https://github.com/ascoos/os/blob/main/LICENSE.md).

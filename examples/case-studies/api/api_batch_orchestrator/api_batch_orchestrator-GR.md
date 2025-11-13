@@ -11,19 +11,17 @@
 
 ## Δομή
 Η μελέτη υλοποιείται σε ένα αρχείο PHP:
-- [`api_batch_orchestrator.php`](./api_batch_orchestrator.php): Περιλαμβάνει εκτέλεση batch, caching, χειρισμό γεγονότων και καταγραφή.
+- [`api_batch_orchestrator.php`](https://github.com/ascoos/os/blob/main/examples/case-studies/api/api_batch_orchestrator/api_batch_orchestrator.php): Περιλαμβάνει εκτέλεση batch, caching, χειρισμό γεγονότων και καταγραφή.
 
 ## Προαπαιτούμενα
-1. Εγκατάσταση του Ascoos OS ([κύριο αποθετήριο](https://github.com/ascoos/os)).
-2. Δικαιώματα εγγραφής στον φάκελο `/tmp/ascoos_cache/` και στο `$AOS_LOGS_PATH/`.
+1. Εγκατάσταση του **Ascoos OS**. Αν χρησιμοποιείτε το [**ASCOOS Web Extended Studio (AWES) 26**](https://awes.ascoos.com), είναι ήδη προεγκατεστημένο.
+2. Δικαιώματα εγγραφής στον φάκελο `$AOS_CACHE_PATH` και στο `$AOS_LOGS_PATH`.
 3. Πρόσβαση στο διαδίκτυο για επικοινωνία με το JSONPlaceholder API.
-4. Η βιβλιοθήκη [phpBCL8](https://github.com/ascoos/phpbcl8) είναι προεγκατεστημένη και φορτώνεται αυτόματα.
 
 ## Ξεκινώντας
-1. Βεβαιωθείτε ότι ο φάκελος `/tmp/ascoos_cache/` υπάρχει και είναι εγγράψιμος.
-2. Εκτελέστε το script μέσω web server:
+1. Εκτελέστε το script μέσω web server:
    ```
-   https://localhost/aos/examples/case-studies/api/api_batch_orchestrator.php
+   https://localhost/aos/examples/case-studies/api/api_batch_orchestrator/api_batch_orchestrator.php
    ```
 
 ## Παράδειγμα Χρήσης
@@ -44,14 +42,13 @@ $eventHandler->emit('api.batch.success', ['responses' => $responses]);
 ```
 
 ## Πόροι
-- [Τεκμηρίωση Ascoos OS](/docs/)
+- [Τεκμηρίωση Ascoos OS](https://docs.ascoos.com/os)
 - [Αποθετήριο GitHub](https://github.com/ascoos/os)
 - [AWES](https://awes.ascoos.com)
-- [BootLib](https://github.com/ascoos/bootlib)
-- [phpBCL8](https://github.com/ascoos/phpbcl8)
+- [BootLib](https://bootlib.ascoos.com)
 
 ## Συνεισφορά
-Θέλεις να συνεισφέρεις σε αυτή τη μελέτη; Κάνε fork το αποθετήριο, τροποποίησε ή επέκτεινε το `api_batch_orchestrator.php` και υπέβαλε pull request. Δες το [CONTRIBUTING.md](/CONTRIBUTING.md) για οδηγίες.
+Θέλεις να συνεισφέρεις σε αυτή τη μελέτη; Κάνε fork το αποθετήριο, τροποποίησε ή επέκτεινε το `api_batch_orchestrator.php` και υπέβαλε pull request. Δες [εδώ](https://github.com/ascoos/os/blob/main/CONTRIBUTING-GR.md) για οδηγίες.
 
 ## Άδεια Χρήσης
-Αυτή η μελέτη περίπτωσης καλύπτεται από την Ascoos General License (AGL). Δες το [LICENSE](/LICENSE.md).
+Αυτή η μελέτη περίπτωσης καλύπτεται από την Ascoos General License (AGL). Δες την [άδεια χρήσης](https://github.com/ascoos/os/blob/main/LICENSE-GR.md).

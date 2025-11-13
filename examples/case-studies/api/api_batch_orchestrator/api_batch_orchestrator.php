@@ -5,96 +5,141 @@
  * @ASCOOS-SUPPORT     : support@ascoos.com
  * @ASCOOS-BUGS        : https://issues.ascoos.com
  * 
+ * 
+ * @CASE-STUDY          : api_batch_orchestrator.php
+ * @fileNo              : ASCOOS-OS-CASESTUDY-SEC00013
+ * 
  * @desc <English> This case study demonstrates how Ascoos OS can be used to orchestrate multiple API requests with caching and event-driven logic. 
  * @desc <Greek>   Αυτή η μελέτη περίπτωσης δείχνει πώς το Ascoos OS μπορεί να χρησιμοποιηθεί για την ορχήστρωση πολλαπλών API αιτημάτων με caching και λογική γεγονότων. 
  * 
- * @since PHP 8.2.0
+ * @since PHP 8.2.0+
  */
 declare(strict_types=1);
 
-use ASCOOS\OS\Kernel\API\TAPIHandler;
-use ASCOOS\OS\Kernel\Arrays\Events\TEventHandler;
+use ASCOOS\OS\Kernel\{
+    API\TAPIHandler,
+    Arrays\Events\TEventHandler
+};
 use function ASCOOS\OS\Kernel\Cache\selectCache;
 
+global $AOS_CACHE_PATH, $AOS_LOGS_PATH;
+
+// <English> Define configuration properties
+// <Greek> Ορισμός ρυθμίσεων ιδιοτήτων
+$properties = [
+    'cache' => [
+        'useCache' => true,
+        'cacheType' => 'file',
+        'cachePath' => $AOS_CACHE_PATH . '/' ,
+        'cacheDuration' => 3000
+    ],
+    'logs' => [
+        'useLogger' => true,
+        'dir' => $AOS_LOGS_PATH .'/',
+        'file' => 'api_batch_orchestrator.log'
+    ]
+];
+
+$options = [
+    'headers' => [
+        'Content-Type' => 'application/json'
+    ], 
+    'timeout' => 30
+];
+
 try {
-    // Create an Event Handler for logging
-    // Δημιουργία χειριστή γεγονότων για καταγραφή
-    $eventHandler = new TEventHandler();
-    // Register event for successful batch API request
-    // Εγγραφή γεγονότος για επιτυχημένο μαζικό αίτημα API
+    // <English> Create an Event Handler for logging
+    // <Greek> Δημιουργία χειριστή γεγονότων για καταγραφή
+    $eventHandler = new TEventHandler([], $properties);
+    
+    // <English> Register event for successful batch API request
+    // <Greek> Εγγραφή γεγονότος για επιτυχημένο μαζικό αίτημα API
     $eventHandler->register('module', 'api.batch.success', fn($data) => error_log("Batch Success: " . json_encode($data)));
-    // Register event for failed batch API request
-    // Εγγραφή γεγονότος για αποτυχημένο μαζικό αίτημα API
+
+    // <English> Register event for failed batch API request
+    // <Greek> Εγγραφή γεγονότος για αποτυχημένο μαζικό αίτημα API
     $eventHandler->register('module', 'api.batch.failed', fn($data) => error_log("Batch Failed: " . json_encode($data)));
 
-    // Initialize TCacheHandler for caching
-    // Αρχικοποίηση του TCacheHandler για caching
+    // <English> Initialize TCacheHandler for caching
+    // <Greek> Αρχικοποίηση του TCacheHandler για caching
     $cacheHandler = selectCache(
-        cacheType: 'file', // Cache type / Τύπος cache
-        cacheTime: 3600, // Cache duration in seconds / Διάρκεια cache σε δευτερόλεπτα
-        properties: ['cachePath' => '/tmp/ascoos_cache'], // Cache directory / Κατάλογος cache
-        cachePath: '/tmp/ascoos_cache'
+        cacheType: $properties['cache']['cacheType'],       // <English> Cache type 
+                                                            // <Greek> Τύπος cache
+        cacheTime: $properties['cache']['cacheDuration'],   // <English> Cache duration in seconds
+                                                            // <Greek> Διάρκεια cache σε δευτερόλεπτα
+        properties: $properties,                            // <English> Cache directory
+                                                            // <Greek> Κατάλογος cache
+        cachePath: $properties['cache']['cachePath']
     );
 
-    // Initialize TAPIHandler for the JSONPlaceholder API
-    // Αρχικοποίηση της TAPIHandler για το JSONPlaceholder API
+    // <English> Initialize TAPIHandler for the JSONPlaceholder API
+    // <Greek> Αρχικοποίηση της TAPIHandler για το JSONPlaceholder API
     $api = new TAPIHandler(
-        url: 'https://jsonplaceholder.typicode.com', // Base URL for the API / Βασική URL για το API
-        type: 0, // Use TCurlHandler / Χρήση TCurlHandler
-        options: ['headers' => ['Content-Type' => 'application/json'], 'timeout' => 30], // Set headers and timeout / Ορισμός headers και χρονικού ορίου
-        properties: ['cacheType' => 'file', 'cacheTime' => 3600], // Cache settings / Ρυθμίσεις cache
-        cacheHandler: $cacheHandler // Pass cache handler / Πέρασμα του χειριστή cache
+        url: 'https://jsonplaceholder.typicode.com',    // <English> Base URL for the API 
+                                                        // <Greek> Βασική URL για το API
+        type: 0,                                        // <English> Use TCurlHandler 
+                                                        // <Greek> Χρήση TCurlHandler
+        options: $options,                              // <English> Set headers and timeout 
+                                                        // <Greek> Ορισμός headers και χρονικού ορίου
+        properties:$properties,                         // <English> Cache settings 
+                                                        // <Greek> Ρυθμίσεις cache
     );
 
-    // Set the event handler
-    // Ορισμός του χειριστή γεγονότων
+    // <English> Set the event handler
+    // <Greek> Ορισμός του χειριστή γεγονότων
     $api->setEventHandler($eventHandler);
 
-    // Define multiple endpoints for batch requests
-    // Ορισμός πολλαπλών endpoints για μαζικά αιτήματα
+    // <English> Define multiple endpoints for batch requests
+    // <Greek> Ορισμός πολλαπλών endpoints για μαζικά αιτήματα
     $batchRequests = [
-        ['endpoint' => 'posts', 'params' => ['userId' => 1]], // Fetch posts for user 1 / Ανάκτηση posts για τον χρήστη 1
-        ['endpoint' => 'comments', 'params' => ['postId' => 1]], // Fetch comments for post 1 / Ανάκτηση σχολίων για το post 1
-        ['endpoint' => 'users', 'params' => ['id' => 1]] // Fetch user data / Ανάκτηση δεδομένων χρήστη
+        ['endpoint' => 'posts', 'params' => ['userId' => 1]],       // <English> Fetch posts for user 1 
+                                                                    // <Greek> Ανάκτηση posts για τον χρήστη 1
+        ['endpoint' => 'comments', 'params' => ['postId' => 1]],    // <English> Fetch comments for post 1 
+                                                                    // <Greek> Ανάκτηση σχολίων για το post 1
+        ['endpoint' => 'users', 'params' => ['id' => 1]]            // <English> Fetch user data 
+                                                                    // <Greek> Ανάκτηση δεδομένων χρήστη
     ];
 
-    // Execute batch GET requests with caching
-    // Εκτέλεση μαζικών GET αιτημάτων με caching
+    // <English> Execute batch GET requests with caching
+    // <Greek> Εκτέλεση μαζικών GET αιτημάτων με caching
     $responses = [];
     foreach ($batchRequests as $request) {
-        // Generate cache key
+        // <English> Generate cache key
         // Δημιουργία κλειδιού cache
-        $cacheKey = md5($request['endpoint'] . json_encode($request['params']));
+        $cacheKey = md5($request['endpoint'] . json_encode($request['params'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
         
-        // Check if response is in cache
-        // Έλεγχος αν η απόκριση υπάρχει στην cache
-        if ($cacheHandler->checkCache($cacheKey)) {
-            $responses[$request['endpoint']] = $cacheHandler->getCache($cacheKey);
+        // <English> Check if response is in cache
+        // <Greek> Έλεγχος αν η απόκριση υπάρχει στην cache
+        $cacheData = $cacheHandler->getCache($cacheKey);
+        if ($cacheData !== false) {
+            $responses[$request['endpoint']] = $cacheData;
         } else {
-            // Execute GET request and cache response
-            // Εκτέλεση GET αιτήματος και αποθήκευση στην cache
+            // <English> Execute GET request and cache response
+            // <Greek> Εκτέλεση GET αιτήματος και αποθήκευση στην cache
             $response = $api->sendGetRequest("{$request['endpoint']}", $request['params']);
             $cacheHandler->saveCache($cacheKey, $response);
             $responses[$request['endpoint']] = $response;
         }
     }
 
-    // Emit event for successful batch processing
-    // Εκπομπή γεγονότος για επιτυχημένη μαζική επεξεργασία
+    // <English> Emit event for successful batch processing
+    // <Greek> Εκπομπή γεγονότος για επιτυχημένη μαζική επεξεργασία
     $api->emit('api.batch.success', ['responses' => $responses]);
 
-    // Display the responses
-    // Εμφάνιση των αποκρίσεων
+    // <English> Display the responses
+    // <Greek> Εμφάνιση των αποκρίσεων
     print_r($responses);
 
-    // Free resources
-    // Απελευθέρωση πόρων
-    $api->Free($api);
-    $cacheHandler->Free($cacheHandler);
+    // <English> Free resources
+    // <Greek> Απελευθέρωση πόρων
+    $api->Free();
+    $cacheHandler->Free();
+    $event->Free();
 
 } catch (InvalidArgumentException $e) {
-    // Handle errors and emit failure event
-    // Χειρισμός σφαλμάτων και εκπομπή γεγονότος αποτυχίας
+    // <English> Handle errors and emit failure event
+    // <Greek> Χειρισμός σφαλμάτων και εκπομπή γεγονότος αποτυχίας
     $api->emit('api.batch.failed', ['error' => $e->getMessage()]);
+    $api->Free();
     echo 'Error: ' . $e->getMessage();
 }
