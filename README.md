@@ -2,15 +2,17 @@
 
 ---
 
-# Ascoos OS - Web 5.0 Core
+# Ascoos OS - pure PHP Web 5.0 and WebAI Core
 
-Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life! With ~4,500 encrypted classes, Ascoos OS integrates Frameworks, CMS, IoT, and decentralized applications, delivering security, interoperability, and result synthesis. Explore how we redefine the future of the internet!
+Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to reality and flirts with **WebAI**! 
+
+With ~1,500 encrypted classes (in early 2028), Ascoos OS integrates Frameworks, CMS, IoT, and decentralized applications, delivering security, interoperability, and result synthesis. Explore how we redefine the future of the internet!
 
 ---
 
 ## Technologies
 
-![PHP](https://img.shields.io/badge/8.2+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
+![PHP](https://img.shields.io/badge/8.4+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
 ![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
 ![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
 ![Static Badge](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=Macro%20Engine%20with%20DSL%2FAST&labelColor=%234e555b&color=3e8548)
@@ -19,13 +21,13 @@ Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life!
 
 ---
 
-[![Version](https://img.shields.io/badge/Version-26.0.0-blue)](https://github.com/ascoos/os)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/ascoos/os)
 [![License](https://img.shields.io/badge/License-AGL-green)](https://github.com/ascoos/os/blob/main/LICENSE)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.ascoos.com)](https://www.ascoos.com)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
 [![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
 
-**`Hosted in version 26 of`**: 
+**`Included in Ascoos Web Extended Studio 26 Pro`**: 
 
 [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
@@ -33,6 +35,11 @@ Welcome to **Ascoos OS**, a pioneering PHP core that brings **Web 5.0** to life!
 
 ## What is Web 5.0?
 Web 5.0 combines the convenience of Web 2.0 with the decentralization of Web 3.0, without blockchain complexity. Using Decentralized Identifiers (DIDs) and Decentralized Web Nodes (DWNs), Ascoos OS implements this vision through **CiC (Cms-in-Cms)** technology. Learn more at "[**The CiC Technology: Cross-Interpreter Communication – The Philosophy of Integration for Web 5.0**](https://os.ascoos.com/docs/articles/cic-technology.html)".
+
+## What is WebAI?
+An architecture where the web itself operates as an intelligent entity, rather than a collection of AI add‑ons.
+
+---
 
 ## Case Studies
 See how Ascoos OS implements Web 5.0 through practical examples, such as integrating Joomla with torrents, monitoring IoT sensors, and audio processing. Explore them in [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
@@ -55,18 +62,15 @@ Redefining web development with a secure, modular, AI-driven PHP kernel.
 - **LibIn**: Library management. Dynamic loading of optional third-party libraries
 - **Macro Engine**: Natural language programming.
 - **ASS** (Ascoos Security System): Multi-layered security.
+- **[DoBu (Documentation Builder)](https://github.com/ascoos/dobu)**: A JML‑inspired Documentation DSL for multilingual docblocks.
 
 ## Getting Started
 - **Obtain Ascoos OS**: Contact [info@ascoos.com](mailto:info@ascoos.com) to access the package.
 - **Explore the documentation**: Check out the [Glossary](https://os.ascoos.com/docs/api/en/glossary.html), [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html), and [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
 - **Try examples**: Find code and case studies in the `/examples/` folder.
-- **Report issues**: Use the [Bug Tracker](https://issues.ascoos.com).
 
 ## Project Progress
-Ascoos OS is evolving rapidly! Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn about our next milestones and journey toward Web 5.0.
-
-## Join the Ascoos OS Journey
-Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mailto:support@ascoos.com) or contribute via [CONTRIBUTING.md](https://github.com/ascoos/os/blob/main/CONTRIBUTING.md).
+Ascoos OS is evolving rapidly! Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn about our next milestones and journey toward Web 5.0 and [WebAI](https://github.com/ascoos/WebAI).
 
 ## Links
 ### Documentation
@@ -85,7 +89,6 @@ Help shape the future of Web 5.0 with us! Contact us at [support@ascoos.com](mai
 - [AWES](https://github.com/ascoos/awes)
 
 ### Community
-- [Bug Tracker](https://issues.ascoos.com)
 - [YouTube](https://www.youtube.com/@Ascoos)
 - [X](https://x.com/ascoos)
 
