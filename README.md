@@ -36,7 +36,7 @@ With ~1,500 encrypted classes (in early 2028), Ascoos OS integrates Frameworks, 
 ## What is Web 5.0?
 Web 5.0 combines the convenience of Web 2.0 with the decentralization of Web 3.0, without blockchain complexity. Using Decentralized Identifiers (DIDs) and Decentralized Web Nodes (DWNs), Ascoos OS implements this vision through **CiC (Cms-in-Cms)** technology. Learn more at "[**The CiC Technology: Cross-Interpreter Communication – The Philosophy of Integration for Web 5.0**](https://os.ascoos.com/docs/articles/cic-technology.html)".
 
-## What is WebAI?
+## What is [WebAI](https://github.com/ascoos/WebAI)?
 An architecture where the web itself operates as an intelligent entity, rather than a collection of AI add‑ons.
 
 ---
