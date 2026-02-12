@@ -1,19 +1,34 @@
 <?php
-/**
- * @ASCOOS-NAME         : Ascoos OS
- * @ASCOOS-VERSION      : 1.0.0
- * @ASCOOS-SUPPORT      : support@ascoos.com
- * @ASCOOS-BUGS         : https://issues.ascoos.com
- *
- * @CLASS-METHOD-STUDY  : TArtificialIntelligenceHandler::binaryCrossEntropy()
- * @file                : binaryCrossEntropy-1.php
- * @test                : 1D Numeric Arrays
- *
- * @desc <English> Demonstrates the calculation of Binary Cross-Entropy loss between true and predicted values using 1D arrays.
- * @desc <Greek> Παρουσιάζει τον υπολογισμό της απώλειας Binary Cross-Entropy μεταξύ πραγματικών και προβλεπόμενων τιμών με 1D πίνακες.
- *
- * @since PHP 8.4.0
- */
+/*
+dobu {
+    file:id(`1`),name(`binaryCrossEntropy-1`) {
+        ascoos {
+            logo {`
+                  __ _  ___  ___ ___   ___   ___     ___   ___
+                 / _` |/  / / __/ _ \ / _ \ /  /    / _ \ /  /
+                | (_| |\  \| (_| (_) | (_) |\  \   | (_) |\  \
+                 \__,_|/__/ \___\___/ \___/ /__/    \___/ /__/
+            `},
+            name {`ASCOOS OS`},
+            version {`1.0.0`},
+        },
+        example {
+            method {`TArtificialIntelligenceHandler::binaryCrossEntropy()`}
+            source {`examples/ai/TArtificialIntelligenceHandler/binaryCrossEntropy-1.php`},
+            category:langs {
+                en {`1D Numeric Arrays`},
+                el {`Αριθμητικά Διανύσματα μίας διάστασης`}
+            },
+            description:langs {
+                en {`Demonstrates the calculation of Binary Cross-Entropy loss between true and predicted values using 1D arrays.`},
+                el {`Παρουσιάζει τον υπολογισμό της απώλειας Διωνυμικής Διασταυρούμενης Εντροπίας μεταξύ πραγματικών και προβλεπόμενων τιμών με 1D πίνακες.`}
+            },
+            author {`Drogidis Christos`},
+            sincePHP {`8.4.0`}
+        }
+    }
+}
+*/
 declare(strict_types=1);
 
 use ASCOOS\OS\Kernel\AI\TArtificialIntelligenceHandler;

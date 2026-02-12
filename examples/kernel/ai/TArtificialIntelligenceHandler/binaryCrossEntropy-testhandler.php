@@ -1,19 +1,34 @@
 <?php
-/**
- * @ASCOOS-NAME         : Ascoos OS
- * @ASCOOS-VERSION      : 1.0.0
- * @ASCOOS-SUPPORT      : support@ascoos.com
- * @ASCOOS-BUGS         : https://issues.ascoos.com
- *
- * @CLASS-METHOD-STUDY  : TArtificialIntelligenceHandler::binaryCrossEntropy()
- * @file                : binaryCrossEntropy-testhandler.php
- * @test                : Binary Cross-Entropy Visual Test
- *
- * @desc <English> Visual validation of Binary Cross-Entropy loss using TTestHandler.
- * @desc <Greek> Οπτική επαλήθευση απώλειας Binary Cross-Entropy με χρήση TTestHandler.
- *
- * @since PHP 8.4.0
- */
+/*
+dobu {
+    file:id(`6`),name(`binaryCrossEntropy-testhandler`) {
+        ascoos {
+            logo {`
+                  __ _  ___  ___ ___   ___   ___     ___   ___
+                 / _` |/  / / __/ _ \ / _ \ /  /    / _ \ /  /
+                | (_| |\  \| (_| (_) | (_) |\  \   | (_) |\  \
+                 \__,_|/__/ \___\___/ \___/ /__/    \___/ /__/
+            `},
+            name {`ASCOOS OS`},
+            version {`1.0.0`},
+        },
+        example {
+            method {`TArtificialIntelligenceHandler::binaryCrossEntropy()`}
+            source {`examples/ai/TArtificialIntelligenceHandler/binaryCrossEntropy-testhandler.php`},
+            category:langs {
+                en {`Binary Cross-Entropy Visual Test`},
+                el {`Οπτική Δοκιμή Διωνυμικής Διασταυρούμενης Εντροπίας`}
+            },
+            description:langs {
+                en {`Visual validation of Binary Cross-Entropy loss using TTestHandler.`},
+                el {`Οπτική επαλήθευση απώλειας Διωνυμικής Διασταυρούμενης Εντροπίας με χρήση TTestHandler.`}
+            },
+            author {`Drogidis Christos`},
+            sincePHP {`8.4.0`}
+        }
+    }
+}
+*/
 declare(strict_types=1);
 
 use ASCOOS\OS\Kernel\Tests\TTestHandler;

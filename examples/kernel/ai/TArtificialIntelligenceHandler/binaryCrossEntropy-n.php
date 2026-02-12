@@ -1,19 +1,34 @@
 <?php
-/**
- * @ASCOOS-NAME         : Ascoos OS
- * @ASCOOS-VERSION      : 1.0.0
- * @ASCOOS-SUPPORT      : support@ascoos.com
- * @ASCOOS-BUGS         : https://issues.ascoos.com
- *
- * @CLASS-METHOD-STUDY  : TArtificialIntelligenceHandler::binaryCrossEntropy()
- * @file                : binaryCrossEntropy-n.php
- * @test                : N-Dimensional Numeric Arrays
- *
- * @desc <English> Computes the Binary Cross-Entropy loss for N-Dimensional arrays recursively.
- * @desc <Greek> Υπολογίζει την απώλεια Binary Cross-Entropy για N-Διαστασιακούς πίνακες με αναδρομική διάσχιση.
- *
- * @since PHP 8.4.0
- */
+/*
+dobu {
+    file:id(`5`),name(`binaryCrossEntropy-n`) {
+        ascoos {
+            logo {`
+                  __ _  ___  ___ ___   ___   ___     ___   ___
+                 / _` |/  / / __/ _ \ / _ \ /  /    / _ \ /  /
+                | (_| |\  \| (_| (_) | (_) |\  \   | (_) |\  \
+                 \__,_|/__/ \___\___/ \___/ /__/    \___/ /__/
+            `},
+            name {`ASCOOS OS`},
+            version {`1.0.0`},
+        },
+        example {
+            method {`TArtificialIntelligenceHandler::binaryCrossEntropy()`}
+            source {`examples/ai/TArtificialIntelligenceHandler/binaryCrossEntropy-n.php`},
+            category:langs {
+                en {`N-Dimensional Numeric Arrays`},
+                el {`Πολυδιάστατα Αριθμητικά Διανύσματα`}
+            },
+            description:langs {
+                en {`Computes the Binary Cross-Entropy loss for N-Dimensional arrays recursively.`},
+                el {`Υπολογίζει την απώλεια Διωνυμικής Διασταυρούμενης Εντροπίας για N-Διαστασιακούς πίνακες με αναδρομική διάσχιση.`}
+            },
+            author {`Drogidis Christos`},
+            sincePHP {`8.4.0`}
+        }
+    }
+}
+*/
 declare(strict_types=1);
 
 use ASCOOS\OS\Kernel\AI\TArtificialIntelligenceHandler;
