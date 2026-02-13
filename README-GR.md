@@ -100,7 +100,7 @@
 - Υποστήριξη IoT (Arduino, Raspberry Pi, GNSS).
 - Εγγενείς δυνατότητες Τεχνητής Νοημοσύνης (**AI**), Επεξεργασίας Φυσικής Γλώσσας (**NLP**) και Νευρωνικών Δικτύων (**NeuralNet**).
 - **[JSQLDB](https://github.com/ascoos/jsqldb)**: Βάση δεδομένων JSON. Μια υβριδική βάση δεδομένων JSON SQL επικεντρωμένη στην ταχύτητα και τα εγγενή PHP SQL ερωτήματα.
-- **[JML](https://github.com/ascoos/jml)**: JSON-style Markup Language. Ένα ελαφρύ, αναγνώσιμο format markup εμπνευσμένο από JSON και DSLs.
+- **[JML](https://jml.ascoos.com)**: JSON-style Markup Language. Ένα ελαφρύ, αναγνώσιμο format markup εμπνευσμένο από JSON και DSLs.
 - **[WIC](https://github.com/ascoos/wic)**: Ασφαλές φορμά μεταφοράς εικόνας.
 - **jAscoos & [BootLib](https://github.com/ascoos/bootlib)**: Πλαίσια JavaScript και UI.
 - **LibIn**: Διαχείριση βιβλιοθηκών. Δυναμική φόρτωση προαιρετικών βιβλιοθηκών τρίτων

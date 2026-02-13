@@ -100,7 +100,7 @@ Redefining web development with a secure, modular, AI-driven PHP kernel.
 - Native IoT support (Arduino, Raspberry Pi, GNSS).
 - Native capabilities of Artificial Intelligence (**AI**), Natural Language Processing (**NLP**), and Neural Networks (**NeuralNet**).
 - **[JSQLDB](https://github.com/ascoos/jsqldb)**: JSON-based database. A hybrid JSON SQL database engine focused on speed, and PHP-native SQL queries.
-- **[JML](https://github.com/ascoos/jml)**: JSON-style Markup Language. A lightweight, readable markup format inspired by JSON and DSLs.
+- **[JML](https://jml.ascoos.com)**: JSON-style Markup Language. A lightweight, readable markup format inspired by JSON and DSLs.
 - **[WIC](https://github.com/ascoos/wic)**: Secure image transfer format.
 - **jAscoos & [BootLib](https://github.com/ascoos/bootlib)**: JavaScript and UI frameworks.
 - **LibIn**: Library management. Dynamic loading of optional third-party libraries
