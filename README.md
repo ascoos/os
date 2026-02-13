@@ -10,6 +10,62 @@ With ~1,500 encrypted classes (in early 2028), Ascoos OS integrates Frameworks, 
 
 ---
 
+[![Ascoos OS: official website status](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
+[![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/osblob/main/LICENSE_AGL.md)
+[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2027-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+
+***
+
+<details>
+<summary>
+  🟠 General informations
+</summary>
+<br>
+
+![Ascoos OS: Forks](https://img.shields.io/github/forks/ascoos/os)
+![Ascoos OS: Stars](https://img.shields.io/github/stars/ascoos/os)
+![Ascoos OS: Watchers](https://img.shields.io/github/watchers/ascoos/os)
+[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
+[![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
+</details>
+
+<details>
+<summary>
+  🟠 Repository and Releases
+</summary>
+<br>
+
+[![Ascoos OS: Release](https://img.shields.io/github/v/release/ascoos/os)](https://github.com/ascoos/os/releases)
+![Ascoos OS: Release Date](https://img.shields.io/github/release-date/ascoos/os?color=%230E80C0)
+![Ascoos OS: Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/os/total?color=%230E80C0) 
+[![Ascoos OS: latest release tag](https://img.shields.io/github/tag/ascoos/os.svg)](https://github.com/ascoos/os/tags)
+![Ascoos OS: repo size](https://img.shields.io/github/repo-size/ascoos/os)
+
+**`Included in Ascoos Web Extended Studio 26 Pro`**: 
+
+[![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
+
+</details>
+
+<details>
+<summary>
+  🟠 Issues - Requests - Commits
+</summary>
+
+### Issues
+[![Ascoos OS: Open Issues](https://img.shields.io/github/issues/ascoos/os)](https://github.com/ascoos/os/issues)
+[![Ascoos OS: Closed Issues](https://img.shields.io/github/issues-closed/ascoos/os)](https://github.com/ascoos/os/issues)
+
+### Pull Requests
+[![Ascoos OS: Open Pull Requests](https://img.shields.io/github/issues-pr/ascoos/os)](https://github.com/ascoos/os/pulls)
+[![Ascoos OS: Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/ascoos/os)](https://github.com/ascoos/os/pulls)
+
+### Commits
+![Ascoos OS: Last Commit](https://img.shields.io/github/last-commit/ascoos/os)
+</details>
+
+---
+
 ## Technologies
 
 ![PHP](https://img.shields.io/badge/8.4+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
@@ -18,18 +74,6 @@ With ~1,500 encrypted classes (in early 2028), Ascoos OS integrates Frameworks, 
 ![Static Badge](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=Macro%20Engine%20with%20DSL%2FAST&labelColor=%234e555b&color=3e8548)
 ![WebSocket](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=Web%20Socket&labelColor=%234e555b&color=873260)
 ![HTTP/3](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=HTTP%2F2%20%7C%20HTTP%2F3&labelColor=%234e555b&color=873260)
-
----
-
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/ascoos/os)
-[![License](https://img.shields.io/badge/License-AGL-green)](https://github.com/ascoos/os/blob/main/LICENSE)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.ascoos.com)](https://www.ascoos.com)
-[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
-[![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
-
-**`Included in Ascoos Web Extended Studio 26 Pro`**: 
-
-[![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
 ---
 
