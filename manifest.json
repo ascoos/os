@@ -1,0 +1,39 @@
+{
+  "name": "Ascoos OS",
+  "version": "1.0.0",
+  "description": "A Web 5.0 Kernel for decentralized web and IoT applications.",
+  "license": "Ascoos General License (AGL)",
+  "namespace": "ASCOOS\\OS\\",
+  "url": "https://os.ascoos.com",
+  "author": {
+    "name": "Drogidis Christos",
+    "email": "webmaster@alexsoft.gr",
+    "url": "https://www.alexsoft.gr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ascoos/os"
+  },
+  "components": [
+    "JSQL",
+    "WIC",
+    "jAscoos",
+    "BootLib",
+    "LibIn",
+    "AI",
+    "Macro Engine",
+    "JML",
+    "DoBu"
+  ],
+  "keywords": [
+    "web5",
+    "php",
+    "javascript",
+    "iot",
+    "ai",
+    "nlp",
+    "decentralized",
+    "jml",
+    "dobu"
+  ]
+}

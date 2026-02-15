@@ -1,0 +1,14 @@
+{
+  "name": "Ascoos OS",
+  "short_name": "AOS",
+  "icons": [
+    {
+      "src": "https://www.ascoos.com/images/ascoos/ascoos_icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
