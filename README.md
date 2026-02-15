@@ -13,6 +13,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 ---
 
 ## Table of Contents
+
 - [Overview](#overview)
 - [Vision](#vision)
 - [Where will you find it?](#where-will-you-find-it)
@@ -38,6 +39,7 @@ Explore how we redefine the future of the internet!
 ---
 
 ## Vision
+
 Redefining web development with a secure, modular, AI-driven PHP kernel.
 
 ---
@@ -55,6 +57,7 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 ---
 
 ## Getting Started
+
 - **Explore the documentation**: Check out the [Glossary](https://os.ascoos.com/docs/api/en/glossary.html), [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html), and [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
 - **See code examples**: Find code with examples and case studies in the [/examples/](https://github.com/ascoos/os/blob/main/examples/) folder.
 - **Learn about connecting with Web 5.0**: Web 5.0 combines the convenience of Web 2.0 with the decentralization of Web 3.0, without blockchain complexity. Using Decentralized Identifiers (DIDs) and Decentralized Web Nodes (DWNs), Ascoos OS implements this vision through **CiC (Cms-in-Cms)** technology. Learn more at "[**The CiC Technology: Cross-Interpreter Communication – The Philosophy of Integration for Web 5.0**](https://os.ascoos.com/docs/articles/cic-technology.html)".
@@ -63,6 +66,7 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 ---
 
 ## Features
+
 ![PHP](https://img.shields.io/badge/8.3+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
 ![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
 ![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
@@ -97,7 +101,7 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 
 ## Installation
 
-### Namespace
+#### Namespace
 
 ```php
 use ASCOOS\OS\...;
@@ -146,6 +150,7 @@ It is docblocks inside `/* ... */` based on **[JML](https://jml.ascoos.com)**.
 It is more oriented toward creating documentation files and less as immediate reference text. It has the capability for multilingual documentation and is an **agnostic metakeys docblock**.
 
 Supports docblock for:
+
 - the file with the class or the example file
 - the class
 - each method or function
@@ -156,7 +161,7 @@ Supports docblock for:
 - mathematical formulas
 - and much more.
 
-### Example of DoBu documentation for a file header
+#### Example of DoBu documentation for a file header
 
 ```php
 /*
@@ -241,6 +246,7 @@ $objNetwork->Free($objNetwork);
 ---
 
 ## Case Studies
+
 See how Ascoos OS implements Web 5.0 through practical examples, such as integrating Joomla with torrents, monitoring IoT sensors, and audio processing. Explore them in [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README.md).
 
 ---
@@ -254,6 +260,7 @@ See how Ascoos OS implements Web 5.0 through practical examples, such as integra
 [![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
 
 ### Documentation
+
 - [Web 5.0 and Ascoos OS](https://github.com/ascoos/os/blob/main/WEB5.md)
 - [Glossary](https://os.ascoos.com/docs/api/en/glossary.html)
 - [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html)
@@ -261,6 +268,7 @@ See how Ascoos OS implements Web 5.0 through practical examples, such as integra
 - [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5.html)
 
 ### Tools & Libraries
+
 - [JSQLDB](https://github.com/ascoos/jsqldb)
 - [WIC](https://github.com/ascoos/wic)
 - [BootLib](https://github.com/ascoos/bootlib)
@@ -269,10 +277,12 @@ See how Ascoos OS implements Web 5.0 through practical examples, such as integra
 - [AWES](https://github.com/ascoos/awes)
 
 ### Community
+
 - [YouTube](https://www.youtube.com/@Ascoos)
 - [X](https://x.com/ascoos)
 
 ### Official Websites
+
 - [Ascoos Projects Family](https://www.ascoos.com)
 - [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
 - [Ascoos OS (Under construction)](https://os.ascoos.com)

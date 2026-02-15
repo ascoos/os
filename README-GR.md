@@ -13,6 +13,7 @@
 ---
 
 ## Πίνακας Περιεχομένων
+
 - [Επισκόπηση](#επισκόπηση)
 - [Όραμα](#όραμα)
 - [Που θα το βρείτε;](#που-θα-το-βρείτε)
@@ -38,6 +39,7 @@
 ---
 
 ## Όραμα
+
 Επαναπροσδιορισμός της ανάπτυξης web με ένα ασφαλές, αρθρωτό, AI-οδηγούμενο πυρήνα PHP.
 
 
@@ -54,6 +56,7 @@
 ---
 
 ## Ξεκινώντας
+
 - **Εξερευνήστε την τεκμηρίωση**: Δείτε το [Γλωσσάρι](https://os.ascoos.com/docs/api/el/glossary.html), τον [Χάρτη Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html), και τα [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README-GR.md).
 - **Δείτε παραδείγματα κώδικα**: Βρείτε κώδικα με παραδείγματα και case studies στο φάκελο [/examples/](https://github.com/ascoos/os/blob/main/examples/).
 - **Μάθετε για την σύνδεση με το Web 5.0**: Το Web 5.0 συνδυάζει την ευκολία του Web 2.0 με την αποκέντρωση του Web 3.0, χωρίς την πολυπλοκότητα blockchain. Με Αποκεντρωμένες Ταυτότητες (DIDs) και Κόμβους Ιστοσελίδων (DWNs), το Ascoos OS υλοποιεί αυτό το όραμα μέσω της τεχνολογίας **CiC (Cms-in-Cms)**. Μάθετε περισσότερα στο "[**Η Τεχνολογία CiC: Cross-Interpreter Communication – Η Φιλοσοφία Ενοποίησης του Web 5.0**](https://os.ascoos.com/docs/articles/cic-technology-el.html)".
@@ -62,6 +65,7 @@
 ---
 
 ## Χαρακτηριστικά
+
 ![PHP](https://img.shields.io/badge/8.3+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
 ![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
 ![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
@@ -96,7 +100,7 @@
 
 ## Εγκατάσταση
 
-### Namespace
+#### Namespace
 
 ```php
 use ASCOOS\OS\...;
@@ -127,7 +131,7 @@ use ASCOOS\OS\...;
 
 ---
 
-### Διαχείριση Προαιρετικών Κλάσεων Πυρήνα
+#### Διαχείριση Προαιρετικών Κλάσεων Πυρήνα
 
 Το **Ascoos OS** έχει δύο ειδών πυρηνικές κλάσεις. Τις βαθέου πυρήνα και τις προεραιτικές. Οι πρώτες φορτώνονται αυτόματα κατά την εκτέλεση του **Ascoos OS** και οι δεύτερες φορτώνονται προαιρετικά με βάσει τις επιλογές και τις ανάγκες του χρήστη.
 
@@ -146,6 +150,7 @@ use ASCOOS\OS\...;
 Είναι προσανατολισμένο περισσότερο προς την δημιουργία αρχείων τεκμηρίωσης και λιγότερο ως κείμενο άμεσης αναφοράς. Έχει την δυνατότητα πολύγλωσσης τεκμηρίωσης και είναι **agnostic metakeys docblock**.
 
 Υποστηρίζει dockblock για:
+
 - το αρχείο με την κλάση ή το αρχείο παραδείγματος
 - την κλάση  
 - κάθε μέθοδο ή function 
@@ -156,7 +161,7 @@ use ASCOOS\OS\...;
 - μαθηματικές φόρμουλες
 - και άλλα πολλά.
 
-### Παράδειγμα τεκμηρίωσης DoBu για την επικεφαλίδα ενός αρχείου
+#### Παράδειγμα τεκμηρίωσης DoBu για την επικεφαλίδα ενός αρχείου
 
 ```php
 /*
@@ -241,6 +246,7 @@ $objNetwork->Free($objNetwork);
 ---
 
 ## Case Studies
+
 Δείτε πώς το Ascoos OS υλοποιεί το Web 5.0 μέσα από πρακτικά παραδείγματα, όπως η ενοποίηση Joomla με torrents, η παρακολούθηση IoT αισθητήρων, και η επεξεργασία ήχου. Εξερευνήστε τα στο [Case Studies](https://github.com/ascoos/os/blob/main/examples/case-studies/README-GR.md).
 
 ---
@@ -254,6 +260,7 @@ $objNetwork->Free($objNetwork);
 [![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
 
 ### Τεκμηρίωση
+
 - [Web 5.0 και Ascoos OS](https://github.com/ascoos/os/blob/main/WEB5-GR.md)
 - [Γλωσσάρι](https://os.ascoos.com/docs/api/el/glossary.html)
 - [Χάρτης Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html)
@@ -261,6 +268,7 @@ $objNetwork->Free($objNetwork);
 - [Ascoos Meets Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)
 
 ### Εργαλεία & Βιβλιοθήκες
+
 - [JSQLDB](https://github.com/ascoos/jsqldb)
 - [WIC](https://github.com/ascoos/wic)
 - [BootLib](https://github.com/ascoos/bootlib)
@@ -269,10 +277,12 @@ $objNetwork->Free($objNetwork);
 - [AWES](https://github.com/ascoos/awes)
 
 ### Κοινότητα
+
 - [YouTube](https://www.youtube.com/@Ascoos)
 - [X](https://x.com/ascoos)
 
 ### Επίσημες Ιστοσελίδες
+
 - [Ascoos Projects Family](https://www.ascoos.com)
 - [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
 - [Ascoos OS](https://os.ascoos.com)
