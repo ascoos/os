@@ -293,5 +293,7 @@ See how Ascoos OS implements Web 5.0 through practical examples, such as integra
 ## Author
 
 **Drogidis Christos**  
+
 ASCOOS OS Creator  
+
 https://www.ascoos.com
