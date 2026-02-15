@@ -14,55 +14,17 @@ With ~1,500 encrypted classes (in early 2028), Ascoos OS integrates Frameworks, 
 [![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/osblob/main/LICENSE_AGL.md)
 [![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2027-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 
-***
+**`Included in Ascoos Web Extended Studio 26 Pro`**: 
 
-<details>
-<summary>
-  🟠 General informations
-</summary>
-<br>
+[![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
+
+---
 
 ![Ascoos OS: Forks](https://img.shields.io/github/forks/ascoos/os)
 ![Ascoos OS: Stars](https://img.shields.io/github/stars/ascoos/os)
 ![Ascoos OS: Watchers](https://img.shields.io/github/watchers/ascoos/os)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCSXEgwKou_sV0D6ZWOaih5w)](https://www.youtube.com/@Ascoos)
 [![X Follow](https://img.shields.io/twitter/follow/ascoos)](https://x.com/ascoos)
-</details>
-
-<details>
-<summary>
-  🟠 Repository and Releases
-</summary>
-<br>
-
-[![Ascoos OS: Release](https://img.shields.io/github/v/release/ascoos/os)](https://github.com/ascoos/os/releases)
-![Ascoos OS: Release Date](https://img.shields.io/github/release-date/ascoos/os?color=%230E80C0)
-![Ascoos OS: Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/os/total?color=%230E80C0) 
-[![Ascoos OS: latest release tag](https://img.shields.io/github/tag/ascoos/os.svg)](https://github.com/ascoos/os/tags)
-![Ascoos OS: repo size](https://img.shields.io/github/repo-size/ascoos/os)
-
-**`Included in Ascoos Web Extended Studio 26 Pro`**: 
-
-[![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
-
-</details>
-
-<details>
-<summary>
-  🟠 Issues - Requests - Commits
-</summary>
-
-### Issues
-[![Ascoos OS: Open Issues](https://img.shields.io/github/issues/ascoos/os)](https://github.com/ascoos/os/issues)
-[![Ascoos OS: Closed Issues](https://img.shields.io/github/issues-closed/ascoos/os)](https://github.com/ascoos/os/issues)
-
-### Pull Requests
-[![Ascoos OS: Open Pull Requests](https://img.shields.io/github/issues-pr/ascoos/os)](https://github.com/ascoos/os/pulls)
-[![Ascoos OS: Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/ascoos/os)](https://github.com/ascoos/os/pulls)
-
-### Commits
-![Ascoos OS: Last Commit](https://img.shields.io/github/last-commit/ascoos/os)
-</details>
 
 ---
 
