@@ -113,18 +113,18 @@ use ASCOOS\OS\...;
 - Extract to any folder you desire within your root.
 - For configuration, you have three options:
 
-  * ❤️ Prepend Autoload: If you have access to php.ini, configure the auto_prepend_file directive with the appropriate folder so that it automatically loads Ascoos OS on every request.
+  - ❤️ Prepend Autoload: If you have access to php.ini, configure the auto_prepend_file directive with the appropriate folder so that it automatically loads Ascoos OS on every request.
   ```php
     auto_prepend_file ="/root/.../aos/autoload.php"
   ```
 
-  * ✔️ spl_autoload: You can dynamically load Ascoos OS using the SPL library.
+  - ✔️ spl_autoload: You can dynamically load Ascoos OS using the SPL library.
   ```php
     spl_autoload_extensions('autoload.php');
     spl_autoload_register();
   ```
 
-  * ✔️ require_once: You can load Ascoos OS within your PHP file using the "require_once" function.
+  - ✔️ require_once: You can load Ascoos OS within your PHP file using the "require_once" function.
   ```php
     require_once "root/.../aos/autoload.php";
   ```

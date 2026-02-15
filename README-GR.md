@@ -112,18 +112,18 @@ use ASCOOS\OS\...;
 - Εξαγάγετε σε οποιονδήποτε φάκελο επιθυμείτε μέσα στο root σας
 - Για την διαμόρφωση έχετε τρεις επιλογές:
 
-  * ❤️ Prepend Autoload: Εάν έχετε πρόσβαση στο php.ini διαμορφώστε την οδηγία auto_prepend_file με τον κατάλληλο φάκελο ώστε να φορτώνει αυτόματα το ascoos OS σε κάθε αίτημά σας.
+  - ❤️ Prepend Autoload: Εάν έχετε πρόσβαση στο php.ini διαμορφώστε την οδηγία auto_prepend_file με τον κατάλληλο φάκελο ώστε να φορτώνει αυτόματα το ascoos OS σε κάθε αίτημά σας.
   ```php
     auto_prepend_file ="/root/.../aos/autoload.php"
   ```
 
-  * ✔️ spl_autoload: Μπορείτε να φορτώσετε δυναμικά το Ascoos OS με χρήση της βιβλιοθήκης SPL.
+  - ✔️ spl_autoload: Μπορείτε να φορτώσετε δυναμικά το Ascoos OS με χρήση της βιβλιοθήκης SPL.
   ```php
     spl_autoload_extensions('autoload.php');
     spl_autoload_register();
   ```
 
-  * ✔️ require_once: Μπορείτε να φορτώσετε το Ascoos OS μέσα στο αρχείο σας php χρησιμοποιώντας την php function "require_once".
+  - ✔️ require_once: Μπορείτε να φορτώσετε το Ascoos OS μέσα στο αρχείο σας php χρησιμοποιώντας την php function "require_once".
   ```php
     require_once "root/.../aos/autoload.php";
   ```
