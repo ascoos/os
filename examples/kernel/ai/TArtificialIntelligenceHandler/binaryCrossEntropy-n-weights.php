@@ -1,7 +1,7 @@
 <?php
 /*
 dobu {
-    file:id(`4`),name(`binaryCrossEntropy-n-weigths`) {
+    file:id(`4`),name(`binaryCrossEntropy-n-weights`) {
         ascoos {
             logo {`
                   __ _  ___  ___ ___   ___   ___     ___   ___
@@ -14,13 +14,13 @@ dobu {
         },
         example {
             method {`TArtificialIntelligenceHandler::binaryCrossEntropy()`}
-            source {`examples/ai/TArtificialIntelligenceHandler/binaryCrossEntropy-n-weigths.php`},
+            source {`examples/ai/TArtificialIntelligenceHandler/binaryCrossEntropy-n-weights.php`},
             category:langs {
-                en {`N-Dimensional Numeric Arrays with weigths`},
+                en {`N-Dimensional Numeric Arrays with weights`},
                 el {`Πολυδιάστατα Αριθμητικά Διανύσματα με βάρη`}
             },
             description:langs {
-                en {`Computes the Binary Cross-Entropy loss for N-Dimensional arrays recursively with weigths.`},
+                en {`Computes the Binary Cross-Entropy loss for N-Dimensional arrays recursively with weights.`},
                 el {`Υπολογίζει την απώλεια Διωνυμικής Διασταυρούμενης Εντροπίας για N-Διαστασιακούς πίνακες με αναδρομική διάσχιση και με βάρη.`}
             },
             author {`Drogidis Christos`},
@@ -55,5 +55,5 @@ $weights = [0.5,1.0,1.5,0.8,1.2,0.7,1.1,0.9];
 
 $loss = $ai->binaryCrossEntropy($y_true, $y_pred, $weights);
 
-echo "Binary Cross-Entropy Loss (3D) with Weigths: {$loss}\n"; // Expected output: Binary Cross-Entropy Loss (3D) with Weigths: 0.25228454778873
+echo "Binary Cross-Entropy Loss (3D) with Weights: {$loss}\n"; // Expected output: Binary Cross-Entropy Loss (3D) with Weights: 0.25228454778873
 ?>
