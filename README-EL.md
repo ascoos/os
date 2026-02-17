@@ -137,7 +137,7 @@ use ASCOOS\OS\...;
 
 Για την διαχείριση αυτής της λειτουργίας, δημιουργήσαμε στο **Ascoos OS** μια εσωτερική εφαρμογή, το **Extras Classes Manager** (βλέπε screenshot), μέσω του οποιου γίνεται δυναμικά η φόρτωση των κλάσεων αυτών.
 
-![ASCOOS OS](https://s.ascoos.com/images/ascoos/tchc/ecm-01.png)
+![ASCOOS OS](https://os.ascoos.com/images/apps/whp-ecmanager-1024w.webp)
 
 ---
 

@@ -137,7 +137,7 @@ The **Ascoos OS** has two types of kernel classes: core kernels and optional one
 
 To manage this functionality, we created an internal application in **Ascoos OS**, the **Extras Classes Manager** (see screenshot), through which these classes can be loaded dynamically.
 
-![ASCOOS OS](https://s.ascoos.com/images/ascoos/tchc/ecm-01.png)
+![ASCOOS OS](https://os.ascoos.com/images/apps/whp-ecmanager-1024w.webp)
 
 ---
 
