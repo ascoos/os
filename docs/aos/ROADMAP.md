@@ -77,7 +77,7 @@ Learn how Ascoos OS implements the [Web 5.0](https://os.ascoos.com/docs/articles
 
 ## **2033 – 2040**
 
-- WebAI Mesh Network — bidirectional neural‑network communication between devices.
+- WebAI Mesh Network - bidirectional neural‑network communication between devices.
 
 ---
 
