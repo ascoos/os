@@ -24,31 +24,37 @@
             "created": "2025-11-02 22:00:00",
             "last_updated": "2025-11-02 22:30:00",
             "description": "Example Library",
-            "license":"ΜΙΤ",
+            "license":"MIT",
             "homepage": "https://www.example.com",
             "auto_update_url": "https://downloads.example.com/latest.az",
             "autoloads": [
                 {"0":"library/autoload.php"}
             ],
             "require": [
-                {"0":"dependency library"}
+                {
+                    "name": "dependency library",
+                    "min_version": "1.0.0"
+                }                
             ],
             "dependencies": [
                 {
                     "name":"dependency library",
                     "description":"Library description",
                     "version":"1.0.0",
-                    "url":"https://github.com/user/repository/releases/download/1.0.0/package-1.0.0.az"
+                    "url":"https://github.com/user/repository/releases/download/1.0.0/package-1.0.0.az",
+                    "sha256": "abc123..."
                 }
             ],
             "extras": [],
             "versions": {
                 "version": 100000,
+                "human_version": "10.0.0",
                 "MinAscoosVersion": 260000,
                 "MaxAscoosVersion": -1,
                 "MinPHPVersion": 80200,
                 "MaxPHPVersion": -1
             },
+            "changelog": "",
             "notes": ""
         }
     ]
