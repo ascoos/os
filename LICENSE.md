@@ -4,14 +4,13 @@
 # Ascoos General License (AGL)
 ## Special Edition for Collaborative Platforms
 
-The Ascoos OS is distributed under the commercial **Ascoos General License (AGL)**.  
+Distributed under the commercial **Ascoos General License (AGL)**.  
 All rights are owned by AlexSoft Software and the creator, Christos Drogidis.
 
 ### **Main Terms**
 
-- The full Ascoos OS codebase is provided in encrypted form and is licensed per user and per domain.  
-  More information is available at the official license page:  
-  **[Ascoos General License Documentation](http://docs.ascoos.com/lics/ascoos/AGL.html)**.
+- The full codebase is provided in encrypted form and is licensed per user and per domain.  
+  More information is available at the official license page: **[Ascoos General License Documentation](http://docs.ascoos.com/lics/ascoos/AGL.html)**.
 
 - On collaborative platforms, **unencrypted example code**, case studies, or partial source code snippets may be provided **exclusively for educational purposes**.
 
@@ -25,5 +24,5 @@ All rights are owned by AlexSoft Software and the creator, Christos Drogidis.
 
 - Commercial use of the provided examples.  
 - Incorporating the examples into other projects without explicit permission.  
-- Reverse engineering of the encrypted Ascoos OS code.  
+- Reverse engineering of the encrypted code.  
 - Redistributing the code beyond what is allowed under this license.
