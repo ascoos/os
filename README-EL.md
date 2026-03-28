@@ -1,13 +1,13 @@
 # Ascoos OS - Καθαρός PHP Web 5.0 και WebAI πυρήνας
 
-Καλωσήρθατε στο **Ascoos OS**, έναν πρωτοποριακό PHP πυρήνα που φέρνει το **Web 5.0** στην πραγματικότητα και φλερτάρει με το **WebAI**! 
+Καλώς ήρθατε στο **Ascoos OS**, έναν πρωτοποριακό PHP πυρήνα που φέρνει το **Web 5.0** στην πραγματικότητα και φλερτάρει με το **WebAI**! 
 
 ---
 
 ![Ascoos](https://dl.ascoos.com/images/ascoos.png)
 
 [![Ascoos OS: κατάσταση επίσημης ιστοσελίδας](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
-[![Άδεια Χρήσης AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=ΑΔΕΙΑ%20ΧΡΗΣΗΣ&labelColor=%234e555b&color=873260)](https://github.com/ascoos/osblob/main/LICENSE_AGL.md)
+[![Άδεια Χρήσης AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=ΑΔΕΙΑ%20ΧΡΗΣΗΣ&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE-EL.md)
 [![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2028-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 
 ---
