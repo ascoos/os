@@ -67,7 +67,7 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 
 ## Features
 
-![PHP](https://img.shields.io/badge/8.3+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
+![PHP](https://img.shields.io/badge/8.4+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
 ![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
 ![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
 ![Static Badge](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=Macro%20Engine%20with%20DSL%2FAST&labelColor=%234e555b&color=3e8548)
