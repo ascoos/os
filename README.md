@@ -8,7 +8,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 
 [![Ascoos OS: official website status](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/osblob/main/LICENSE_AGL.md)
-[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2027-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2028-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 
 ---
 
@@ -92,7 +92,7 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 
 ## System Requirements
 
-- PHP 8.3+ with extensions: IonCube loaders, JSON, cURL.
+- PHP 8.4+ with extensions: IonCube loaders, JSON, cURL.
 - MariaDB 11.4+ or MongoDB 8.0+ or JSQLDB 1.0+.
 - Web Server: Apache 2.4+.
 - Recommended Memory: 512MB+ RAM.
@@ -218,7 +218,7 @@ dobu {
             support {`support@example.com`},
             license {`MIT`},
             since {`1.0.0`},
-            sincePHP {`8.3.0+`}
+            sincePHP {`8.4.0`}
         }
     }
 }

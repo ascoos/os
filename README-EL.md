@@ -8,7 +8,7 @@
 
 [![Ascoos OS: κατάσταση επίσημης ιστοσελίδας](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![Άδεια Χρήσης AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=ΑΔΕΙΑ%20ΧΡΗΣΗΣ&labelColor=%234e555b&color=873260)](https://github.com/ascoos/osblob/main/LICENSE_AGL.md)
-[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2027-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2028-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 
 ---
 
@@ -91,7 +91,7 @@
 
 ## Απαιτήσεις Συστήματος
 
-- PHP 8.3+ με extensions: IonCube loaders, JSON, cURL.
+- PHP 8.4+ με extensions: IonCube loaders, JSON, cURL.
 - MariaDB 11.4+ ή MongoDB 8.0+ ή JSQLDB 1.0+.
 - Web Server: Apache 2.4+.
 - Προτεινόμενη Μνήμη: 512MB+ RAM.
@@ -218,7 +218,7 @@ dobu {
             support {`support@example.com`},
             license {`MIT`},
             since {`1.0.0`},
-            sincePHP {`8.3.0+`}
+            sincePHP {`8.4.0`}
         }
     }
 }
