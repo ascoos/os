@@ -41,7 +41,7 @@ $startMem  = memory_get_usage();
 
 $object = new TObject();
 
-// ==================== 1. unsetProperty() IN EXTERNAL ARRAY ====================
+// ==================== 1. EXTERNAL ARRAY ====================
 
 echo "<h2>1. unsetProperty() on an external array</h2>";
 
@@ -74,7 +74,7 @@ $object->unsetProperty('settings', $data);           // delete entire subarray
 echo "<strong>After the unsetProperty (external array):</strong><br>";
 echo "<pre>" . print_r($data, true) . "</pre>";
 
-// ==================== 2. unsetProperty() IN INTERNAL PROPERTIES ====================
+// ==================== 2. INTERNAL PROPERTIES ====================
 
 echo "<h2>2. unsetProperty() on the internal properties of TObject</h2>";
 
