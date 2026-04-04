@@ -14,13 +14,14 @@ Learn how Ascoos OS implements the [Web 5.0](https://os.ascoos.com/docs/articles
 
 ## **Current Status**
 
-- Current version: **1.0.0.a27**
+- Current internal version: **1.0.0.a28**
 - Stage: Pre‑Alpha / Internal builds
 - Current Focus:
   - Core Kernel
   - Math & Science System
   - AI Core System
   - Macro Engine
+  - Creation of official documentation
 
 ---
 
@@ -44,6 +45,7 @@ Learn how Ascoos OS implements the [Web 5.0](https://os.ascoos.com/docs/articles
 - Release of the **BootLib** UI Framework.
 - Release of the **jAscoos** JavaScript Framework.
 - Release of the **Ascoos OS Helper** VSCode extension for developers.
+- Release of the **Ascoos DoBu Helper** VSCode extension for developers.
 - Creation of the official documentation website.
 
 ---
@@ -62,7 +64,6 @@ Learn how Ascoos OS implements the [Web 5.0](https://os.ascoos.com/docs/articles
 
 ## **2028**
 
-- Development of 500+ native AI classes, symbolic mathematics.
 - Commercial release under **AGL** (Ascoos General License).
 - Completion of the **Ascoos Framework** and **Ascoos CMS Oxyzen**.
 

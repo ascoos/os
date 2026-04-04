@@ -14,13 +14,14 @@
 
 ## Τρέχουσα κατάσταση
 
-- Τρέχουσα έκδοση: **1.0.0.a27**.
+- Τρέχουσα εσωτερική έκδοση: **1.0.0.a28**.
 - Στάδιο: Pre‑Alpha / Εσωτερικές εκδόσεις.
 - Τρέχουσα Εστίαση: 
     - Core Kernel
     - Math & Science System
     - AI Core System
     - Macro Engine.
+    - Δημιουργία επίσημης τεκμηρίωσης
 
 ---
 
@@ -42,6 +43,7 @@
 - Κυκλοφορία του **BootLib** UI Framework.
 - Κυκλοφορία του **jAscoos** Javascript Framework.
 - Κυκλοφορία **Ascoos OS Helper** VSCode extension για προγραμματιστές.
+- Κυκλοφορία **Ascoos DoBu Helper** VSCode extension για προγραμματιστές.
 - Δημιουργία επίσημης ιστοσελίδας τεκμηρίωσης.
 
 ## 2027
@@ -56,7 +58,6 @@
 
 ## 2028
 
-- Ανάπτυξη 500+ εγγενών κλάσεων τεχνητής νοημοσύνης, συμβολικά μαθηματικά.
 - Εμπορική έκδοση υπό **AGL** (Ascoos General License).
 - Ολοκλήρωση **Ascoos Framework** και **Ascoos CMS Oxyzen**.
 
