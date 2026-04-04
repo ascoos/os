@@ -31,6 +31,8 @@
 - ✔️ Δημιουργία και βελτίωση τεκμηρίωσης, παραδειγμάτων και μελετών περιπτώσεων.
 - ✔️ Εσωτερικές εκδόσεις για αποσφαλμάτωση.
 
+![](https://pbs.twimg.com/media/HANy2J8XAAAMtmJ?format=jpg&name=4096x4096)
+
 ## 2026
 
 - Ολοκλήρωση ~800 κλάσεων συνολικά.
@@ -45,6 +47,8 @@
 - Κυκλοφορία **Ascoos OS Helper** VSCode extension για προγραμματιστές.
 - Κυκλοφορία **Ascoos DoBu Helper** VSCode extension για προγραμματιστές.
 - Δημιουργία επίσημης ιστοσελίδας τεκμηρίωσης.
+
+![](https://pbs.twimg.com/media/HE0Rr7OakAAMygV?format=jpg&name=large)
 
 ## 2027
 

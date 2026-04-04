@@ -31,6 +31,8 @@ Learn how Ascoos OS implements the [Web 5.0](https://os.ascoos.com/docs/articles
 - ✔️ Documentation, examples, and case‑study improvements.  
 - ✔️ Internal debugging builds.
 
+![](https://pbs.twimg.com/media/HANy2J8XAAAMtmJ?format=jpg&name=4096x4096)
+
 ---
 
 ## **2026**
@@ -47,6 +49,8 @@ Learn how Ascoos OS implements the [Web 5.0](https://os.ascoos.com/docs/articles
 - Release of the **Ascoos OS Helper** VSCode extension for developers.
 - Release of the **Ascoos DoBu Helper** VSCode extension for developers.
 - Creation of the official documentation website.
+
+![](https://pbs.twimg.com/media/HE0Rr7OakAAMygV?format=jpg&name=large)
 
 ---
 
