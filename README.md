@@ -20,6 +20,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 - [Getting Started](#getting-started)
 - [Features](#features)
 - [System Requirements](#system-requirements)
+- [Code Development and Testing Platform](#code-development-and-testing-platform)
 - [Installation](#installation)
 - [Management of Optional Core Classes](#management-of-optional-core-classes)
 - [DoBu Documentation](#dobu-documentation)
@@ -96,6 +97,18 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 - MariaDB 11.4+ or MongoDB 8.0+ or JSQLDB 1.0+.
 - Web Server: Apache 2.4+.
 - Recommended Memory: 512MB+ RAM.
+
+---
+
+## Code Development and Testing Platform
+
+The **AlexSoft Software** provides you with a free Windows 64Bit development platform so that you can write, run, and debug your code.
+
+Try Ascoos Web Extended Studio.
+
+![](https://pbs.twimg.com/media/G_dZa-OWgAAaRr1?format=jpg&name=large)
+
+[![Download Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
 
 ---
 
