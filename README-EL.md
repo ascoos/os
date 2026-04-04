@@ -23,6 +23,7 @@
 - [Πλατφόρμα ανάπτυξης και δοκιμής κώδικα](#πλατφόρμα-ανάπτυξης-και-δοκιμής-κώδικα)
 - [Εγκατάσταση](#εγκατάσταση)
 - [Διαχείριση Προαιρετικών Κλάσεων Πυρήνα](#διαχείριση-προαιρετικών-κλάσεων-πυρήνα)
+- [Αποσφαλμάτωση και Δοκιμές](#αποσφαλμάτωση-και-δοκιμές)
 - [Τεκμηρίωση DoBu](#τεκμηρίωση-dobu)
 - [Παράδειγμα Χρήσης](#παράδειγμα-χρήσης)
 - [Case Studies](#case-studies)
@@ -101,6 +102,8 @@
 
 ## Πλατφόρμα ανάπτυξης και δοκιμής κώδικα
 
+### Ascoos Web Extended Studio
+
 Η **AlexSoft Λογισμικό** σας παρέχει δωρεάν μια Windows 64Bit πλατφόρα ανάπτυξης ώστε να μπορείτε συγγράψετε, να εκτελέσετε και να αποσφαλματώσετε τον κώδικα σας.
 
 Δοκιμάστε το Ascoos Web Extended Studio.
@@ -149,6 +152,78 @@ use ASCOOS\OS\...;
 Για την διαχείριση αυτής της λειτουργίας, δημιουργήσαμε στο **Ascoos OS** μια εσωτερική εφαρμογή, το **Extras Classes Manager** (βλέπε screenshot), μέσω του οποιου γίνεται δυναμικά η φόρτωση των κλάσεων αυτών.
 
 ![ASCOOS OS](https://os.ascoos.com/images/apps/whp-ecmanager-1024w.webp)
+
+---
+
+## Αποσφαλμάτωση και Δοκιμές
+
+Το **Ascoos OS** διαθέτει ενσωματωμένες κλάσεις αποσφαλμάτωσης (`TDebugHandler`) και δοκιμών (`TTestHandler`).
+
+Για τις περισσότερες από τις δοκιμές σας, ΔΕΝ θα χρειαστείτε κανένα άλλο πακέτο δοκιμών ή αποσφαλμάτωσης.
+
+```php
+// Ρύθμιση properties
+$properties = [
+    'logs' => [
+        'useLogger' => true,
+        'dir' => $AOS_LOGS_PATH . '/',
+        'file' => 'test_handler.log',
+        'level' => DebugLevel::Info
+    ],
+    'lang' => 'el-GR',
+    'debug' => [
+        'precision' => 4,
+        'log_threshold' => DebugLevel::Info
+    ]
+];
+
+$testHandler = new TTestHandler($properties);
+
+// Έλεγχος αντικειμένου
+$object = new TObject();
+$testHandler->checkObject($object, true); // Πρέπει να καταγράψει ότι το αντικείμενο είναι έγκυρο
+
+// Έλεγχος κλάσης
+$testHandler->checkClass('ASCOOS\OS\Kernel\Core\TObject', true); // Πρέπει να καταγράψει ότι η κλάση υπάρχει
+
+// Εκτέλεση μεθόδου με χρονομέτρηση
+$result = $testHandler->executeMethodWithTiming($object, 'getClassMetadata', [], true);
+print_r($result); // Εμφανίζει αποτέλεσμα, χρόνο εκτέλεσης, στατιστικά συστήματος
+```
+
+### Δοκιμή Κώδικα
+
+Κάθε κλάση, κάθε μέθοδος, περνάει από σχολαστικές δοκιμές για να διασφαλιστεί ότι πληροί τα αυστηρά πρότυπα και τις απαιτήσεις του **Ascoos OS**.
+
+```php
+$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
+$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
+$char_O_diaeresis_nfd = "O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"
+
+$test = new TTestHandler(
+    properties: [
+        'titleTest' => 'TUTF8::grapheme_stripos()', 
+        'subtitle' => '<code>Grapheme stripos</code>, without Intl Extension', 
+        'desc' => 'Returns the position (in grapheme units) of the first occurrence of $needle in $haystack, starting from $offset graphemes.<br> Returns false if not found.'
+    ]
+);
+
+$test->runTest(
+    '$utf8->grapheme_stripos("a\xCC\x8Aa\xCC\x8Ao\xCC\x88", "O\xCC\x88"); // ååö, Ö',
+    $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd) === 2,
+    2,
+    $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd),
+    'Example witht test Condition.'
+);
+```
+
+![Ascoos OS Testing](https://os.ascoos.com/images/apps/testing-1024w.webp)
+
+### Δοκιμές αντοχής
+
+Μια δοκιμή αντοχής πραγματοποιήθηκε πρόσφατα. Μπορείτε να δείτε τα αποτελέσματα στη σχετική σελίδα [Τεχνικής Αναφοράς](https://os.ascoos.com/docs/articles/tobject-cloneObject-benchmark-report-article-el.html).
+
+![Ascoos OS Stress Test](https://os.ascoos.com/images/apps/stress-test-1024w.webp)
 
 ---
 

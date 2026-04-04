@@ -23,6 +23,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 - [Code Development and Testing Platform](#code-development-and-testing-platform)
 - [Installation](#installation)
 - [Management of Optional Core Classes](#management-of-optional-core-classes)
+- [Debugging and Testing](#debugging-and-testing)
 - [DoBu Documentation](#dobu-documentation)
 - [Usage Example](#usage-example)
 - [Case Studies](#case-studies)
@@ -102,6 +103,8 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 
 ## Code Development and Testing Platform
 
+### Ascoos Web Extended Studio
+
 The **AlexSoft Software** provides you with a free Windows 64Bit development platform so that you can write, run, and debug your code.
 
 Try Ascoos Web Extended Studio.
@@ -110,6 +113,7 @@ Try Ascoos Web Extended Studio.
 
 [![Download Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
 
+### 
 ---
 
 ## Installation
@@ -151,6 +155,78 @@ The **Ascoos OS** has two types of kernel classes: core kernels and optional one
 To manage this functionality, we created an internal application in **Ascoos OS**, the **Extras Classes Manager** (see screenshot), through which these classes can be loaded dynamically.
 
 ![ASCOOS OS](https://os.ascoos.com/images/apps/whp-ecmanager-1024w.webp)
+
+---
+
+## Debugging and Testing
+
+The **Ascoos OS** has built-in debugging (`TDebugHandler`) and testing (`TTestHandler`) classes.
+
+For most of your tests, you will NOT need any other testing or debugging package.
+
+```php
+// Setting properties
+$properties = [
+    'logs' => [
+        'useLogger' => true,
+        'dir' => $AOS_LOGS_PATH . '/',
+        'file' => 'test_handler.log',
+        'level' => DebugLevel::Info
+    ],
+    'lang' => 'el-GR',
+    'debug' => [
+        'precision' => 4,
+        'log_threshold' => DebugLevel::Info
+    ]
+];
+
+$testHandler = new TTestHandler($properties);
+
+// Object check
+$object = new TObject();
+$testHandler->checkObject($object, true); // It must record that the object is valid
+
+// Class check
+$testHandler->checkClass('ASCOOS\OS\Kernel\Core\TObject', true); // It must record that the class exists
+
+// Method execution with timing
+$result = $testHandler->executeMethodWithTiming($object, 'getClassMetadata', [], true);
+print_r($result); // Displays result, execution time, system statistics
+```
+
+### Code Testing
+
+Every class, every method, goes through thorough testing to ensure that it meets the strict standards and requirements of **Ascoos OS**.
+
+```php
+$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
+$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
+$char_O_diaeresis_nfd = "O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"
+
+$test = new TTestHandler(
+    properties: [
+        'titleTest' => 'TUTF8::grapheme_stripos()', 
+        'subtitle' => '<code>Grapheme stripos</code>, without Intl Extension', 
+        'desc' => 'Returns the position (in grapheme units) of the first occurrence of $needle in $haystack, starting from $offset graphemes.<br> Returns false if not found.'
+    ]
+);
+
+$test->runTest(
+    '$utf8->grapheme_stripos("a\xCC\x8Aa\xCC\x8Ao\xCC\x88", "O\xCC\x88"); // ååö, Ö',
+    $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd) === 2,
+    2,
+    $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd),
+    'Example witht test Condition.'
+);
+```
+
+![Ascoos OS Testing](https://os.ascoos.com/images/apps/testing-1024w.webp)
+
+### Stress Tests
+
+A stress test was recently conducted. You can see the results on the related [Technical Report](https://os.ascoos.com/docs/articles/tobject-cloneObject-benchmark-report-article.html) page.
+
+![Ascoos OS Stress Test](https://os.ascoos.com/images/apps/stress-test-1024w.webp)
 
 ---
 
