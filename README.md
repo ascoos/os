@@ -109,7 +109,7 @@ The **AlexSoft Software** provides you with a free Windows 64Bit development pla
 
 Try Ascoos Web Extended Studio.
 
-![](https://pbs.twimg.com/media/G_dZa-OWgAAaRr1?format=jpg&name=large)
+![Ascoos Web Extended Studio](https://os.ascoos.com/images/apps/awes-240305-1024w.webp)
 
 [![Download Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
 
