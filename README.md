@@ -54,7 +54,7 @@ However, it is evolving very quickly!
 
 Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn about our next milestones and journey toward **[Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)** and **[WebAI](https://github.com/ascoos/WebAI/blob/main/README.md)**.
 
-### **`Included in Ascoos Web Extended Studio 26 Pro`**: [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio%20(FREE%20EDITION)&style=for-the-badge&labelColor=%234e555b&color=006400)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
+### **`Included in Ascoos Web Extended Studio 26 Pro`**: [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio&style=for-the-badge&labelColor=%234e555b&color=006400)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
 ---
 
@@ -73,8 +73,10 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 ![IoT](https://img.shields.io/badge/Ready-blue?style=for-the-badge&label=IoT&labelColor=%234e555b&color=006400)
 ![AI](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=AI%2FNLP%2FNeural&labelColor=%234e555b&color=3e8548)
 ![Static Badge](https://img.shields.io/badge/Enabled-blue?style=for-the-badge&label=Macro%20Engine%20with%20DSL%2FAST&labelColor=%234e555b&color=3e8548)
-![WebSocket](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=Web%20Socket&labelColor=%234e555b&color=873260)
+![WebSocket](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=Socket%20/%20Web%20Socket&labelColor=%234e555b&color=873260)
 ![HTTP/3](https://img.shields.io/badge/Supported-blue?style=for-the-badge&label=HTTP%2F2%20%7C%20HTTP%2F3&labelColor=%234e555b&color=873260)
+![GUI](https://img.shields.io/badge/Desktop--like-blue?style=for-the-badge&label=Management%20Environment&labelColor=%234e555b&color=006400)
+
 
 - Dynamic loading of optional kernel classes
 - Decentralized web and torrent management.
@@ -89,6 +91,8 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 - **Macro Engine**: Natural language programming.
 - **ASS** (Ascoos Security System): Multi-layered security.
 - **[DoBu (Documentation Builder)](https://github.com/ascoos/dobu)**: A JML‑inspired Documentation DSL for multilingual docblocks.
+
+![Ascoos Web Extended Studio](https://os.ascoos.com/images/apps/ace-004-1024w.webp)
 
 ---
 
