@@ -6,9 +6,9 @@
 
 ![Ascoos](https://dl.ascoos.com/images/ascoos.png)
 
-[![Ascoos OS: κατάσταση επίσημης ιστοσελίδας](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
+[![Ιστοσελίδα](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&label=Επίσημη%20Ιστοσελίδα%20Ascoos&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![Άδεια Χρήσης AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=ΑΔΕΙΑ%20ΧΡΗΣΗΣ&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE-EL.md)
-[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2028-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2029-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 
 ---
 
@@ -20,12 +20,12 @@
 - [Ξεκινώντας](#ξεκινώντας)
 - [Χαρακτηριστικά](#χαρακτηριστικά)
 - [Απαιτήσεις Συστήματος](#απαιτήσεις-συστήματος)
-- [Πλατφόρμα ανάπτυξης και δοκιμής κώδικα](#πλατφόρμα-ανάπτυξης-και-δοκιμής-κώδικα)
 - [Εγκατάσταση](#εγκατάσταση)
 - [Διαχείριση Προαιρετικών Κλάσεων Πυρήνα](#διαχείριση-προαιρετικών-κλάσεων-πυρήνα)
+- [Πλατφόρμα ανάπτυξης και δοκιμής κώδικα](#πλατφόρμα-ανάπτυξης-και-δοκιμής-κώδικα)
 - [Αποσφαλμάτωση και Δοκιμές](#αποσφαλμάτωση-και-δοκιμές)
 - [Τεκμηρίωση DoBu](#τεκμηρίωση-dobu)
-- [Παράδειγμα Χρήσης](#παράδειγμα-χρήσης)
+- [Παραδείγματα Χρήσης](#παραδείγματα-χρήσης)
 - [Case Studies](#case-studies)
 - [Σύνδεσμοι](#σύνδεσμοι)
 - [Συγγραφέας](#συγγραφέας)
@@ -51,9 +51,9 @@
 
 Ωστόσο, εξελίσσεται πολύ γρήγορα!
 
-Δείτε τον [Χάρτη Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html) για να μάθετε τα επόμενα ορόσημα και την πορεία μας προς το **[Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)** και το **[WebAI](https://github.com/ascoos/WebAI)**.
+Δείτε τον [Χάρτη Πορείας](https://os.ascoos.com/docs/api/el/roadmap.html) για να μάθετε τα επόμενα ορόσημα και την πορεία μας προς το **[Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)** και το **[WebAI](https://github.com/ascoos/WebAI/blob/main/README-EL.md)**.
 
-### **`Συμπεριλαμβάνεται στο Ascoos Web Extended Studio 26 Pro`**: [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
+### **`Συμπεριλαμβάνεται στο Ascoos Web Extended Studio 26 Pro`**: [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio%20(FREE%20EDITION)&style=for-the-badge&labelColor=%234e555b&color=006400)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
 ---
 
@@ -78,7 +78,7 @@
 - Δυναμική φόρτωση προαιρετικών κλάσεων πυρήνα
 - Αποκεντρωμένο web και διαχείριση torrent.
 - Εκτεταμένη διαχείριση **Δικτύου** και **Συστήματος**.
-- Υποστήριξη IoT (Arduino, Raspberry Pi, GNSS).
+- Υποστήριξη IoT (Arduino, Raspberry Pi).
 - Εγγενείς δυνατότητες Τεχνητής Νοημοσύνης (**AI**), Επεξεργασίας Φυσικής Γλώσσας (**NLP**) και Νευρωνικών Δικτύων (**NeuralNet**).
 - **[JSQLDB](https://github.com/ascoos/jsqldb)**: Βάση δεδομένων JSON. Μια υβριδική βάση δεδομένων JSON SQL επικεντρωμένη στην ταχύτητα και τα εγγενή PHP SQL ερωτήματα.
 - **[JML](https://jml.ascoos.com)**: JSON-style Markup Language. Ένα ελαφρύ, αναγνώσιμο format markup εμπνευσμένο από JSON και DSLs.
@@ -100,20 +100,6 @@
 
 ---
 
-## Πλατφόρμα ανάπτυξης και δοκιμής κώδικα
-
-### Ascoos Web Extended Studio
-
-Η **AlexSoft Λογισμικό** σας παρέχει δωρεάν μια Windows 64Bit πλατφόρα ανάπτυξης ώστε να μπορείτε συγγράψετε, να εκτελέσετε και να αποσφαλματώσετε τον κώδικα σας.
-
-Δοκιμάστε το Ascoos Web Extended Studio.
-
-![Ascoos Web Extended Studio](https://os.ascoos.com/images/apps/awes-240305-1024w.webp)
-
-[![Download Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
-
----
-
 ## Εγκατάσταση
 
 ### Namespace
@@ -128,20 +114,20 @@ use ASCOOS\OS\...;
 - Εξαγάγετε σε οποιονδήποτε φάκελο επιθυμείτε μέσα στο root σας
 - Για την διαμόρφωση έχετε τρεις επιλογές:
 
-  - ❤️ Prepend Autoload: Εάν έχετε πρόσβαση στο php.ini διαμορφώστε την οδηγία auto_prepend_file με τον κατάλληλο φάκελο ώστε να φορτώνει αυτόματα το ascoos OS σε κάθε αίτημά σας.
+  1. ❤️ **Prepend Autoload**: Εάν έχετε πρόσβαση στο php.ini διαμορφώστε την οδηγία auto_prepend_file με τον κατάλληλο φάκελο ώστε να φορτώνει αυτόματα το ascoos OS σε κάθε αίτημά σας.
   ```php
-    auto_prepend_file ="/root/.../aos/autoload.php"
+    auto_prepend_file ="/path/aos/autoload.php"
   ```
 
-  - ✔️ spl_autoload: Μπορείτε να φορτώσετε δυναμικά το Ascoos OS με χρήση της βιβλιοθήκης SPL.
+  2. ✔️ **spl_autoload**: Μπορείτε να φορτώσετε δυναμικά το Ascoos OS με χρήση της βιβλιοθήκης SPL.
   ```php
-    spl_autoload_extensions('autoload.php');
+    spl_autoload_extensions('/path/aos/autoload.php');
     spl_autoload_register();
   ```
 
-  - ✔️ require_once: Μπορείτε να φορτώσετε το Ascoos OS μέσα στο αρχείο σας php χρησιμοποιώντας την php function "require_once".
+  3. ✔️ **require_once**: Μπορείτε να φορτώσετε το Ascoos OS μέσα στο αρχείο σας php χρησιμοποιώντας την php function "require_once".
   ```php
-    require_once "root/.../aos/autoload.php";
+    require_once "/path/aos/autoload.php";
   ```
 ---
 
@@ -152,6 +138,27 @@ use ASCOOS\OS\...;
 Για την διαχείριση αυτής της λειτουργίας, δημιουργήσαμε στο **Ascoos OS** μια εσωτερική εφαρμογή, το **Extras Classes Manager** (βλέπε screenshot), μέσω του οποιου γίνεται δυναμικά η φόρτωση των κλάσεων αυτών.
 
 ![ASCOOS OS](https://os.ascoos.com/images/apps/whp-ecmanager-1024w.webp)
+
+---
+
+## Πλατφόρμα ανάπτυξης και δοκιμής κώδικα
+
+### Ascoos Web Extended Studio
+
+Η **AlexSoft Λογισμικό** σας παρέχει δωρεάν μια Windows 64Bit πλατφόρα ανάπτυξης ώστε να μπορείτε συγγράψετε, να εκτελέσετε και να αποσφαλματώσετε τον κώδικα σας.
+
+***Δοκιμάστε το Ascoos Web Extended Studio***.
+
+> **ΠΡΟΣΟΧΗ!!!** Εάν χρησιμοποιείται XAMPP/WAMP ή κάποιο άλλο αντίστοιχο πρόγραμμα, πριν εκτελέσετε τους servers θα πρέπει να σταματήσετε και να αφαιρέσετε από το `Windows Services` τους servers, γιατί μπορεί να υπάρξουν διενέξεις.
+
+[![Λήψη Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
+
+
+[![Ascoos Web Extended Studio - Κατάσταση Επίσημης Ιστοσελίδας](https://img.shields.io/website?url=https://awes.ascoos.com&style=for-the-badge&label=Ascoos%20Web%20Extended%20Studio&labelColor=%234e555b&color=006400)](https://awes.ascoos.com) 
+![Πλατφόρμα SourceForge](https://img.shields.io/sourceforge/platform/ascoos-web-extended-studio?labelColor=034f84&color=blue&style=for-the-badge)
+
+
+![Ascoos Web Extended Studio](https://os.ascoos.com/images/apps/awes-240305-1024w.webp)
 
 ---
 
@@ -313,9 +320,12 @@ dobu {
 
 ---
 
-## Παράδειγμα Χρήσης
+## Παραδείγματα Χρήσης
+
+**Πληροφορίες DNS (κλάση TNetwork)**
 
 ```php
+declare(strict_types=1);
 use ASCOOS\OS\Kernel\Net\TNetwork;
 
 // Ανάκτηση πληροφοριών DNS
@@ -325,8 +335,21 @@ echo "Primary DNS: " . $dnsInfo[0];
 if(key_exists(1, $dnsInfo)) echo "<br>"."Secondary DNS: " . $dnsInfo[1] . "<br>";
 
 // Απελευθερώνει το αντικείμενο
-$objNetwork->Free($objNetwork);
+$objNetwork->Free();
 ?>
+```
+
+**Συλλέκτης Συλλογών (κλάση TCollector)**
+
+```php
+declare(strict_types=1);
+use Ascoos\OS\Kernel\Core\Collections\TCollector;
+
+$collector = new TCollector();
+
+echo "Number of registered types after initialization: " . count($collector->listTypes()) . "\n";
+
+$collector->Free();
 ```
 
 ---

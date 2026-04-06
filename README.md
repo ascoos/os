@@ -8,7 +8,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 
 [![Ascoos OS: official website status](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE.md)
-[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2028-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2029-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 
 ---
 
@@ -20,12 +20,12 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 - [Getting Started](#getting-started)
 - [Features](#features)
 - [System Requirements](#system-requirements)
-- [Code Development and Testing Platform](#code-development-and-testing-platform)
 - [Installation](#installation)
 - [Management of Optional Core Classes](#management-of-optional-core-classes)
+- [Code Development and Testing Platform](#code-development-and-testing-platform)
 - [Debugging and Testing](#debugging-and-testing)
 - [DoBu Documentation](#dobu-documentation)
-- [Usage Example](#usage-example)
+- [Usage Examples](#usage-examples)
 - [Case Studies](#case-studies)
 - [Links](#links)
 - [Author](#author)
@@ -52,9 +52,9 @@ Ascoos OS is still in development, so it is not available for public use.
 
 However, it is evolving very quickly!
 
-Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn about our next milestones and journey toward **[Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)** and **[WebAI](https://github.com/ascoos/WebAI)**.
+Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn about our next milestones and journey toward **[Web 5.0](https://os.ascoos.com/docs/articles/ascoos-meets-web5-el.html)** and **[WebAI](https://github.com/ascoos/WebAI/blob/main/README.md)**.
 
-### **`Included in Ascoos Web Extended Studio 26 Pro`**: [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
+### **`Included in Ascoos Web Extended Studio 26 Pro`**: [![SourceForge Downloads](https://img.shields.io/sourceforge/dt/ascoos-web-extended-studio?label=Ascoos%20Web%20Extended%20Studio%20(FREE%20EDITION)&style=for-the-badge&labelColor=%234e555b&color=006400)](https://sourceforge.net/projects/ascoos-web-extended-studio/)
 
 ---
 
@@ -79,7 +79,7 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 - Dynamic loading of optional kernel classes
 - Decentralized web and torrent management.
 - Extensive **network** and **system** management.
-- Native IoT support (Arduino, Raspberry Pi, GNSS).
+- Native IoT support (Arduino, Raspberry Pi).
 - Native capabilities of Artificial Intelligence (**AI**), Natural Language Processing (**NLP**), and Neural Networks (**NeuralNet**).
 - **[JSQLDB](https://github.com/ascoos/jsqldb)**: JSON-based database. A hybrid JSON SQL database engine focused on speed, and PHP-native SQL queries.
 - **[JML](https://jml.ascoos.com)**: JSON-style Markup Language. A lightweight, readable markup format inspired by JSON and DSLs.
@@ -101,21 +101,6 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 
 ---
 
-## Code Development and Testing Platform
-
-### Ascoos Web Extended Studio
-
-The **AlexSoft Software** provides you with a free Windows 64Bit development platform so that you can write, run, and debug your code.
-
-Try Ascoos Web Extended Studio.
-
-![Ascoos Web Extended Studio](https://os.ascoos.com/images/apps/awes-240305-1024w.webp)
-
-[![Download Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
-
-### 
----
-
 ## Installation
 
 #### Namespace
@@ -130,20 +115,20 @@ use ASCOOS\OS\...;
 - Extract to any folder you desire within your root.
 - For configuration, you have three options:
 
-  - ❤️ Prepend Autoload: If you have access to php.ini, configure the auto_prepend_file directive with the appropriate folder so that it automatically loads Ascoos OS on every request.
+  1. ❤️ **Prepend Autoload**: If you have access to php.ini, configure the auto_prepend_file directive with the appropriate folder so that it automatically loads Ascoos OS on every request.
   ```php
-    auto_prepend_file ="/root/.../aos/autoload.php"
+    auto_prepend_file ="/path/aos/autoload.php"
   ```
 
-  - ✔️ spl_autoload: You can dynamically load Ascoos OS using the SPL library.
+  2. ✔️ **spl_autoload**: You can dynamically load Ascoos OS using the SPL library.
   ```php
-    spl_autoload_extensions('autoload.php');
+    spl_autoload_extensions('/path/aos/autoload.php');
     spl_autoload_register();
   ```
 
-  - ✔️ require_once: You can load Ascoos OS within your PHP file using the "require_once" function.
+  3. ✔️ **require_once**: You can load Ascoos OS within your PHP file using the "require_once" function.
   ```php
-    require_once "root/.../aos/autoload.php";
+    require_once "/path/aos/autoload.php";
   ```
 
 ---
@@ -155,6 +140,29 @@ The **Ascoos OS** has two types of kernel classes: core kernels and optional one
 To manage this functionality, we created an internal application in **Ascoos OS**, the **Extras Classes Manager** (see screenshot), through which these classes can be loaded dynamically.
 
 ![ASCOOS OS](https://os.ascoos.com/images/apps/whp-ecmanager-1024w.webp)
+
+---
+
+## Code Development and Testing Platform
+
+### Ascoos Web Extended Studio
+
+The **AlexSoft Software** provides you with a free Windows 64Bit development platform so that you can write, run, and debug your code.
+
+***Try Ascoos Web Extended Studio***.
+
+> **ATTENTION!!!** If you are using XAMPP/WAMP or some other similar program, before running the servers you must stop and remove the servers from `Windows Services`, because conflicts may occur.
+
+[![Download Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
+
+
+[![Ascoos Web Extended Studio  - state of Official Website](https://img.shields.io/website?url=https://awes.ascoos.com&style=for-the-badge&label=Ascoos%20Web%20Extended%20Studio&labelColor=%234e555b&color=006400)](https://awes.ascoos.com) 
+![SourceForge Platform](https://img.shields.io/sourceforge/platform/ascoos-web-extended-studio?labelColor=034f84&color=blue&style=for-the-badge)
+
+
+
+
+![Ascoos Web Extended Studio](https://os.ascoos.com/images/apps/awes-240305-1024w.webp)
 
 ---
 
@@ -316,9 +324,12 @@ dobu {
 
 ---
 
-## Usage Example
+## Usage Examples
+
+**DNS Info (TNetwork class)**
 
 ```php
+declare(strict_types=1);
 use ASCOOS\OS\Kernel\Net\TNetwork;
 
 // Retrieve DNS information
@@ -328,8 +339,21 @@ echo "Primary DNS: " . $dnsInfo[0];
 if(key_exists(1, $dnsInfo)) echo "<br>"."Secondary DNS: " . $dnsInfo[1] . "<br>";
 
 // Frees of the object
-$objNetwork->Free($objNetwork);
+$objNetwork->Free();
 ?>
+```
+
+**Collector of Collections (TCollector class)**
+
+```php
+declare(strict_types=1);
+use Ascoos\OS\Kernel\Core\Collections\TCollector;
+
+$collector = new TCollector();
+
+echo "Number of registered types after initialization: " . count($collector->listTypes()) . "\n";
+
+$collector->Free();
 ```
 
 ---
