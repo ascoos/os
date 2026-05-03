@@ -1,7 +1,7 @@
 {
     "libraries": [
         {
-            "name": "example",
+            "name": "Library Name (valid folder name)",
             "copyright": [
                 {
                     "company": "Company",
@@ -21,41 +21,52 @@
             },
             "auto": false,
             "category": "Library Catεgory",
-            "created": "2025-11-02 22:00:00",
-            "last_updated": "2025-11-02 22:30:00",
+            "created": "2026-05-02 22:00:00",
+            "last_updated": "2026-05-02 22:30:00",
             "description": "Example Library",
-            "license":"MIT",
+            "license":"AGL-F",
             "homepage": "https://www.example.com",
             "auto_update_url": "https://downloads.example.com/latest.az",
+            "next_update_time": "2026-05-30",
             "autoloads": [
                 {"0":"library/autoload.php"}
             ],
             "require": [
                 {
                     "name": "dependency library",
-                    "min_version": "1.0.0"
-                }                
-            ],
+                    "min_version": 10000
+                }            ],
             "dependencies": [
                 {
                     "name":"dependency library",
                     "description":"Library description",
-                    "version":"1.0.0",
+                    "version":10000,
                     "url":"https://github.com/user/repository/releases/download/1.0.0/package-1.0.0.az",
-                    "sha256": "abc123..."
+                    "sha256": "abc123...",
+                    "crc": "https://github.com/user/repository/check/[library name].txt"
                 }
             ],
-            "extras": [],
+            "extras": [
+                {
+                    "name": "TPhysicHandler",
+                    "min_version": 10000
+                }
+            ],
             "versions": {
-                "version": 100000,
-                "human_version": "10.0.0",
-                "MinAscoosVersion": 260000,
+                "version": 10000,
+                "human_version": "1.0.0",
+                "MinAscoosVersion": 10000,
                 "MaxAscoosVersion": -1,
-                "MinPHPVersion": 80200,
+                "MinPHPVersion": 80400,
                 "MaxPHPVersion": -1
             },
-            "changelog": "",
-            "notes": ""
+            "sha256": "abc123...",
+            "crc": "https://downloads.example.com/check/[library name].txt",
+            "changelog": "changelog.json",
+            "notes": "notes.md",
+            "readme": "readme.md",
+            "manifest": "manifest.json",
+            "releases": "releases.json"
         }
     ]
 }
