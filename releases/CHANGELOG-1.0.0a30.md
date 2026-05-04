@@ -17,7 +17,7 @@ State: **Alpha-30**
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
-- `getServerMemoryUsage()` — Provides memory usage statistics in percentage or structured form.
+- `getServerMemoryUsage()` - Provides memory usage statistics in percentage or structured form.
 
 
 ---
@@ -52,11 +52,11 @@ State: **Alpha-30**
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
-- `hermiteInterpolate()` — Evaluates the solution of an ODE at an arbitrary time using cubic Hermite interpolation between RK4 sample points.
-- `hermiteInterpolateVector()` — Evaluates the solution of a vector-valued ODE system at an arbitrary time using cubic Hermite interpolation between adaptive RKF45 sample points.
-- `rk4()` — The Runge-Kutta 4th Order (RK4) method is the gold standard for numerical integration of ordinary differential equations (ODEs). It provides a robust framework for simulating dynamic systems where an analytical solution is difficult or impossible to obtain.
-- `rkf45` — RKF45 is an adaptive numerical method for solving ODEs that dynamically adjusts the step size to control the approximation error.
-- `rkf45_sys()` — The Runge–Kutta–Fehlberg (RKF45) method extended to systems of coupled differential equations.
+- `hermiteInterpolate()` - Evaluates the solution of an ODE at an arbitrary time using cubic Hermite interpolation between RK4 sample points.
+- `hermiteInterpolateVector()` - Evaluates the solution of a vector-valued ODE system at an arbitrary time using cubic Hermite interpolation between adaptive RKF45 sample points.
+- `rk4()` - The Runge-Kutta 4th Order (RK4) method is the gold standard for numerical integration of ordinary differential equations (ODEs). It provides a robust framework for simulating dynamic systems where an analytical solution is difficult or impossible to obtain.
+- `rkf45` - RKF45 is an adaptive numerical method for solving ODEs that dynamically adjusts the step size to control the approximation error.
+- `rkf45_sys()` - The Runge–Kutta–Fehlberg (RKF45) method extended to systems of coupled differential equations.
 
 
 ---
@@ -67,7 +67,7 @@ State: **Alpha-30**
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
-- `throwException()` — Throws specified exception type with code/message.
+- `throwException()` - Throws specified exception type with code/message.
 
 
 ---
@@ -77,40 +77,40 @@ State: **Alpha-30**
 TStringList is a core utility class of the ASCOOS OS Kernel designed to represent a linear, ordered list of string values. It offers essential list operations such as adding, inserting, deleting and searching strings, as well as helper features like text serialization and key-value parsing. Unlike Delphi's TStringList, this implementation is purely PHP-oriented and integrates with the ASCOOS TObject property system for configurable behavior.
 
 **Methods:**
-- `__construct()` — Initializes the class with an array, and optional properties.
-- `getInstance()` — We see if the object is already loaded, otherwise we create a new load of the object.
-- `add()` — Adds a new string to the end of the list and returns its index.
-- `clear()` — Clears all strings from the list.
-- `contains()` — Checks whether the list contains the specified string.
-- `count()` — Returns the number of strings stored in the list.
-- `delete()` — Deletes the string at the specified index and reindexes the list.
-- `first()` — Returns the first string in the list.
-- `fromKeyValueArray()` — Loads the list from an associative array of key-value pairs.
-- `get()` — Returns the string stored at the specified index.
-- `getDelimitedText()` — Returns all list items joined into a single delimited UTF‑8 safe string.
-- `getText()` — Returns all list items as a multi-line UTF‑8 safe string.
-- `getValue()` — Retrieves the value associated with the specified key.
-- `indexOf()` — Returns the index of the specified string or -1 if not found.
-- `indexOfKey()` — Returns the index of the entry whose key matches the specified name.
-- `insert()` — Inserts a string at the specified index and shifts the remaining items.
-- `last()` — Returns the last string in the list.
-- `loadFromFile()` — Loads text from a file, handling missing-file conditions based on system mode.
-- `loadFromKeyValueText()` — Loads key-value formatted text into the list.
-- `lower()` — Converts all list items to lowercase (values only for key=value entries).
-- `reverse()` — Reverses the order of the list.
-- `saveToFile()` — Saves the list to a file, handling empty-list conditions based on system mode.
-- `set()` — Replaces the string at the specified index.
-- `setDelimitedText()` — Parses a delimited string and loads its parts into the list.
-- `setKeyValue()` — Sets or updates the value associated with the specified key.
-- `setText()` — Splits a UTF‑8 text block into lines and loads them into the list.
-- `setValue()` — Sets or updates the value associated with the specified key.
-- `sort()` — Sorts the list in ascending or descending UTF‑8 order.
-- `sortDesc()` — Sorts the list in descending UTF‑8 order.
-- `toArray()` — Returns the internal list as a native PHP array.
-- `toKeyValueArray()` — Converts the list into an associative array of key-value pairs.
-- `ucwordsList()` — Capitalizes the first letter of each word (values only for key=value entries).
-- `unique()` — Removes duplicate strings from the list.
-- `upper()` — Converts all list items to uppercase (values only for key=value entries).
+- `__construct()` - Initializes the class with an array, and optional properties.
+- `getInstance()` - We see if the object is already loaded, otherwise we create a new load of the object.
+- `add()` - Adds a new string to the end of the list and returns its index.
+- `clear()` - Clears all strings from the list.
+- `contains()` - Checks whether the list contains the specified string.
+- `count()` - Returns the number of strings stored in the list.
+- `delete()` - Deletes the string at the specified index and reindexes the list.
+- `first()` - Returns the first string in the list.
+- `fromKeyValueArray()` - Loads the list from an associative array of key-value pairs.
+- `get()` - Returns the string stored at the specified index.
+- `getDelimitedText()` - Returns all list items joined into a single delimited UTF‑8 safe string.
+- `getText()` - Returns all list items as a multi-line UTF‑8 safe string.
+- `getValue()` - Retrieves the value associated with the specified key.
+- `indexOf()` - Returns the index of the specified string or -1 if not found.
+- `indexOfKey()` - Returns the index of the entry whose key matches the specified name.
+- `insert()` - Inserts a string at the specified index and shifts the remaining items.
+- `last()` - Returns the last string in the list.
+- `loadFromFile()` - Loads text from a file, handling missing-file conditions based on system mode.
+- `loadFromKeyValueText()` - Loads key-value formatted text into the list.
+- `lower()` - Converts all list items to lowercase (values only for key=value entries).
+- `reverse()` - Reverses the order of the list.
+- `saveToFile()` - Saves the list to a file, handling empty-list conditions based on system mode.
+- `set()` - Replaces the string at the specified index.
+- `setDelimitedText()` - Parses a delimited string and loads its parts into the list.
+- `setKeyValue()` - Sets or updates the value associated with the specified key.
+- `setText()` - Splits a UTF‑8 text block into lines and loads them into the list.
+- `setValue()` - Sets or updates the value associated with the specified key.
+- `sort()` - Sorts the list in ascending or descending UTF‑8 order.
+- `sortDesc()` - Sorts the list in descending UTF‑8 order.
+- `toArray()` - Returns the internal list as a native PHP array.
+- `toKeyValueArray()` - Converts the list into an associative array of key-value pairs.
+- `ucwordsList()` - Capitalizes the first letter of each word (values only for key=value entries).
+- `unique()` - Removes duplicate strings from the list.
+- `upper()` - Converts all list items to uppercase (values only for key=value entries).
 
 
 ---
@@ -121,8 +121,8 @@ TStringList is a core utility class of the ASCOOS OS Kernel designed to represen
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
-- `grapheme_strrev()` — Reverses a string using Unicode grapheme clusters to ensure visually correct character order.
-- `slugify()` — UTF‑8 safe slug generator using transliteration and normalization
+- `grapheme_strrev()` - Reverses a string using Unicode grapheme clusters to ensure visually correct character order.
+- `slugify()` - UTF‑8 safe slug generator using transliteration and normalization
 
 
 ---
