@@ -1,4 +1,4 @@
-# ASCOOS OS – Changelog for 1.0.0a30
+# ASCOOS OS - Changelog for 1.0.0a30
 
 Date: **2026-05-02 07:00:00**
 
@@ -63,7 +63,7 @@ State: **Alpha-30**
 - **`hermiteInterpolateVector()`** : Evaluates the solution of a vector-valued ODE system at an arbitrary time using cubic Hermite interpolation between adaptive RKF45 sample points.
 - **`rk4()`** : The Runge-Kutta 4th Order (RK4) method is the gold standard for numerical integration of ordinary differential equations (ODEs). It provides a robust framework for simulating dynamic systems where an analytical solution is difficult or impossible to obtain.
 - **`rkf45`** : RKF45 is an adaptive numerical method for solving ODEs that dynamically adjusts the step size to control the approximation error.
-- **`rkf45_sys()`** : The Runge–Kutta–Fehlberg (RKF45) method extended to systems of coupled differential equations.
+- **`rkf45_sys()`** : The Runge-Kutta-Fehlberg (RKF45) method extended to systems of coupled differential equations.
 
 
 ---
