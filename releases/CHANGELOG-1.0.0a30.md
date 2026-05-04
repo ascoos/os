@@ -14,6 +14,7 @@ State: **Alpha-30**
 ### **TCoreTrait**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
@@ -26,6 +27,7 @@ State: **Alpha-30**
 ### **TCoreHandler**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 
@@ -34,6 +36,7 @@ State: **Alpha-30**
 ### **TError**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 
@@ -42,6 +45,7 @@ State: **Alpha-30**
 ### **THandler**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 
@@ -50,6 +54,7 @@ State: **Alpha-30**
 ### **TMathHandler**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
@@ -66,6 +71,7 @@ State: **Alpha-30**
 ### **TObject**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
@@ -122,6 +128,7 @@ TStringList is a core utility class of the ASCOOS OS Kernel designed to represen
 ### **TUTF8**
 
 **Changes:**
+
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
