@@ -17,6 +17,7 @@ State: **Alpha-30**
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
+
 - **`getServerMemoryUsage()`** : Provides memory usage statistics in percentage or structured form.
 
 
@@ -52,6 +53,7 @@ State: **Alpha-30**
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
+
 - **`hermiteInterpolate()`** : Evaluates the solution of an ODE at an arbitrary time using cubic Hermite interpolation between RK4 sample points.
 - **`hermiteInterpolateVector()`** : Evaluates the solution of a vector-valued ODE system at an arbitrary time using cubic Hermite interpolation between adaptive RKF45 sample points.
 - **`rk4()`** : The Runge-Kutta 4th Order (RK4) method is the gold standard for numerical integration of ordinary differential equations (ODEs). It provides a robust framework for simulating dynamic systems where an analytical solution is difficult or impossible to obtain.
@@ -67,6 +69,7 @@ State: **Alpha-30**
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
+
 - **`throwException()`** : Throws specified exception type with code/message.
 
 
@@ -77,6 +80,7 @@ State: **Alpha-30**
 TStringList is a core utility class of the ASCOOS OS Kernel designed to represent a linear, ordered list of string values. It offers essential list operations such as adding, inserting, deleting and searching strings, as well as helper features like text serialization and key-value parsing. Unlike Delphi's TStringList, this implementation is purely PHP-oriented and integrates with the ASCOOS TObject property system for configurable behavior.
 
 **Methods:**
+
 - **`__construct()`** : Initializes the class with an array, and optional properties.
 - **`getInstance()`** : We see if the object is already loaded, otherwise we create a new load of the object.
 - **`add()`** : Adds a new string to the end of the list and returns its index.
@@ -121,6 +125,7 @@ TStringList is a core utility class of the ASCOOS OS Kernel designed to represen
 - Transfer Extended PHPDoc docblocks to DoBu docblocks
 
 **Methods:**
+
 - **`grapheme_strrev()`** : Reverses a string using Unicode grapheme clusters to ensure visually correct character order.
 - **`slugify()`** : UTF‑8 safe slug generator using transliteration and normalization
 
