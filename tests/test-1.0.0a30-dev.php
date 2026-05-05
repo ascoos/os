@@ -23,6 +23,8 @@ $list->add("Hello");
 $list->add("Ascoos OS");
 $list->add("Web 5.0 Kernel");
 
+$text = $list->getText();
+
 // UTF‑8 example
 $slug = $utf8->slugify("Αυτό είναι ένα παράδειγμα τίτλου!");
 
@@ -36,13 +38,12 @@ $rk4 = $math->rk4(
     1      // steps
 );
 
-
 // CoreTrait example (server memory)
 $core = new class extends TObject {};
 $mem = $core->getServerMemoryUsage();
 
-$math->Free();
 $list->Free();
+$math->Free();
 $core->Free();
 
 // ------------------------------------------------------------
@@ -65,7 +66,7 @@ $core->Free();
 <h1>Ascoos OS Kernel Demo</h1>
 
 <h2>TStringList Output</h2>
-<pre><?php echo $list->getText(); ?></pre>
+<pre><?php echo $text; ?></pre>
 
 <h2>UTF‑8 Slugify</h2>
 <pre><?php echo $slug; ?></pre>
