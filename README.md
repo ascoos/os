@@ -228,7 +228,7 @@ $test->runTest(
     $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd) === 2,
     2,
     $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd),
-    'Example witht test Condition.'
+    'Example with test Condition.'
 );
 ```
 

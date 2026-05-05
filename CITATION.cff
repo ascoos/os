@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use Ascoos OS or its components in your research or software, please cite it as follows."
+authors:
+  - family-names: "Drogidis"
+    given-names: "Christos"
+title: "Ascoos OS — Pure PHP Web 5.0 and WebAI Kernel"
+version: "1.0.0-alpha-development"
+date-released: 2025-08-01
+url: "https://github.com/ascoos/os"
+keywords:
+  - "Ascoos OS"
+  - "Web 5.0"
+  - "WebAI"
+  - "PHP Kernel"
+  - "CiC Technology"
+  - "Cross-Interpreter Communication"
+  - "JML Markup Language"
+  - "DoBu Documentation DSL"
+  - "JSQLDB"
+  - "IoT Integration"
+  - "Macro Engine"
+  - "AWES"
+  - "BootLib"
+  - "Decentralized Web"
+abstract: >-
+  Ascoos OS is a pure PHP Web 5.0 and WebAI kernel designed for decentralized,
+  modular, and AI-assisted web applications. It integrates a dynamic core class
+  system, IoT support, a macro engine with DSL/AST, the JML markup language,
+  the DoBu documentation DSL, the CiC cross-interpreter communication layer,
+  and a complete development environment through Ascoos Web Extended Studio.
+  It serves as the foundation for next-generation Web 5.0 and WebAI architectures.

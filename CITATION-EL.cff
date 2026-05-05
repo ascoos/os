@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Εάν χρησιμοποιήσετε το Ascoos OS ή τα υποσυστήματά του στην έρευνα ή στο λογισμικό σας, παρακαλώ αναφέρετέ το ως εξής."
+authors:
+  - family-names: "Δρογκίδης"
+    given-names: "Χρήστος"
+    alias: "Christos Drogidis"
+title: "Ascoos OS — Καθαρός PHP Web 5.0 και WebAI Πυρήνας"
+version: "1.0.0-alpha-development"
+date-released: 2025-08-01
+url: "https://github.com/ascoos/os"
+keywords:
+  - "Ascoos OS"
+  - "Web 5.0"
+  - "WebAI"
+  - "PHP Πυρήνας"
+  - "Τεχνολογία CiC"
+  - "Cross-Interpreter Communication"
+  - "Γλώσσα Σήμανσης JML"
+  - "DoBu Documentation DSL"
+  - "JSQLDB"
+  - "IoT"
+  - "Macro Engine"
+  - "AWES"
+  - "BootLib"
+  - "Αποκεντρωμένο Web"
+abstract: >-
+  Το Ascoos OS είναι ένας καθαρός PHP πυρήνας Web 5.0 και WebAI, σχεδιασμένος
+  για αποκεντρωμένες, αρθρωτές και AI-assisted web εφαρμογές. Ενσωματώνει
+  δυναμικό σύστημα πυρηνικών κλάσεων, υποστήριξη IoT, macro engine με DSL/AST,
+  τη γλώσσα σήμανσης JML, το DoBu documentation DSL, το επίπεδο επικοινωνίας
+  CiC (Cross-Interpreter Communication), καθώς και πλήρη πλατφόρμα ανάπτυξης
+  μέσω του Ascoos Web Extended Studio. Αποτελεί τη βάση για αρχιτεκτονικές
+  επόμενης γενιάς Web 5.0 και WebAI.

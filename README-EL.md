@@ -136,7 +136,7 @@ use ASCOOS\OS\...;
 
 ## Διαχείριση Προαιρετικών Κλάσεων Πυρήνα
 
-Το **Ascoos OS** έχει δύο ειδών πυρηνικές κλάσεις. Τις βαθέου πυρήνα και τις προεραιτικές. Οι πρώτες φορτώνονται αυτόματα κατά την εκτέλεση του **Ascoos OS** και οι δεύτερες φορτώνονται προαιρετικά με βάσει τις επιλογές και τις ανάγκες του χρήστη.
+Το **Ascoos OS** έχει δύο ειδών πυρηνικές κλάσεις: τις βαθέος πυρήνα και τις προαιρετικές. Οι πρώτες φορτώνονται αυτόματα κατά την εκτέλεση του **Ascoos OS** και οι δεύτερες φορτώνονται προαιρετικά με βάσει τις επιλογές και τις ανάγκες του χρήστη.
 
 Για την διαχείριση αυτής της λειτουργίας, δημιουργήσαμε στο **Ascoos OS** μια εσωτερική εφαρμογή, το **Extras Classes Manager** (βλέπε screenshot), μέσω του οποιου γίνεται δυναμικά η φόρτωση των κλάσεων αυτών.
 
@@ -152,7 +152,7 @@ use ASCOOS\OS\...;
 
 ***Δοκιμάστε το Ascoos Web Extended Studio***.
 
-> **ΠΡΟΣΟΧΗ!!!** Εάν χρησιμοποιείται XAMPP/WAMP ή κάποιο άλλο αντίστοιχο πρόγραμμα, πριν εκτελέσετε τους servers θα πρέπει να σταματήσετε και να αφαιρέσετε από το `Windows Services` τους servers, γιατί μπορεί να υπάρξουν διενέξεις.
+> **ΠΡΟΣΟΧΗ!!!** Εάν χρησιμοποιείτε XAMPP/WAMP ή κάποιο άλλο αντίστοιχο πρόγραμμα, πριν εκτελέσετε τους servers θα πρέπει να σταματήσετε και να αφαιρέσετε από το `Windows Services` τους servers, γιατί μπορεί να υπάρξουν διενέξεις.
 
 [![Λήψη Ascoos Web Extended Studio](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ascoos-web-extended-studio/files/latest/download)
 
@@ -223,7 +223,7 @@ $test->runTest(
     $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd) === 2,
     2,
     $utf8->grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd),
-    'Example witht test Condition.'
+    'Example with test condition.'
 );
 ```
 
