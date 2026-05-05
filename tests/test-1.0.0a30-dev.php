@@ -31,11 +31,11 @@ $slug = $utf8->slugify("Αυτό είναι ένα παράδειγμα τίτλ
 // Math example (ODE RK4)
 $math = new TMathHandler();
 $rk4 = $math->rk4(
-    fn(float $t, float $y) => -2 * $y,
-    1.0,   // y0 = 1
-    0.3,   // t0 = 0
-    0.1,   // step
-    1      // steps
+    fn(float $t, float $y) => -2 * $y,  // The function f(t, y) representing the derivative dy/dt.
+    1.0,                                // t0 = 1 -- Initial value of the independent variable.
+    0.3,                                // y0 = 0 -- Initial value of the dependent variable at t0.
+    0.1,                                // The fixed step size for integration.
+    1                                   // The total number of iterations to perform.
 );
 
 // CoreTrait example (server memory)
