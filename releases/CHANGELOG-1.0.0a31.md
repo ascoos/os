@@ -35,7 +35,7 @@ Unified handler that generates both HTML and Markdown changelog output from the 
 
 ### **TMechanicHandler**
 
-TMechanicHandler provides a focused set of mechanics‑related computations on top of the generic physics and math handlers. It encapsulates common formulas for stress, strain, elasticity, energy and machine performance.
+TMechanicHandler provides a focused set of mechanics-related computations on top of the generic physics and math handlers. It encapsulates common formulas for stress, strain, elasticity, energy and machine performance.
 
 **Changes:**
 
@@ -47,7 +47,7 @@ TMechanicHandler provides a focused set of mechanics‑related computations on t
 - **`getInstance()`** : Returns the singleton instance of TMechanicHandler.
 - **`bulk_modulus()`** : Computes the bulk modulus K from Young’s modulus E and Poisson’s ratio ν.
 - **`efficiency()`** : Calculates mechanical efficiency as a percentage.
-- **`force_from_stress()`** : Calculates force from stress and cross‑sectional area.
+- **`force_from_stress()`** : Calculates force from stress and cross-sectional area.
 - **`hooke_energy()`** : Computes total elastic strain energy.
 - **`hooke_strain()`** : Computes normal strain ε from stress and Young's modulus.
 - **`hooke_stress()`** : Computes normal stress σ using Hooke's law.
@@ -57,7 +57,7 @@ TMechanicHandler provides a focused set of mechanics‑related computations on t
 - **`poisson_ratio()`** : Computes Poisson’s ratio from lateral and longitudinal strain.
 - **`shear_modulus()`** : Computes shear modulus G from Young’s modulus E and Poisson’s ratio ν.
 - **`shear_strain`** : Calculates shear strain from an angle in radians.
-- **`stress()`** : Calculates normal stress from force and cross‑sectional area.
+- **`stress()`** : Calculates normal stress from force and cross-sectional area.
 - **`young_modulus()`** : Calculates Young's modulus (E) from stress and strain.
 
 
@@ -68,8 +68,8 @@ TMechanicHandler provides a focused set of mechanics‑related computations on t
 The TUnitsConverterHandler class is an optional ASCOOS OS component that provides a centralized conversion engine for mathematical and physical units. All unit definitions are stored externally (PHP/JSON) and loaded lazily during runtime.
 
 The handler supports:
-	- Factor‑based conversions (length, weight, volume, area, speed, energy, pressure, power)
-	- Formula‑based conversions (temperature: C, F, K)
+	- Factor-based conversions (length, weight, volume, area, speed, energy, pressure, power)
+	- Formula-based conversions (temperature: C, F, K)
 	- Metadata access (categories, units)
 	- Validation utilities
 	- Normalization utilities
@@ -89,14 +89,14 @@ The handler supports:
 - **`convertTemperature()`** : Converts a temperature value between Celsius, Fahrenheit, and Kelvin.
 - **`formatAuto()`** : Automatically selects the best unit for a value and formats it into a readable string.
 - **`formatAutoComparison()`** : Automatically selects the best unit for two values and formats a comparison expression.
-- **`formatAutoList()`** : Automatically selects the best unit for a list of values and formats them into a readable comma‑separated string.
+- **`formatAutoList()`** : Automatically selects the best unit for a list of values and formats them into a readable comma-separated string.
 - **`formatAutoRange()`** : Automatically selects the best unit for a numeric range and formats it into a readable string.
 - **`formatAutoTable()`** : Automatically selects the best unit for a table of values and formats them into an HTML table.
 - **`formatComparison()`** : Formats a comparison expression between two numeric values using a shared unit.
-- **`formatList()`** : Formats an array of numeric values using a shared unit into a comma‑separated string.
+- **`formatList()`** : Formats an array of numeric values using a shared unit into a comma-separated string.
 - **`formatRange()`** : Formats a numeric start–end range together with a unit into a readable string.
 - **`formatTable()`** : Formats a list or matrix of numeric values into an HTML table using a shared unit.
-- **`formatValue()`** : Formats a numeric value together with its unit into a human‑readable string.
+- **`formatValue()`** : Formats a numeric value together with its unit into a human-readable string.
 - **`getCategories()`** : Returns all available measurement categories loaded from the external units data file.
 - **`getUnits()`** : Returns all units defined under a specific measurement category.
 - **`hasUnit()`** : Checks whether a specific unit exists within a given measurement category.
