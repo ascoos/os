@@ -23,6 +23,7 @@
             "classes": [
                 {
                     "name": "TCoreTrait",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ],
@@ -32,24 +33,28 @@
                 },
                 {
                     "name": "TCoreHandler",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ]
                 },
                 {
                     "name": "TError",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ]
                 },
                 {
                     "name": "THandler",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ]
                 },
                 {
                     "name": "TMathHandler",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ],
@@ -63,6 +68,7 @@
                 },
                 {
                     "name": "TObject",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ],
@@ -72,6 +78,7 @@
                 },
                 {
                     "name": "TStringList",
+                    "kernel-level": "Core (Deep Core Class)",
                     "description": "TStringList is a core utility class of the ASCOOS OS Kernel designed to represent a linear, ordered list of string values. It offers essential list operations such as adding, inserting, deleting and searching strings, as well as helper features like text serialization and key-value parsing. Unlike Delphi's TStringList, this implementation is purely PHP-oriented and integrates with the ASCOOS TObject property system for configurable behavior.",
                     "methods": {
                         "__construct()": "Initializes the class with an array, and optional properties.",
@@ -84,8 +91,8 @@
                         "first()": "Returns the first string in the list.",
                         "fromKeyValueArray()": "Loads the list from an associative array of key-value pairs.",
                         "get()": "Returns the string stored at the specified index.",
-                        "getDelimitedText()": "Returns all list items joined into a single delimited UTF‑8 safe string.",
-                        "getText()": "Returns all list items as a multi-line UTF‑8 safe string.",
+                        "getDelimitedText()": "Returns all list items joined into a single delimited UTF-8 safe string.",
+                        "getText()": "Returns all list items as a multi-line UTF-8 safe string.",
                         "getValue()": "Retrieves the value associated with the specified key.",
                         "indexOf()": "Returns the index of the specified string or -1 if not found.",
                         "indexOfKey()": "Returns the index of the entry whose key matches the specified name.",
@@ -99,10 +106,10 @@
                         "set()": "Replaces the string at the specified index.",
                         "setDelimitedText()": "Parses a delimited string and loads its parts into the list.",
                         "setKeyValue()": "Sets or updates the value associated with the specified key.",
-                        "setText()": "Splits a UTF‑8 text block into lines and loads them into the list.",
+                        "setText()": "Splits a UTF-8 text block into lines and loads them into the list.",
                         "setValue()": "Sets or updates the value associated with the specified key.",
-                        "sort()": "Sorts the list in ascending or descending UTF‑8 order.",
-                        "sortDesc()": "Sorts the list in descending UTF‑8 order.",
+                        "sort()": "Sorts the list in ascending or descending UTF-8 order.",
+                        "sortDesc()": "Sorts the list in descending UTF-8 order.",
                         "toArray()": "Returns the internal list as a native PHP array.",
                         "toKeyValueArray()": "Converts the list into an associative array of key-value pairs.",
                         "ucwordsList()": "Capitalizes the first letter of each word (values only for key=value entries).",
@@ -112,12 +119,13 @@
                 },
                 {
                     "name": "TUTF8",
+                    "kernel-level": "Core (Deep Core Class)",
                     "changes": [
                         "Transfer Extended PHPDoc docblocks to DoBu docblocks"
                     ],
                     "methods": {
                         "grapheme_strrev()": "Reverses a string using Unicode grapheme clusters to ensure visually correct character order.",
-                        "slugify()": "UTF‑8 safe slug generator using transliteration and normalization"
+                        "slugify()": "UTF-8 safe slug generator using transliteration and normalization"
                     }
                 }
             ],
@@ -125,7 +133,7 @@
                 {
                     "global-functions": [
                         {
-                            "getNiceFileSize()": "Converts a byte value into a human‑readable file size string.",
+                            "getNiceFileSize()": "Converts a byte value into a human-readable file size string.",
                             "humanizeKey()": "Converts a key-like string to human-readable title case.",
                             "print_stats()": "Outputs execution statistics such as runtime, memory usage, and peak memory consumption.",
                             "vn()": "Returns the name(s) of global variables whose value matches the given input.",
@@ -134,6 +142,15 @@
                     ]
                 },
                 {
+                    "mbstring": [
+                        {
+                            "mb_strcasecmp()": "Multibyte binary safe case-insensitive string comparison.",
+                            "mb_strcmp()": " Multibyte safe string comparison",
+                            "mb_strncmp()": "Multibyte binary safe string comparison of the first n characters",
+                            "mb_strtr()": "Multibyte safe translate characters or replace substrings"
+                        }                     
+                    ],
+
                     "openssl": [
                         {
                             "openssl_bundle_create()": "Creates a unified PEM bundle containing certificate, private key, and optional chain.",
@@ -187,15 +204,107 @@
                             "openssl_pkcs12_exports()": "Creates a PKCS#12 (.p12/.pfx) bundle containing certificate, private key, and optional chain.",
                             "openssl_pkcs12_import()": "Imports a PKCS#12 (.p12/.pfx) file and extracts certificate, private key, and optional chain."
                         }
-                    ],
-                    "mbstring": [
-                        {
-                            "mb_strcasecmp()": "Multibyte binary safe case-insensitive string comparison.",
-                            "mb_strcmp()": " Multibyte safe string comparison",
-                            "mb_strncmp()": "Multibyte binary safe string comparison of the first n characters",
-                            "mb_strtr()": "Multibyte safe translate characters or replace substrings"
-                        }                     
                     ]
+                }
+            ]
+       }
+    ],
+
+    "1.0.0a31": [
+        {
+            "date": "2026-05-10 07:00:00",
+            "version": 10000,
+            "version-state": "Alpha-31",
+            "build": "17777",
+            "module": "core",
+            "classes": [
+                {
+                    "name": "TChangelogHandler",
+                    "kernel-level": "Extras (Optional Core Class)",
+                    "description": "Unified handler that generates both HTML and Markdown changelog output from the ASCOOS OS changelog.json format.",
+                    "build": "17720",
+                    "created": "2026-05-05 18:53:51",
+                    "category":"Changelog Rendering",
+                    "changes": [
+                        "Added new methods (Initial)"
+                    ],
+                    "methods": {
+                        "__construct()": "Loads changelog.json and release.json, validates them, and initializes TObject.",
+                        "findReleaseByBuild()": "Searches the loaded releases and returns the one whose version list includes the given build.",
+                        "generateHtml()": "Generates a complete HTML changelog document.",
+                        "generateMarkdown()": "Generates a complete Markdown changelog document.",
+                        "getChangelogSection()": "Returns the changelog entry that corresponds to the given key, or null if not found.",
+                        "loadJson()": "Reads a JSON file, decodes it and ensures the result is a valid array.",
+                        "methodAnchorId()": "Normalizes method names and combines them with the parent section ID to form valid HTML anchors.",
+                        "stateToChangelogKey()": "Maps human-readable version states to internal changelog identifiers, supporting dynamic version prefixes."
+                    }
+                },
+                {
+                    "name": "TMechanicHandler",
+                    "kernel-level": "Extras (Optional Core Class)",
+                    "description": "TMechanicHandler provides a focused set of mechanics-related computations on top of the generic physics and math handlers. It encapsulates common formulas for stress, strain, elasticity, energy and machine performance.",
+                    "build": "17752",
+                    "created": "2026-05-06 06:42:54",
+                    "category":"Computational Mechanics",
+                    "changes": [
+                        "Added new methods (Initial)"
+                    ],
+                    "methods": {
+                        "__construct()": "Constructor for initializing the mechanics handler.",
+                        "getInstance()": "Returns the singleton instance of TMechanicHandler.",
+                        "bulk_modulus()": "Computes the bulk modulus K from Young’s modulus E and Poisson’s ratio ν.",
+                        "efficiency()": "Calculates mechanical efficiency as a percentage.",
+                        "force_from_stress()": "Calculates force from stress and cross-sectional area.",
+                        "hooke_energy()": "Computes total elastic strain energy.",
+                        "hooke_strain()": "Computes normal strain ε from stress and Young's modulus.",
+                        "hooke_stress()": "Computes normal stress σ using Hooke's law.",
+                        "kinetic_energy": "Calculates kinetic energy of a moving body.",
+                        "mechanical_advantage()":"Calculates the mechanical advantage of a machine.",
+                        "normal_strain()": "Calculates normal strain from final and original length.",
+                        "poisson_ratio()": "Computes Poisson’s ratio from lateral and longitudinal strain.",
+                        "shear_modulus()": "Computes shear modulus G from Young’s modulus E and Poisson’s ratio ν.",
+                        "shear_strain": "Calculates shear strain from an angle in radians.",
+                        "stress()": "Calculates normal stress from force and cross-sectional area.",
+                        "young_modulus()":"Calculates Young's modulus (E) from stress and strain."
+                    }
+                },
+                {
+                    "name": "TUnitsConverterHandler",
+                    "kernel-level": "Extras (Optional Core Class)",
+                    "description": "The TUnitsConverterHandler class is an optional ASCOOS OS component that provides a centralized conversion engine for mathematical and physical units. All unit definitions are stored externally (PHP/JSON) and loaded lazily during runtime.\n\nThe handler supports:\n\t- Factor-based conversions (length, weight, volume, area, speed, energy, pressure, power)\n\t- Formula-based conversions (temperature: C, F, K)\n\t- Metadata access (categories, units)\n\t- Validation utilities\n\t- Normalization utilities\n\n It follows the ASCOOS OS deterministic design principles and integrates with the TObject lifecycle, including Free() cleanup.",
+                    "build": "17769",
+                    "created": "2026-05-08 08:09:55",
+                    "category":"Units Conversion",
+                    "changes": [
+                        "Added new methods (Initial)"
+                    ],
+                    "methods": {
+                        "__construct()": "Initializes the class with an array of optional properties.",
+                        "getInstance()": "Returns the singleton instance of the handler, creating it if necessary.",
+                        "autoUnit()": "Automatically selects the most appropriate unit for a given value within a category.",
+                        "convert()": "Converts a value between two units within the same measurement category.",
+                        "convertTemperature()": "Converts a temperature value between Celsius, Fahrenheit, and Kelvin.",
+                        "formatAuto()": "Automatically selects the best unit for a value and formats it into a readable string.",
+                        "formatAutoComparison()": "Automatically selects the best unit for two values and formats a comparison expression.",
+                        "formatAutoList()": "Automatically selects the best unit for a list of values and formats them into a readable comma-separated string.",
+                        "formatAutoRange()": "Automatically selects the best unit for a numeric range and formats it into a readable string.",
+                        "formatAutoTable()": "Automatically selects the best unit for a table of values and formats them into an HTML table.",
+                        "formatComparison()": "Formats a comparison expression between two numeric values using a shared unit.",
+                        "formatList()": "Formats an array of numeric values using a shared unit into a comma-separated string.",
+                        "formatRange()": "Formats a numeric start–end range together with a unit into a readable string.",
+                        "formatTable()": "Formats a list or matrix of numeric values into an HTML table using a shared unit.",
+                        "formatValue()": "Formats a numeric value together with its unit into a human-readable string.",
+                        "getCategories()": "Returns all available measurement categories loaded from the external units data file.",
+                        "getUnits()": "Returns all units defined under a specific measurement category.",
+                        "hasUnit()": "Checks whether a specific unit exists within a given measurement category.",
+                        "loadAliases()": "Loads unit alias definitions from the external alias configuration file.",
+                        "loadUnits()": "Loads unit definitions from the external configuration file into the handler.",
+                        "normalizeUnit()": "Normalizes a unit identifier to a canonical internal representation.",
+                        "registerAlias()": "Registers a new alias and maps it to a canonical unit identifier.",
+                        "registerUnit()": "Registers a new unit in an existing measurement category at runtime.",
+                        "resolveAlias()": "Resolves alternative unit names (aliases) to their canonical unit identifiers.",
+                        "validate()": "Validates whether a category and two units are defined in the units data file."
+                    }
                 }
             ]
        }
