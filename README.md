@@ -8,7 +8,9 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 
 [![Ascoos OS: official website status](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE.md)
+![Ascoos OS development state](https://img.shields.io/badge/Status-Development-darkred?style=for-the-badge)
 [![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2031-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+![Dependencies](https://img.shields.io/badge/Dependencies-Zero-blue?style=for-the-badge)
 
 ---
 
@@ -404,6 +406,7 @@ See how Ascoos OS implements Web 5.0 through practical examples, such as integra
 - [Ascoos Web Extended Studio (AWES)](https://awes.ascoos.com)
 - [Ascoos OS (Under construction)](https://os.ascoos.com)
 - [BootLib UI Framework (Under construction)](https://bootlib.ascoos.com)
+- [JML (DSL Markup Language)](https://jml.ascoos.com)
 
 ---
 
