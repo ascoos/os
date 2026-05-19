@@ -9,7 +9,7 @@
 [![Ιστοσελίδα](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&label=Επίσημη%20Ιστοσελίδα%20Ascoos&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![Άδεια Χρήσης AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=ΑΔΕΙΑ%20ΧΡΗΣΗΣ&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE-EL.md)
 ![Ascoos OS Κατάσταση](https://img.shields.io/badge/ΚΑΤΑΣΤΑΣΗ-ΥΠΟ%20ΑΝΑΠΤΥΞΗ-darkred?style=for-the-badge)
-[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2031-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2032-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 ![ΕΞΑΡΤΗΣΕΙΣ](https://img.shields.io/badge/ΕΞΑΡΤΗΣΕΙΣ-ΚΑΜΜΙΑ-blue?style=for-the-badge)
 
 ---
@@ -99,9 +99,11 @@
 ## Απαιτήσεις Συστήματος
 
 - PHP 8.4+ με extensions: IonCube loaders, JSON, cURL.
-- MariaDB 11.4+ ή MongoDB 8.0+ ή JSQLDB 1.0+.
+- Προαιρετικές Βάσεις Δεδομένων: MariaDB 12+ ή JSQLDB 1.0+.
 - Web Server: Apache 2.4+.
 - Προτεινόμενη Μνήμη: 512MB+ RAM.
+
+> Παρότι η κατανάλωση μνήμης για την φόρτωση του πυρήνα του Ascoos OS είναι ελάχιστη και δεν υπερβάινει τα 20-30MB, εντούτοις προτείνεται ελεύθερη μνήμη τουλάχιστο 512 MBytes για την απροβλημάτιστη εκτέλεση των scripts σας.
 
 ---
 

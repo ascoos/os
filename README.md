@@ -9,7 +9,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 [![Ascoos OS: official website status](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE.md)
 ![Ascoos OS development state](https://img.shields.io/badge/Status-Development-darkred?style=for-the-badge)
-[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2031-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2032-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 ![Dependencies](https://img.shields.io/badge/Dependencies-Zero-blue?style=for-the-badge)
 
 ---
@@ -101,9 +101,11 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 ## System Requirements
 
 - PHP 8.4+ with extensions: IonCube loaders, JSON, cURL.
-- MariaDB 11.4+ or MongoDB 8.0+ or JSQLDB 1.0+.
+- Optional Databases: MariaDB 12+ or JSQLDB 1.0+.
 - Web Server: Apache 2.4+.
 - Recommended Memory: 512MB+ RAM.
+
+> Although the memory consumption for loading the Ascoos OS kernel is minimal and does not exceed 20-30MB, it is nonetheless recommended to have at least 512 MBytes of free memory for the smooth execution of your scripts.
 
 ---
 

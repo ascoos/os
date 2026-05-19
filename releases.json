@@ -23,5 +23,10 @@
         "version": ["1.0.0.17777"],
         "version-state": "Alpha-31",
         "date": "2026-05-10 07:00:00"
+    },
+    {
+        "version": ["1.0.0.17800"],
+        "version-state": "Alpha-32",
+        "date": "2026-05-18 19:00:00"
     } 
 ]
