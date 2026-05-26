@@ -109,6 +109,14 @@ Check out the [Roadmap](https://os.ascoos.com/docs/api/en/roadmap.html) to learn
 
 ---
 
+## Lifetime Support (LTS)
+
+| Version | Official Release | Bug Fixes | Security Fixes | PHP       |
+|---------|------------------|-----------|----------------|-----------|
+| 1.0.0   | Q1 2028          | Q4 2032   | Q4 2034        | 8.4 → 9.x |
+
+---
+
 ## Installation
 
 #### Namespace
