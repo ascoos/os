@@ -9,7 +9,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 [![Ascoos OS: official website status](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![License AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=LICENSE&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE.md)
 ![Ascoos OS development state](https://img.shields.io/badge/Status-Development-darkred?style=for-the-badge)
-[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2032-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Ascoos OS is under development](https://img.shields.io/badge/1.0.0%20alpha%2033-blue?style=for-the-badge&label=DEVELOPMENT%20EDITION&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 ![Dependencies](https://img.shields.io/badge/Dependencies-Zero-blue?style=for-the-badge)
 
 ---
@@ -22,6 +22,7 @@ Welcome to **Ascoos OS**, an innovative PHP core that brings **Web 5.0** to real
 - [Getting Started](#getting-started)
 - [Features](#features)
 - [System Requirements](#system-requirements)
+- [Lifetime Support (LTS)](#lifetime-support-lts)
 - [Installation](#installation)
 - [Management of Optional Core Classes](#management-of-optional-core-classes)
 - [Code Development and Testing Platform](#code-development-and-testing-platform)

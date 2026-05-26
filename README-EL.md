@@ -9,7 +9,7 @@
 [![Ιστοσελίδα](https://img.shields.io/website?url=https://www.ascoos.com&style=for-the-badge&label=Επίσημη%20Ιστοσελίδα%20Ascoos&labelColor=%234e555b&color=006400)](https://www.ascoos.com) 
 [![Άδεια Χρήσης AGL](https://img.shields.io/badge/AGL-blue?style=for-the-badge&label=ΑΔΕΙΑ%20ΧΡΗΣΗΣ&labelColor=%234e555b&color=873260)](https://github.com/ascoos/os/blob/main/LICENSE-EL.md)
 ![Ascoos OS Κατάσταση](https://img.shields.io/badge/ΚΑΤΑΣΤΑΣΗ-ΥΠΟ%20ΑΝΑΠΤΥΞΗ-darkred?style=for-the-badge)
-[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2032-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
+[![Το Ascoos OS είναι υπό ανάπτυξη](https://img.shields.io/badge/1.0.0%20alpha%2033-blue?style=for-the-badge&label=ΕΚΔΟΣΗ%20ΑΝΑΠΤΥΞΗΣ&labelColor=041f60&color=034f84)](https://www.ascoos.com)
 ![ΕΞΑΡΤΗΣΕΙΣ](https://img.shields.io/badge/ΕΞΑΡΤΗΣΕΙΣ-ΚΑΜΜΙΑ-blue?style=for-the-badge)
 
 ---
@@ -22,6 +22,7 @@
 - [Ξεκινώντας](#ξεκινώντας)
 - [Χαρακτηριστικά](#χαρακτηριστικά)
 - [Απαιτήσεις Συστήματος](#απαιτήσεις-συστήματος)
+- [Κύκλος Υποστήριξης (LTS)](#κύκλος-υποστήριξης-lts)
 - [Εγκατάσταση](#εγκατάσταση)
 - [Διαχείριση Προαιρετικών Κλάσεων Πυρήνα](#διαχείριση-προαιρετικών-κλάσεων-πυρήνα)
 - [Πλατφόρμα ανάπτυξης και δοκιμής κώδικα](#πλατφόρμα-ανάπτυξης-και-δοκιμής-κώδικα)
